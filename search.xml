@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Blog修改url格式</title>
+    <url>/blog/Blog%E4%BF%AE%E6%94%B9url%E6%A0%BC%E5%BC%8F/</url>
+    <content><![CDATA[<h1 id="修改hexo的链接"><a href="#修改hexo的链接" class="headerlink" title="修改hexo的链接"></a>修改hexo的链接</h1><p>在根目录的config里<br>原生成：<br><code>permalink: :year/:month/:day/:title/</code></p>
+<p>修改为：<br><code>permalink: :title/</code></p>
+]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+      <tags>
+        <tag>Blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Blog图片显示问题</title>
+    <url>/blog/Blog%E5%9B%BE%E7%89%87%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<h2 id="markdown语法用于hexo"><a href="#markdown语法用于hexo" class="headerlink" title="markdown语法用于hexo"></a>markdown语法用于hexo</h2><ol>
+<li><p>将config里：<code>post_asset_folder: true</code> 设置位<code>true</code></p>
+</li>
+<li><p>再次<code>hexo new &quot;ABC&quot;</code> 时会自动创建ABC同名文件夹，将图片放入其中</p>
+</li>
+<li><p>使用语法<code>![](ABC/xxx.png)</code>即可</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+      <tags>
+        <tag>Blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Blog文件间链接问题</title>
+    <url>/blog/Blog%E6%96%87%E4%BB%B6%E9%97%B4%E9%93%BE%E6%8E%A5%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<h1 id="Blog文件间链接问题"><a href="#Blog文件间链接问题" class="headerlink" title="Blog文件间链接问题"></a>Blog文件间链接问题</h1><h2 id="方法一-我不喜欢"><a href="#方法一-我不喜欢" class="headerlink" title="方法一 我不喜欢"></a>方法一 我不喜欢</h2><p>不能<br><code>[](ABC.md)</code><br>只能<br><code>[](../ABC)</code></p>
+<p><a href="../Blog%E5%88%9B%E5%BB%BA">a</a></p>
+<h2 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h2><p>修改<code>\node_modules\hexo-renderer-marked\lib\renderer.js</code>里<code>link</code>函数：</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="title function_">link</span>(<span class="params">href, title, text</span>) &#123;</span><br><span class="line">  <span class="keyword">const</span> &#123; external_link, sanitizeUrl &#125; = <span class="variable language_">this</span>.<span class="property">options</span>;</span><br><span class="line">  <span class="keyword">const</span> &#123; <span class="attr">url</span>: urlCfg &#125; = <span class="variable language_">this</span>.<span class="property">hexo</span>.<span class="property">config</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">if</span> (sanitizeUrl) &#123;</span><br><span class="line">    <span class="keyword">if</span> (href.<span class="title function_">startsWith</span>(<span class="string">&#x27;javascript:&#x27;</span>) || href.<span class="title function_">startsWith</span>(<span class="string">&#x27;vbscript:&#x27;</span>) || href.<span class="title function_">startsWith</span>(<span class="string">&#x27;data:&#x27;</span>)) &#123;</span><br><span class="line">      href = <span class="string">&#x27;&#x27;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">let</span> out = <span class="string">&#x27;&lt;a href=&quot;&#x27;</span>;</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 开始修改</span></span><br><span class="line">  <span class="keyword">try</span> &#123;</span><br><span class="line">    <span class="keyword">let</span> temp = <span class="title function_">encodeURL</span>(href);</span><br><span class="line">    <span class="keyword">if</span>(temp.<span class="title function_">endsWith</span>(<span class="string">&quot;.md&quot;</span>))&#123;</span><br><span class="line">      temp = <span class="string">&quot;../&quot;</span> + temp.<span class="title function_">substr</span>(<span class="number">0</span>, temp.<span class="property">length</span> - <span class="number">3</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    out += temp;</span><br><span class="line">    <span class="comment">//out += encodeURL(href);</span></span><br><span class="line">  &#125; <span class="keyword">catch</span> (e) &#123;</span><br><span class="line">    <span class="keyword">let</span> temp = href;</span><br><span class="line">    <span class="keyword">if</span>(temp.<span class="title function_">endsWith</span>(<span class="string">&quot;.md&quot;</span>))&#123;</span><br><span class="line">      temp = <span class="string">&quot;../&quot;</span> + temp.<span class="title function_">substr</span>(<span class="number">0</span>, temp.<span class="property">length</span> - <span class="number">3</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    out += temp;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//out += href;</span></span><br><span class="line">  &#125;</span><br><span class="line">  <span class="comment">//停止修改</span></span><br><span class="line">  </span><br><span class="line">  out += <span class="string">&#x27;&quot;&#x27;</span>;</span><br><span class="line">  以下省略...</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+      <tags>
+        <tag>Blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>用Hexo和Github制作Blog</title>
+    <url>/blog/Blog%E5%88%9B%E5%BB%BA/</url>
+    <content><![CDATA[<ol>
+<li><a href="../#%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE">参考文献</a></li>
+<li><a href="../#%E5%88%9B%E5%BB%BA%E5%B9%B6%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%BF%90%E8%A1%8C">创建并第一次运行</a></li>
+<li><a href="../#%E5%88%9B%E5%BB%BA%E6%96%B0blog">创建新blog</a></li>
+<li><a href="../#githubio">github.io</a><ol>
+<li><a href="../#%E4%B8%8D%E4%B8%80%E5%AE%9A%E6%98%AFgithubio%E4%BB%93%E5%BA%93">不一定是github.io仓库</a></li>
+</ol>
+</li>
+<li><a href="../#%E4%B8%BB%E9%A2%98%E4%BF%AE%E6%94%B9">主题修改</a><ol>
+<li><a href="../#%E6%B7%BB%E5%8A%A0%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD">添加搜索功能</a></li>
+</ol>
+</li>
+<li><a href="../#%E4%BF%AE%E6%94%B9%E6%96%87%E7%AB%A0%E5%86%85%E9%93%BE%E6%8E%A5%E6%96%87%E6%9C%AC%E6%A0%B7%E5%BC%8F">修改文章内链接文本样式</a></li>
+<li><a href="../#%E6%B7%BB%E5%8A%A0tags%E5%92%8Ccategories">添加tags和categories</a></li>
+</ol>
+<h1 id="Blog创建"><a href="#Blog创建" class="headerlink" title="Blog创建"></a>Blog创建</h1><h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><p><a href="../https://blog.csdn.net/sywdebug/article/details/113942047?fbclid=IwAR3CZC9vs8qEObbcHqdRKS4vsWZvNt39yiAOetyvj8hdPv3aKkRKcNFsqRg">CSDN博客_github hexo</a></p>
+<h2 id="创建并第一次运行"><a href="#创建并第一次运行" class="headerlink" title="创建并第一次运行"></a>创建并第一次运行</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># npm install hexo-cli -g</span></span><br><span class="line">hexo init blog</span><br><span class="line"><span class="built_in">cd</span> blog</span><br><span class="line">hexo server   <span class="comment"># hexo s</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="创建新blog"><a href="#创建新blog" class="headerlink" title="创建新blog"></a>创建新blog</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="Github"><a href="#Github" class="headerlink" title="Github"></a>Github</h1><h2 id="github-io"><a href="#github-io" class="headerlink" title="github.io"></a>github.io</h2><p>下载插件到根目录</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<p>用编辑器打开目录中的 _config.yml 文件<br>先上面的 url 和 root 补充完整，不然会没有 css 样式和 js 脚本<br><img src="/blog/Blog%E5%88%9B%E5%BB%BA/2022-08-13-16-18-27.png"></p>
+<p>也可以加上 branch:[自定义分支名称] 和 massage:[自定义提交消息]<br><img src="/blog/Blog%E5%88%9B%E5%BB%BA/2022-08-13-16-18-35.png"></p>
+<p>保存后执行 hexo generate 更新本地代码或执行hexo clean删除本地代码<br>执行 hexo deploy 生成本地代码并推送到 github 库</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean <span class="comment"># 清除已生成文件及缓存</span></span><br><span class="line">hexo generate <span class="comment"># 生成静态页面，简写做hexo g</span></span><br><span class="line">hexo deploy <span class="comment">#推送到github库，简写做hexo d</span></span><br><span class="line">hexo server <span class="comment"># 启动本地WEB服务器，简写做hexo s</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="不一定是github-io仓库"><a href="#不一定是github-io仓库" class="headerlink" title="不一定是github.io仓库"></a>不一定是github.io仓库</h3><p>github只要是<code>gh-pages</code>的branch都可以同过<code>github.io/project</code>来访问，所以可以看上图中的deploy的url并不是io仓库</p>
+<h1 id="Blog定制"><a href="#Blog定制" class="headerlink" title="Blog定制"></a>Blog定制</h1><h2 id="主题修改"><a href="#主题修改" class="headerlink" title="主题修改"></a>主题修改</h2><p>git clone 主题到themes下即可</p>
+<p>比如<code>next</code>主题</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/next-theme/hexo-theme-next.git themes/next</span><br></pre></td></tr></table></figure>
+
+<p>下载后config里的参数可以参考最上面的链接，但其实config里都有详细注释</p>
+<h3 id="添加搜索功能"><a href="#添加搜索功能" class="headerlink" title="添加搜索功能"></a>添加搜索功能</h3><p>下载：<code>npm install hexo-generator-searchdb --save</code></p>
+<p>修改主题config</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">local_search:</span><br><span class="line">  enable: true</span><br><span class="line">  trigger: auto</span><br><span class="line">  top_n_per_article: 1</span><br><span class="line">  unescape: false</span><br><span class="line">  preload: false</span><br></pre></td></tr></table></figure>
+
+<p>写进根目录config</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Search</span><br><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  format: html</span><br><span class="line">  limit: 10000</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="修改文章内链接文本样式"><a href="#修改文章内链接文本样式" class="headerlink" title="修改文章内链接文本样式"></a>修改文章内链接文本样式</h2><p>在 &#x2F;themes&#x2F;next&#x2F;source&#x2F;css&#x2F;_common&#x2F;components&#x2F;post&#x2F;index.styl 内添加以下代码即可</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">// 文章内链接文本样式</span><br><span class="line"><span class="selector-class">.post-body</span> <span class="selector-tag">p</span> <span class="selector-tag">a</span>&#123;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#0593d3</span>;</span><br><span class="line">  <span class="attribute">border-bottom</span>: none;</span><br><span class="line">  <span class="attribute">border-bottom</span>: <span class="number">1px</span> solid <span class="number">#0593d3</span>;</span><br><span class="line">  &amp;<span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#fc6423</span>;</span><br><span class="line">    <span class="attribute">border-bottom</span>: none;</span><br><span class="line">    <span class="attribute">border-bottom</span>: <span class="number">1px</span> solid <span class="number">#fc6423</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="添加tags和categories"><a href="#添加tags和categories" class="headerlink" title="添加tags和categories"></a>添加tags和categories</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new page categories</span><br><span class="line">hexo new page tags</span><br></pre></td></tr></table></figure>
+
+<p>在生成的两个新文件夹source&#x2F;tags和source&#x2F;categories下，将自动生成地index.md的开头修改为</p>
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: categories</span><br><span class="line">date: 2022-08-13 19:49:11</span><br><span class="line"><span class="section">type: &quot;categories&quot;</span></span><br><span class="line"><span class="section">---</span></span><br><span class="line"></span><br><span class="line">和</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line">title: tags</span><br><span class="line">date: 2022-08-13 19:44:52</span><br><span class="line"><span class="section">type: &quot;tags&quot;</span></span><br><span class="line"><span class="section">---</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>然后在写博客时添加</p>
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hello World</span><br><span class="line">categories:</span><br><span class="line"><span class="bullet">-</span> Blog</span><br><span class="line">tags:</span><br><span class="line"><span class="section">- Blog</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure>
+<p>即可</p>
+<p>另外，需要在next的config文件里将tags和categories取消注释</p>
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">menu:</span><br><span class="line">  home: / || fa fa-home</span><br><span class="line">  #about: /about/ || fa fa-user</span><br><span class="line">  tags: /tags/ || fa fa-tags</span><br><span class="line">  categories: /categories/ || fa fa-th</span><br><span class="line">  archives: /archives/ || fa fa-archive</span><br><span class="line">  #schedule: /schedule/ || fa fa-calendar</span><br><span class="line">  #sitemap: /sitemap.xml || fa fa-sitemap</span><br><span class="line">  #commonweal: /404/ || fa fa-heartbeat</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+      <tags>
+        <tag>Blog</tag>
+        <tag>Hexo</tag>
+        <tag>Github</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/blog/hello-world/</url>
+    <content><![CDATA[<p>Welcome to my Blog of “Develpment Log” Where I plan to put something about the progress of my Development of some project.</p>
+<p>Here is not my Notes blog. My Notes are <a href="https://github.com/DuGuYifei/Notes">Here</a></p>
+]]></content>
+  </entry>
+</search>
