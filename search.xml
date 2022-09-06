@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Blog修改url格式</title>
+    <url>/blog/Blog%E4%BF%AE%E6%94%B9url%E6%A0%BC%E5%BC%8F/</url>
+    <content><![CDATA[<h1 id="修改hexo的链接"><a href="#修改hexo的链接" class="headerlink" title="修改hexo的链接"></a>修改hexo的链接</h1><p>在根目录的config里<br>原生成：<br><code>permalink: :year/:month/:day/:title/</code></p>
+<p>修改为：<br><code>permalink: :title/</code></p>
+]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+      <tags>
+        <tag>Blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Blog图片显示问题</title>
+    <url>/blog/Blog%E5%9B%BE%E7%89%87%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<h2 id="markdown语法用于hexo"><a href="#markdown语法用于hexo" class="headerlink" title="markdown语法用于hexo"></a>markdown语法用于hexo</h2><ol>
+<li><p>将config里：<code>post_asset_folder: true</code> 设置位<code>true</code></p>
+</li>
+<li><p>再次<code>hexo new &quot;ABC&quot;</code> 时会自动创建ABC同名文件夹，将图片放入其中</p>
+</li>
+<li><p>使用语法<code>![](ABC/xxx.png)</code>即可</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+      <tags>
+        <tag>Blog</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>用Hexo和Github制作Blog</title>
     <url>/blog/Blog%E5%88%9B%E5%BB%BA/</url>
     <content><![CDATA[<ol>
@@ -69,38 +101,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Blog修改url格式</title>
-    <url>/blog/Blog%E4%BF%AE%E6%94%B9url%E6%A0%BC%E5%BC%8F/</url>
-    <content><![CDATA[<h1 id="修改hexo的链接"><a href="#修改hexo的链接" class="headerlink" title="修改hexo的链接"></a>修改hexo的链接</h1><p>在根目录的config里<br>原生成：<br><code>permalink: :year/:month/:day/:title/</code></p>
-<p>修改为：<br><code>permalink: :title/</code></p>
-]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-      <tags>
-        <tag>Blog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Blog图片显示问题</title>
-    <url>/blog/Blog%E5%9B%BE%E7%89%87%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<h2 id="markdown语法用于hexo"><a href="#markdown语法用于hexo" class="headerlink" title="markdown语法用于hexo"></a>markdown语法用于hexo</h2><ol>
-<li><p>将config里：<code>post_asset_folder: true</code> 设置位<code>true</code></p>
-</li>
-<li><p>再次<code>hexo new &quot;ABC&quot;</code> 时会自动创建ABC同名文件夹，将图片放入其中</p>
-</li>
-<li><p>使用语法<code>![](ABC/xxx.png)</code>即可</p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-      <tags>
-        <tag>Blog</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Blog文件间链接问题</title>
     <url>/blog/Blog%E6%96%87%E4%BB%B6%E9%97%B4%E9%93%BE%E6%8E%A5%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<h1 id="Blog文件间链接问题"><a href="#Blog文件间链接问题" class="headerlink" title="Blog文件间链接问题"></a>Blog文件间链接问题</h1><h2 id="方法一-我不喜欢"><a href="#方法一-我不喜欢" class="headerlink" title="方法一 我不喜欢"></a>方法一 我不喜欢</h2><p>不能<br><code>[](ABC.md)</code><br>只能<br><code>[](../ABC)</code></p>
@@ -114,9 +114,16 @@
       </tags>
   </entry>
   <entry>
+    <title>Hello World</title>
+    <url>/blog/hello-world/</url>
+    <content><![CDATA[<p>Welcome to my Blog of “Develpment Log” Where I plan to put something about the progress of my Development of some project.</p>
+<p>Here is not my Notes blog. My Notes are <a href="https://github.com/DuGuYifei/Notes">Here</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>Yolov5 fps游戏AI挂的原理研究</title>
     <url>/blog/Yolov5_fps%E6%B8%B8%E6%88%8FAI%E6%8C%82%E7%9A%84%E5%8E%9F%E7%90%86%E7%A0%94%E7%A9%B6/</url>
-    <content><![CDATA[<h1 id="使用Yolov5对fps游戏AI挂的原理研究项目"><a href="#使用Yolov5对fps游戏AI挂的原理研究项目" class="headerlink" title="使用Yolov5对fps游戏AI挂的原理研究项目"></a>使用Yolov5对fps游戏AI挂的原理研究项目</h1><p><img src="/blog/Yolov5_fps%E6%B8%B8%E6%88%8FAI%E6%8C%82%E7%9A%84%E5%8E%9F%E7%90%86%E7%A0%94%E7%A9%B6%5C2022-09-06-17-22-27.png"><br><a href="https://github.com/DuGuYifei/Yolov5_FPS_AICheatPrinciple">yolov5_valorant项目网址</a></p>
+    <content><![CDATA[<h1 id="使用Yolov5对fps游戏AI挂的原理研究项目"><a href="#使用Yolov5对fps游戏AI挂的原理研究项目" class="headerlink" title="使用Yolov5对fps游戏AI挂的原理研究项目"></a>使用Yolov5对fps游戏AI挂的原理研究项目</h1><p><img src="/blog/Yolov5_fps%E6%B8%B8%E6%88%8FAI%E6%8C%82%E7%9A%84%E5%8E%9F%E7%90%86%E7%A0%94%E7%A9%B6/2022-09-06-17-22-27.png"><br><a href="https://github.com/DuGuYifei/Yolov5_FPS_AICheatPrinciple">yolov5_valorant项目网址</a></p>
 <h1 id="流程设计"><a href="#流程设计" class="headerlink" title="流程设计"></a>流程设计</h1><ol>
 <li>中键开关挂</li>
 <li>左键按下时检测（即非自动开火模式）</li>
@@ -156,12 +163,5 @@
       <tags>
         <tag>Blog</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/blog/hello-world/</url>
-    <content><![CDATA[<p>Welcome to my Blog of “Develpment Log” Where I plan to put something about the progress of my Development of some project.</p>
-<p>Here is not my Notes blog. My Notes are <a href="https://github.com/DuGuYifei/Notes">Here</a></p>
-]]></content>
   </entry>
 </search>
