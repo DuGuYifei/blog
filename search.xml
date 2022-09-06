@@ -69,6 +69,19 @@
       </tags>
   </entry>
   <entry>
+    <title>Blog修改url格式</title>
+    <url>/blog/Blog%E4%BF%AE%E6%94%B9url%E6%A0%BC%E5%BC%8F/</url>
+    <content><![CDATA[<h1 id="修改hexo的链接"><a href="#修改hexo的链接" class="headerlink" title="修改hexo的链接"></a>修改hexo的链接</h1><p>在根目录的config里<br>原生成：<br><code>permalink: :year/:month/:day/:title/</code></p>
+<p>修改为：<br><code>permalink: :title/</code></p>
+]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+      <tags>
+        <tag>Blog</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Blog图片显示问题</title>
     <url>/blog/Blog%E5%9B%BE%E7%89%87%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<h2 id="markdown语法用于hexo"><a href="#markdown语法用于hexo" class="headerlink" title="markdown语法用于hexo"></a>markdown语法用于hexo</h2><ol>
@@ -79,19 +92,6 @@
 <li><p>使用语法<code>![](ABC/xxx.png)</code>即可</p>
 </li>
 </ol>
-]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-      <tags>
-        <tag>Blog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Blog修改url格式</title>
-    <url>/blog/Blog%E4%BF%AE%E6%94%B9url%E6%A0%BC%E5%BC%8F/</url>
-    <content><![CDATA[<h1 id="修改hexo的链接"><a href="#修改hexo的链接" class="headerlink" title="修改hexo的链接"></a>修改hexo的链接</h1><p>在根目录的config里<br>原生成：<br><code>permalink: :year/:month/:day/:title/</code></p>
-<p>修改为：<br><code>permalink: :title/</code></p>
 ]]></content>
       <categories>
         <category>Blog</category>
@@ -114,27 +114,9 @@
       </tags>
   </entry>
   <entry>
-    <title>Blog首页文章不要全展开问题</title>
-    <url>/blog/Blog%E9%A6%96%E9%A1%B5%E6%96%87%E7%AB%A0%E4%B8%8D%E8%A6%81%E5%85%A8%E5%B1%95%E5%BC%80%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<h1 id="Blog首页文章不要全展开问题"><a href="#Blog首页文章不要全展开问题" class="headerlink" title="Blog首页文章不要全展开问题"></a>Blog首页文章不要全展开问题</h1><p>将next主题的config里的<code>excerpt_description: true</code>设置为true</p>
-<p>然后在开头添加description即可</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title: ***</span><br><span class="line">description: ***</span><br></pre></td></tr></table></figure>
-
-<p>也可以在文章中加入</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;!--more--&gt;</span><br></pre></td></tr></table></figure>
-<p>将文章截断显示</p>
-]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-      <tags>
-        <tag>Blog</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Yolov5 fps游戏AI挂的原理研究</title>
     <url>/blog/Yolov5_fps%E6%B8%B8%E6%88%8FAI%E6%8C%82%E7%9A%84%E5%8E%9F%E7%90%86%E7%A0%94%E7%A9%B6/</url>
-    <content><![CDATA[<h1 id="使用Yolov5对fps游戏AI挂的原理研究项目"><a href="#使用Yolov5对fps游戏AI挂的原理研究项目" class="headerlink" title="使用Yolov5对fps游戏AI挂的原理研究项目"></a>使用Yolov5对fps游戏AI挂的原理研究项目</h1><p><img src="/blog/Yolov5-fps%E6%B8%B8%E6%88%8FAI%E6%8C%82%E7%9A%84%E5%8E%9F%E7%90%86%E7%A0%94%E7%A9%B6%5C2022-09-06-17-22-27.png"><br><a href="https://github.com/DuGuYifei/Yolov5_FPS_AICheatPrinciple">yolov5_valorant项目网址</a></p>
+    <content><![CDATA[<h1 id="使用Yolov5对fps游戏AI挂的原理研究项目"><a href="#使用Yolov5对fps游戏AI挂的原理研究项目" class="headerlink" title="使用Yolov5对fps游戏AI挂的原理研究项目"></a>使用Yolov5对fps游戏AI挂的原理研究项目</h1><p><img src="/blog/Yolov5_fps%E6%B8%B8%E6%88%8FAI%E6%8C%82%E7%9A%84%E5%8E%9F%E7%90%86%E7%A0%94%E7%A9%B6%5C2022-09-06-17-22-27.png"><br><a href="https://github.com/DuGuYifei/Yolov5_FPS_AICheatPrinciple">yolov5_valorant项目网址</a></p>
 <h1 id="流程设计"><a href="#流程设计" class="headerlink" title="流程设计"></a>流程设计</h1><ol>
 <li>中键开关挂</li>
 <li>左键按下时检测（即非自动开火模式）</li>
@@ -155,6 +137,24 @@
         <tag>AI</tag>
         <tag>Yolo</tag>
         <tag>机器视觉</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Blog首页文章不要全展开问题</title>
+    <url>/blog/Blog%E9%A6%96%E9%A1%B5%E6%96%87%E7%AB%A0%E4%B8%8D%E8%A6%81%E5%85%A8%E5%B1%95%E5%BC%80%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<h1 id="Blog首页文章不要全展开问题"><a href="#Blog首页文章不要全展开问题" class="headerlink" title="Blog首页文章不要全展开问题"></a>Blog首页文章不要全展开问题</h1><p>将next主题的config里的<code>excerpt_description: true</code>设置为true</p>
+<p>然后在开头添加description即可</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title: ***</span><br><span class="line">description: ***</span><br></pre></td></tr></table></figure>
+
+<p>也可以在文章中加入</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;!--more--&gt;</span><br></pre></td></tr></table></figure>
+<p>将文章截断显示</p>
+]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+      <tags>
+        <tag>Blog</tag>
       </tags>
   </entry>
   <entry>
