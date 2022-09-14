@@ -1,30 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Blog修改url格式</title>
-    <url>/blog/Blog%E4%BF%AE%E6%94%B9url%E6%A0%BC%E5%BC%8F/</url>
-    <content><![CDATA[<h1 id="修改hexo的链接"><a href="#修改hexo的链接" class="headerlink" title="修改hexo的链接"></a>修改hexo的链接</h1><p>在根目录的config里<br>原生成：<br><code>permalink: :year/:month/:day/:title/</code></p>
-<p>修改为：<br><code>permalink: :title/</code></p>
-]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-      <tags>
-        <tag>Blog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Blog图片显示问题</title>
-    <url>/blog/Blog%E5%9B%BE%E7%89%87%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<h2 id="markdown语法用于hexo"><a href="#markdown语法用于hexo" class="headerlink" title="markdown语法用于hexo"></a>markdown语法用于hexo</h2><ol>
-<li><p>将config里：<code>post_asset_folder: true</code> 设置位<code>true</code></p>
-</li>
-<li><p>再次<code>hexo new &quot;ABC&quot;</code> 时会自动创建ABC同名文件夹，将图片放入其中</p>
-</li>
-<li><p>使用语法<code>![](ABC/xxx.png)</code>即可</p>
-</li>
-</ol>
-]]></content>
+    <title>Blog文件间链接问题</title>
+    <url>/blog/Blog%E6%96%87%E4%BB%B6%E9%97%B4%E9%93%BE%E6%8E%A5%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<h1 id="Blog文件间链接问题"><a href="#Blog文件间链接问题" class="headerlink" title="Blog文件间链接问题"></a>Blog文件间链接问题</h1><h2 id="方法一-我不喜欢"><a href="#方法一-我不喜欢" class="headerlink" title="方法一 我不喜欢"></a>方法一 我不喜欢</h2><p>不能<br><code>[](ABC.md)</code><br>只能<br><code>[](../ABC)</code></p>
+<h2 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h2><p>修改<code>\node_modules\hexo-renderer-marked\lib\renderer.js</code>里<code>link</code>函数：</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="title function_">link</span>(<span class="params">href, title, text</span>) &#123;</span><br><span class="line">  <span class="keyword">const</span> &#123; external_link, sanitizeUrl &#125; = <span class="variable language_">this</span>.<span class="property">options</span>;</span><br><span class="line">  <span class="keyword">const</span> &#123; <span class="attr">url</span>: urlCfg &#125; = <span class="variable language_">this</span>.<span class="property">hexo</span>.<span class="property">config</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">if</span> (sanitizeUrl) &#123;</span><br><span class="line">    <span class="keyword">if</span> (href.<span class="title function_">startsWith</span>(<span class="string">&#x27;javascript:&#x27;</span>) || href.<span class="title function_">startsWith</span>(<span class="string">&#x27;vbscript:&#x27;</span>) || href.<span class="title function_">startsWith</span>(<span class="string">&#x27;data:&#x27;</span>)) &#123;</span><br><span class="line">      href = <span class="string">&#x27;&#x27;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">let</span> out = <span class="string">&#x27;&lt;a href=&quot;&#x27;</span>;</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 开始修改</span></span><br><span class="line">  <span class="keyword">try</span> &#123;</span><br><span class="line">    <span class="keyword">let</span> temp = <span class="title function_">encodeURL</span>(href);</span><br><span class="line">    <span class="keyword">if</span>(temp.<span class="title function_">endsWith</span>(<span class="string">&quot;.md&quot;</span>))&#123;</span><br><span class="line">      temp = <span class="string">&quot;../&quot;</span> + temp.<span class="title function_">substr</span>(<span class="number">0</span>, temp.<span class="property">length</span> - <span class="number">3</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    out += temp;</span><br><span class="line">    <span class="comment">//out += encodeURL(href);</span></span><br><span class="line">  &#125; <span class="keyword">catch</span> (e) &#123;</span><br><span class="line">    <span class="keyword">let</span> temp = href;</span><br><span class="line">    <span class="keyword">if</span>(temp.<span class="title function_">endsWith</span>(<span class="string">&quot;.md&quot;</span>))&#123;</span><br><span class="line">      temp = <span class="string">&quot;../&quot;</span> + temp.<span class="title function_">substr</span>(<span class="number">0</span>, temp.<span class="property">length</span> - <span class="number">3</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    out += temp;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//out += href;</span></span><br><span class="line">  &#125;</span><br><span class="line">  <span class="comment">//停止修改</span></span><br><span class="line">  </span><br><span class="line">  out += <span class="string">&#x27;&quot;&#x27;</span>;</span><br><span class="line">  以下省略...</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>Blog</category>
       </categories>
@@ -101,26 +82,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Blog文件间链接问题</title>
-    <url>/blog/Blog%E6%96%87%E4%BB%B6%E9%97%B4%E9%93%BE%E6%8E%A5%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<h1 id="Blog文件间链接问题"><a href="#Blog文件间链接问题" class="headerlink" title="Blog文件间链接问题"></a>Blog文件间链接问题</h1><h2 id="方法一-我不喜欢"><a href="#方法一-我不喜欢" class="headerlink" title="方法一 我不喜欢"></a>方法一 我不喜欢</h2><p>不能<br><code>[](ABC.md)</code><br>只能<br><code>[](../ABC)</code></p>
-<h2 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h2><p>修改<code>\node_modules\hexo-renderer-marked\lib\renderer.js</code>里<code>link</code>函数：</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="title function_">link</span>(<span class="params">href, title, text</span>) &#123;</span><br><span class="line">  <span class="keyword">const</span> &#123; external_link, sanitizeUrl &#125; = <span class="variable language_">this</span>.<span class="property">options</span>;</span><br><span class="line">  <span class="keyword">const</span> &#123; <span class="attr">url</span>: urlCfg &#125; = <span class="variable language_">this</span>.<span class="property">hexo</span>.<span class="property">config</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">if</span> (sanitizeUrl) &#123;</span><br><span class="line">    <span class="keyword">if</span> (href.<span class="title function_">startsWith</span>(<span class="string">&#x27;javascript:&#x27;</span>) || href.<span class="title function_">startsWith</span>(<span class="string">&#x27;vbscript:&#x27;</span>) || href.<span class="title function_">startsWith</span>(<span class="string">&#x27;data:&#x27;</span>)) &#123;</span><br><span class="line">      href = <span class="string">&#x27;&#x27;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">let</span> out = <span class="string">&#x27;&lt;a href=&quot;&#x27;</span>;</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 开始修改</span></span><br><span class="line">  <span class="keyword">try</span> &#123;</span><br><span class="line">    <span class="keyword">let</span> temp = <span class="title function_">encodeURL</span>(href);</span><br><span class="line">    <span class="keyword">if</span>(temp.<span class="title function_">endsWith</span>(<span class="string">&quot;.md&quot;</span>))&#123;</span><br><span class="line">      temp = <span class="string">&quot;../&quot;</span> + temp.<span class="title function_">substr</span>(<span class="number">0</span>, temp.<span class="property">length</span> - <span class="number">3</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    out += temp;</span><br><span class="line">    <span class="comment">//out += encodeURL(href);</span></span><br><span class="line">  &#125; <span class="keyword">catch</span> (e) &#123;</span><br><span class="line">    <span class="keyword">let</span> temp = href;</span><br><span class="line">    <span class="keyword">if</span>(temp.<span class="title function_">endsWith</span>(<span class="string">&quot;.md&quot;</span>))&#123;</span><br><span class="line">      temp = <span class="string">&quot;../&quot;</span> + temp.<span class="title function_">substr</span>(<span class="number">0</span>, temp.<span class="property">length</span> - <span class="number">3</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    out += temp;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//out += href;</span></span><br><span class="line">  &#125;</span><br><span class="line">  <span class="comment">//停止修改</span></span><br><span class="line">  </span><br><span class="line">  out += <span class="string">&#x27;&quot;&#x27;</span>;</span><br><span class="line">  以下省略...</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-      <tags>
-        <tag>Blog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/blog/hello-world/</url>
-    <content><![CDATA[<p>Welcome to my Blog of “Develpment Log” Where I plan to put something about the progress of my Development of some project.</p>
-<p>Here is not my Notes blog. My Notes are <a href="https://github.com/DuGuYifei/Notes">Here</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Yolov5 fps游戏AI挂的原理研究</title>
     <url>/blog/Yolov5_fps%E6%B8%B8%E6%88%8FAI%E6%8C%82%E7%9A%84%E5%8E%9F%E7%90%86%E7%A0%94%E7%A9%B6/</url>
     <content><![CDATA[<h1 id="使用Yolov5对fps游戏AI挂的原理研究项目"><a href="#使用Yolov5对fps游戏AI挂的原理研究项目" class="headerlink" title="使用Yolov5对fps游戏AI挂的原理研究项目"></a>使用Yolov5对fps游戏AI挂的原理研究项目</h1><p><img src="/blog/Yolov5_fps%E6%B8%B8%E6%88%8FAI%E6%8C%82%E7%9A%84%E5%8E%9F%E7%90%86%E7%A0%94%E7%A9%B6/2022-09-06-17-22-27.png"><br><a href="https://github.com/DuGuYifei/Yolov5_FPS_AICheatPrinciple">yolov5_valorant项目网址</a></p>
@@ -147,6 +108,25 @@
       </tags>
   </entry>
   <entry>
+    <title>Blog图片显示问题</title>
+    <url>/blog/Blog%E5%9B%BE%E7%89%87%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<h2 id="markdown语法用于hexo"><a href="#markdown语法用于hexo" class="headerlink" title="markdown语法用于hexo"></a>markdown语法用于hexo</h2><ol>
+<li><p>将config里：<code>post_asset_folder: true</code> 设置位<code>true</code></p>
+</li>
+<li><p>再次<code>hexo new &quot;ABC&quot;</code> 时会自动创建ABC同名文件夹，将图片放入其中</p>
+</li>
+<li><p>使用语法<code>![](ABC/xxx.png)</code>即可</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+      <tags>
+        <tag>Blog</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Blog首页文章不要全展开问题</title>
     <url>/blog/Blog%E9%A6%96%E9%A1%B5%E6%96%87%E7%AB%A0%E4%B8%8D%E8%A6%81%E5%85%A8%E5%B1%95%E5%BC%80%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<h1 id="Blog首页文章不要全展开问题"><a href="#Blog首页文章不要全展开问题" class="headerlink" title="Blog首页文章不要全展开问题"></a>Blog首页文章不要全展开问题</h1><p>将next主题的config里的<code>excerpt_description: true</code>设置为true</p>
@@ -163,5 +143,87 @@
       <tags>
         <tag>Blog</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>HMFormer姿态估计并让unity模型读取以控制骨骼</title>
+    <url>/blog/%E5%A7%BF%E6%80%81%E4%BC%B0%E8%AE%A1%E5%B9%B6%E8%AE%A9unity%E6%A8%A1%E5%9E%8B%E8%AF%BB%E5%8F%96%E4%BB%A5%E6%8E%A7%E5%88%B6%E9%AA%A8%E9%AA%BC/</url>
+    <content><![CDATA[<h1 id="项目介绍"><a href="#项目介绍" class="headerlink" title="项目介绍"></a>项目介绍</h1><p><img src="/blog/%E5%A7%BF%E6%80%81%E4%BC%B0%E8%AE%A1%E5%B9%B6%E8%AE%A9unity%E6%A8%A1%E5%9E%8B%E8%AF%BB%E5%8F%96%E4%BB%A5%E6%8E%A7%E5%88%B6%E9%AA%A8%E9%AA%BC/2022-09-14-17-01-16.png"><br>使用HMFormer进行非实时姿态估计，并使用unity读取结果以控制模型骨骼</p>
+<p>项目地址: <a href="https://github.com/DuGuYifei/PoseDetect2UnityModel">https://github.com/DuGuYifei/PoseDetect2UnityModel</a><br>视频地址：<a href="https://www.bilibili.com/video/BV1M14y1v73w/">https://www.bilibili.com/video/BV1M14y1v73w/</a></p>
+<h1 id="HMFormer"><a href="#HMFormer" class="headerlink" title="HMFormer"></a>HMFormer</h1><p><a href="https://github.com/Vegetebird/MHFormer">GitHub - Vegetebird&#x2F;MHFormer: [CVPR 2022] MHFormer: Multi-Hypothesis Transformer for 3D Human Pose Estimation</a></p>
+<p>研究完源码发现结果在：<br>在函数<code>get_pose3D(video_path, output_dir):</code> 中：</p>
+<figure class="highlight py"><table><tr><td class="code"><pre><span class="line"><span class="comment">## 3D</span></span><br><span class="line">        fig = plt.figure(figsize=(<span class="number">9.6</span>, <span class="number">5.4</span>))</span><br><span class="line">        gs = gridspec.GridSpec(<span class="number">1</span>, <span class="number">1</span>)</span><br><span class="line">        gs.update(wspace=-<span class="number">0.00</span>, hspace=<span class="number">0.05</span>)</span><br><span class="line">        ax = plt.subplot(gs[<span class="number">0</span>], projection=<span class="string">&#x27;3d&#x27;</span>)</span><br><span class="line">        ax.set_xlabel(<span class="string">&#x27;X Label&#x27;</span>)</span><br><span class="line">        ax.set_ylabel(<span class="string">&#x27;Y Label&#x27;</span>)</span><br><span class="line">        ax.set_zlabel(<span class="string">&#x27;Z Label&#x27;</span>)</span><br><span class="line">        <span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;points.txt&#x27;</span>, <span class="string">&#x27;ab&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">            np.savetxt(f, post_out, delimiter=<span class="string">&quot;\n&quot;</span>) <span class="comment"># 在这里</span></span><br><span class="line">            <span class="comment"># print(post_out)</span></span><br><span class="line">        show3Dpose(post_out, ax)</span><br><span class="line"></span><br><span class="line">        output_dir_3D = output_dir + <span class="string">&#x27;pose3D/&#x27;</span></span><br><span class="line">        os.makedirs(output_dir_3D, exist_ok=<span class="literal">True</span>)</span><br><span class="line">        plt.savefig(output_dir_3D + <span class="built_in">str</span>((<span class="string">&#x27;%04d&#x27;</span> % i)) + <span class="string">&#x27;_3D.png&#x27;</span>, dpi=<span class="number">200</span>, <span class="built_in">format</span>=<span class="string">&#x27;png&#x27;</span>, bbox_inches=<span class="string">&#x27;tight&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+<p>在unity中尝试获取姿态估计结果顺序：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">右                 左</span><br><span class="line">         10</span><br><span class="line">         9</span><br><span class="line">16 15 14 8 11 12 13</span><br><span class="line">         7</span><br><span class="line">      1  0  4</span><br><span class="line">      2     5</span><br><span class="line">      3     6</span><br></pre></td></tr></table></figure>
+
+
+<h1 id="原神官方模型问题"><a href="#原神官方模型问题" class="headerlink" title="原神官方模型问题"></a>原神官方模型问题</h1><ol>
+<li>由于是MMD常用的pmx模型，所以先经过Blender将其转换为fbx后发现丢失材质</li>
+<li>使用blender转换为obj发现材质为反</li>
+<li>使用PmxEditor只能输出没有骨骼的obj</li>
+<li>如果使用blender的obj需要将贴图旋转180度再镜像翻转</li>
+<li>为了使用骨骼，将blender的材质为反的obj放入fbx材质自动为正</li>
+</ol>
+<p>不同部位的材质怎么区分<br>obj的文件可以直接按文本打开：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mtllib 钟离.mtl</span><br></pre></td></tr></table></figure>
+<p>其中这一行为<strong>贴图配置文件名</strong></p>
+<p>打开贴图配置文件：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">newmtl m0</span><br><span class="line">map_Kd tex/面.png</span><br><span class="line">Ka 0.5 0.5 0.5</span><br><span class="line">Kd 1 1 1</span><br><span class="line">Ks 0 0 0</span><br><span class="line">Ns 5</span><br><span class="line">d 1</span><br><span class="line"></span><br><span class="line">newmtl m1</span><br><span class="line">map_Kd tex/面.png</span><br><span class="line">Ka 0.5 0.5 0.5</span><br><span class="line">Kd 1 1 1</span><br><span class="line">Ks 0 0 0</span><br><span class="line">Ns 5</span><br><span class="line">d 1</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li>m0，m1 是在unity中obj可见的材质名</li>
+<li>面&#x2F;png 是材质所需贴图的文件名</li>
+<li>m0 m1 其实是一样的，但是又有细微差别，不过暂时没有发现导致差别的规律，所以即使都放一样的问题也不大，最终也只有一个吊坠的一个小珠子颜色错了</li>
+</ol>
+<h1 id="获取骨骼"><a href="#获取骨骼" class="headerlink" title="获取骨骼"></a>获取骨骼</h1><h2 id="模型部分"><a href="#模型部分" class="headerlink" title="模型部分"></a>模型部分</h2><p>模型 Rig -&gt; animation type -&gt; 选择 Humanoid -&gt; 点击configure</p>
+<p>将各部分给到位，注意存在父子关系。</p>
+<h2 id="代码部分"><a href="#代码部分" class="headerlink" title="代码部分"></a>代码部分</h2><figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> Animator animator; <span class="comment">// 也可以GetComponent获取</span></span><br><span class="line"></span><br><span class="line">hip = animator.GetBoneTransform(HumanBodyBones.Hips);</span><br><span class="line">leftUpperLeg = animator.GetBoneTransform(HumanBodyBones.LeftUpperLeg);</span><br><span class="line">rightUpperLeg = animator.GetBoneTransform(HumanBodyBones.RightUpperLeg);</span><br><span class="line">leftLowerLeg = animator.GetBoneTransform(HumanBodyBones.LeftLowerLeg);</span><br><span class="line">rightLowerLeg = animator.GetBoneTransform(HumanBodyBones.RightLowerLeg);</span><br><span class="line"><span class="comment">//leftFoot        = animator.GetBoneTransform(HumanBodyBones.LeftFoot);</span></span><br><span class="line"><span class="comment">//rightFoot       = animator.GetBoneTransform(HumanBodyBones.RightFoot);</span></span><br><span class="line">spine = animator.GetBoneTransform(HumanBodyBones.Spine);</span><br><span class="line">chest = animator.GetBoneTransform(HumanBodyBones.Chest);</span><br><span class="line">neck = animator.GetBoneTransform(HumanBodyBones.Neck);</span><br><span class="line">head = animator.GetBoneTransform(HumanBodyBones.Head);</span><br><span class="line">leftShoulder = animator.GetBoneTransform(HumanBodyBones.LeftShoulder);</span><br><span class="line">rightShoulder = animator.GetBoneTransform(HumanBodyBones.RightShoulder);</span><br><span class="line">leftUpperArm = animator.GetBoneTransform(HumanBodyBones.LeftUpperArm);</span><br><span class="line">rightUpperArm = animator.GetBoneTransform(HumanBodyBones.RightUpperArm);</span><br><span class="line">leftLowerArm = animator.GetBoneTransform(HumanBodyBones.LeftLowerArm);</span><br><span class="line">rightLowerArm = animator.GetBoneTransform(HumanBodyBones.RightLowerArm);</span><br><span class="line"><span class="comment">//leftHand        = animator.GetBoneTransform(HumanBodyBones.LeftHand);</span></span><br><span class="line"><span class="comment">//rightHand       = animator.GetBoneTransform(HumanBodyBones.RightHand);</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> Transform botBody; <span class="comment">// 直接拖拽</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="对骨骼进行旋转"><a href="#对骨骼进行旋转" class="headerlink" title="对骨骼进行旋转"></a>对骨骼进行旋转</h1><figure class="highlight c#"><table><tr><td class="code"><pre><span class="line">frame = points[frameIndex];</span><br><span class="line"><span class="keyword">for</span>(<span class="built_in">int</span> i = <span class="number">0</span>; i &lt; <span class="number">17</span>; i++)</span><br><span class="line">&#123;</span><br><span class="line">    cubes[i].position = frame[i];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// hip - point 1,0,4</span></span><br><span class="line"><span class="comment">// rotate 90 degree</span></span><br><span class="line">Vector3 temp = frame[<span class="number">1</span>] - frame[<span class="number">0</span>];</span><br><span class="line">temp = Vector3.ProjectOnPlane(temp, hip.up);</span><br><span class="line">temp = Quaternion.AngleAxis(<span class="number">270</span>, hip.up) * temp;</span><br><span class="line">hip.rotation = Quaternion.LookRotation(temp, hip.up);</span><br><span class="line"></span><br><span class="line"><span class="comment">// right upper leg connect hip - point 1 2</span></span><br><span class="line">rightUpperLeg.rotation = Quaternion.LookRotation(rightUpperLeg.forward, frame[<span class="number">1</span>] - frame[<span class="number">2</span>]);</span><br><span class="line"></span><br><span class="line"><span class="comment">// left upper leg connect hip - point 4 5</span></span><br><span class="line">leftUpperLeg.rotation = Quaternion.LookRotation(leftUpperLeg.forward, frame[<span class="number">4</span>] - frame[<span class="number">5</span>]);</span><br><span class="line"></span><br><span class="line"><span class="comment">// right lower leg connet upper - point 2 3</span></span><br><span class="line">rightLowerLeg.rotation = Quaternion.LookRotation(rightLowerLeg.forward, frame[<span class="number">2</span>] - frame[<span class="number">3</span>]);</span><br><span class="line"></span><br><span class="line"><span class="comment">// left lower leg connect upper - point 5 6</span></span><br><span class="line">leftLowerLeg.rotation = Quaternion.LookRotation(leftLowerLeg.forward, frame[<span class="number">5</span>] - frame[<span class="number">6</span>]);</span><br><span class="line"></span><br><span class="line"><span class="comment">// spine and hip(lower body) - point 0 7</span></span><br><span class="line">spine.rotation = Quaternion.LookRotation(spine.forward, frame[<span class="number">7</span>] - frame[<span class="number">0</span>]);</span><br><span class="line"></span><br><span class="line"><span class="comment">// chest and spine - point 7 8</span></span><br><span class="line">chest.rotation = Quaternion.LookRotation(chest.forward, frame[<span class="number">8</span>] - frame[<span class="number">7</span>]);</span><br><span class="line"></span><br><span class="line"><span class="comment">// right shoulder - point 8 14</span></span><br><span class="line">rightShoulder.rotation = Quaternion.LookRotation(rightShoulder.forward, frame[<span class="number">14</span>] - frame[<span class="number">8</span>]);</span><br><span class="line"></span><br><span class="line"><span class="comment">// left shoulder - point 8 11</span></span><br><span class="line">leftShoulder.rotation = Quaternion.LookRotation(leftShoulder.forward, frame[<span class="number">11</span>] - frame[<span class="number">8</span>]);</span><br><span class="line"></span><br><span class="line"><span class="comment">// right upper arm - point 14 15</span></span><br><span class="line">temp = frame[<span class="number">15</span>] - frame[<span class="number">14</span>];</span><br><span class="line">rightUpperArm.rotation = Quaternion.LookRotation(Vector3.Cross(rightUpperArm.right, temp), temp);</span><br><span class="line"></span><br><span class="line"><span class="comment">// left upper arm - point 12 11</span></span><br><span class="line">temp = frame[<span class="number">12</span>] - frame[<span class="number">11</span>];</span><br><span class="line">leftUpperArm.rotation = Quaternion.LookRotation(Vector3.Cross(leftUpperArm.right, temp), temp);</span><br><span class="line"></span><br><span class="line"><span class="comment">// right lower arm - point 15 16</span></span><br><span class="line">temp = frame[<span class="number">16</span>] - frame[<span class="number">15</span>];</span><br><span class="line">rightLowerArm.rotation = Quaternion.LookRotation(Vector3.Cross(rightLowerArm.right, temp), temp);</span><br><span class="line"></span><br><span class="line"><span class="comment">// left lower arm - point 13 12</span></span><br><span class="line">temp = frame[<span class="number">13</span>] - frame[<span class="number">12</span>];</span><br><span class="line">leftLowerArm.rotation = Quaternion.LookRotation(Vector3.Cross(leftLowerArm.right, temp), temp);</span><br><span class="line"></span><br><span class="line"><span class="comment">// neck - point 9 8</span></span><br><span class="line">neck.rotation = Quaternion.LookRotation(neck.forward, frame[<span class="number">9</span>] - frame[<span class="number">8</span>]);</span><br><span class="line"></span><br><span class="line"><span class="comment">// head - point 10 9</span></span><br><span class="line">head.rotation = Quaternion.LookRotation(head.forward);</span><br><span class="line"></span><br><span class="line">frameIndex++;</span><br><span class="line"><span class="keyword">if</span> (frameIndex == frameNum)</span><br><span class="line">&#123;</span><br><span class="line">    frameIndex = <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>其中</p>
+<ol>
+<li>使用<strong>叉积</strong>是因为根据具体点的位置只能获取其中一个方向，另一个方向在假定最后一个方向不变的情况下，通过叉积求出来</li>
+<li>对于hip使用的计算：<ol>
+<li>由于模型的hip并不是正朝上而是一个奇怪的角度，所以不能直接使用左右腿的差值向量</li>
+<li>差值向量需要按hip的local坐标系旋转90度以找到该差值向量对应的forward，因为该差值属于right</li>
+<li>不能直接旋转90度，需要将其投影到hip坐标系的forward和right组成的平面上再旋转</li>
+<li><code>temp = Vector3.ProjectOnPlane(temp, hip.up);</code>中使用hip.up是因为这是所需平面的法向量</li>
+</ol>
+</li>
+</ol>
+<h1 id="帧数"><a href="#帧数" class="headerlink" title="帧数"></a>帧数</h1><p>使用 <code>Time.fixedDeltaTime</code>调节<code>FixedUpdate</code>的帧数</p>
+]]></content>
+      <categories>
+        <category>AI</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>Unity</tag>
+        <tag>姿态估计</tag>
+        <tag>HMFormer</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Blog修改url格式</title>
+    <url>/blog/Blog%E4%BF%AE%E6%94%B9url%E6%A0%BC%E5%BC%8F/</url>
+    <content><![CDATA[<h1 id="修改hexo的链接"><a href="#修改hexo的链接" class="headerlink" title="修改hexo的链接"></a>修改hexo的链接</h1><p>在根目录的config里<br>原生成：<br><code>permalink: :year/:month/:day/:title/</code></p>
+<p>修改为：<br><code>permalink: :title/</code></p>
+]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+      <tags>
+        <tag>Blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/blog/hello-world/</url>
+    <content><![CDATA[<p>Welcome to my Blog of “Develpment Log” Where I plan to put something about the progress of my Development of some project.</p>
+<p>Here is not my Notes blog. My Notes are <a href="https://github.com/DuGuYifei/Notes">Here</a></p>
+]]></content>
   </entry>
 </search>
