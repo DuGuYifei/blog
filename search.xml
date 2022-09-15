@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>A part of old projects</title>
+    <url>/blog/A-part-of-old-projects/</url>
+    <content><![CDATA[<h1 id="catalog"><a href="#catalog" class="headerlink" title="catalog"></a>catalog</h1><ol>
+<li>图像识别 Robomaster 风车能量靶识别</li>
+<li>dice monster game</li>
+<li>presentation by make a pixel game</li>
+<li>wallpaper engine</li>
+<li>webkit browser (wenkit.Net)</li>
+<li>webkit chrome browswer (cefsharp)</li>
+<li>Sokoban (SDL)</li>
+</ol>
+<h1 id="图像识别-Robomaster-风车能量靶识别"><a href="#图像识别-Robomaster-风车能量靶识别" class="headerlink" title="图像识别 Robomaster 风车能量靶识别"></a>图像识别 Robomaster 风车能量靶识别</h1><p><img src="/blog/A-part-of-old-projects/2022-09-15-04-26-13.png"></p>
+<p>use opencv and some algorithm inside opencv.</p>
+<p>代码：<a href="https://github.com/DuGuYifei/Robomaster_WIndWheelTargetDetect">https://github.com/DuGuYifei/Robomaster_WIndWheelTargetDetect</a><br>视频：<a href="https://www.bilibili.com/video/BV1tW4y1y7Zy/">https://www.bilibili.com/video/BV1tW4y1y7Zy/</a></p>
+<h1 id="dice-monster-game"><a href="#dice-monster-game" class="headerlink" title="dice monster game"></a>dice monster game</h1><p><img src="/blog/A-part-of-old-projects/2022-09-15-04-23-33.png"></p>
+<p>A dice monster chess game.</p>
+<p>代码：<a href="https://github.com/DuGuYifei/MonsterDuelDice">https://github.com/DuGuYifei/MonsterDuelDice</a><br>视频：<a href="https://www.bilibili.com/video/BV1mq4y1o7ww?p=1&amp;vd_source=6beebf17d5aa6fb3d9fb4b629d0b319a">https://www.bilibili.com/video/BV1mq4y1o7ww?p=1&amp;vd_source=6beebf17d5aa6fb3d9fb4b629d0b319a</a></p>
+<h1 id="presentation-by-make-a-pixel-game"><a href="#presentation-by-make-a-pixel-game" class="headerlink" title="presentation by make a pixel game"></a>presentation by make a pixel game</h1><p><img src="/blog/A-part-of-old-projects/2022-09-15-04-20-56.png"></p>
+<p>Make a unity escaping room game to make class presentation.</p>
+<p>First time try to build pixel model by myself.</p>
+<p>代码：<a href="https://github.com/DuGuYifei/HobbyPresentation_Unity">https://github.com/DuGuYifei/HobbyPresentation_Unity</a><br>视频：<a href="https://www.bilibili.com/video/BV1Dq4y1r7av/">https://www.bilibili.com/video/BV1Dq4y1r7av/</a></p>
+<h1 id="wallpaper-engine"><a href="#wallpaper-engine" class="headerlink" title="wallpaper engine"></a>wallpaper engine</h1><p><img src="/blog/A-part-of-old-projects/2022-09-15-04-14-54.png"><br>It support html, web site, picture (use windows command which make result same with using windows settings), animation picture, exe (including some web apps).</p>
+<p>代码：<a href="https://github.com/DuGuYifei/WallPaperEngine">https://github.com/DuGuYifei/WallPaperEngine</a></p>
+<p>视频：<a href="https://www.bilibili.com/video/BV1gR4y157pz/?vd_source=6beebf17d5aa6fb3d9fb4b629d0b319a">https://www.bilibili.com/video/BV1gR4y157pz/?vd_source=6beebf17d5aa6fb3d9fb4b629d0b319a</a></p>
+<h1 id="webkit-browser-wenkit-Net"><a href="#webkit-browser-wenkit-Net" class="headerlink" title="webkit browser (wenkit.Net)"></a>webkit browser (wenkit.Net)</h1><p>Webkit core browser based on wenkit.Net which is an old tech</p>
+<p>代码：<a href="https://github.com/DuGuYifei/WebkitCoreBrowser">https://github.com/DuGuYifei/WebkitCoreBrowser</a></p>
+<p>It’s build for wallpaper engine, so delete a lot of function. </p>
+<p>I abandon it because it is a too old package.</p>
+<h1 id="webkit-chrome-browswer-cefsharp"><a href="#webkit-chrome-browswer-cefsharp" class="headerlink" title="webkit chrome browswer (cefsharp)"></a>webkit chrome browswer (cefsharp)</h1><p>Webkit chrome browser based on cefsharp</p>
+<p>代码：<a href="https://github.com/DuGuYifei/WebkitChrome">https://github.com/DuGuYifei/WebkitChrome</a></p>
+<p>It’s build for wallpaper engine, so delete a lot of function. </p>
+<h1 id="Sokoban"><a href="#Sokoban" class="headerlink" title="Sokoban"></a>Sokoban</h1><p><img src="/blog/A-part-of-old-projects/2022-09-15-04-28-46.png"><br>Use sokoban and simulate the idea of Unity Engine.</p>
+<p>代码：<a href="https://github.com/DuGuYifei/Sokoban_SDL">https://github.com/DuGuYifei/Sokoban_SDL</a><br>视频：<a href="https://www.bilibili.com/video/BV1UG411879L/">https://www.bilibili.com/video/BV1UG411879L/</a></p>
+]]></content>
+      <categories>
+        <category>other</category>
+      </categories>
+      <tags>
+        <tag>browser</tag>
+        <tag>wallpaper</tag>
+        <tag>unity</tag>
+        <tag>vue</tag>
+        <tag>AI</tag>
+        <tag>图像识别</tag>
+        <tag>SDL</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Blog修改url格式</title>
     <url>/blog/Blog%E4%BF%AE%E6%94%B9url%E6%A0%BC%E5%BC%8F/</url>
     <content><![CDATA[<h1 id="修改hexo的链接"><a href="#修改hexo的链接" class="headerlink" title="修改hexo的链接"></a>修改hexo的链接</h1><p>在根目录的config里<br>原生成：<br><code>permalink: :year/:month/:day/:title/</code></p>
@@ -114,6 +162,24 @@
       </tags>
   </entry>
   <entry>
+    <title>Blog首页文章不要全展开问题</title>
+    <url>/blog/Blog%E9%A6%96%E9%A1%B5%E6%96%87%E7%AB%A0%E4%B8%8D%E8%A6%81%E5%85%A8%E5%B1%95%E5%BC%80%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<h1 id="Blog首页文章不要全展开问题"><a href="#Blog首页文章不要全展开问题" class="headerlink" title="Blog首页文章不要全展开问题"></a>Blog首页文章不要全展开问题</h1><p>将next主题的config里的<code>excerpt_description: true</code>设置为true</p>
+<p>然后在开头添加description即可</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title: ***</span><br><span class="line">description: ***</span><br></pre></td></tr></table></figure>
+
+<p>也可以在文章中加入</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;!--more--&gt;</span><br></pre></td></tr></table></figure>
+<p>将文章截断显示</p>
+]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+      <tags>
+        <tag>Blog</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Yolov5 fps游戏AI挂的原理研究</title>
     <url>/blog/Yolov5_fps%E6%B8%B8%E6%88%8FAI%E6%8C%82%E7%9A%84%E5%8E%9F%E7%90%86%E7%A0%94%E7%A9%B6/</url>
     <content><![CDATA[<h1 id="使用Yolov5对fps游戏AI挂的原理研究项目"><a href="#使用Yolov5对fps游戏AI挂的原理研究项目" class="headerlink" title="使用Yolov5对fps游戏AI挂的原理研究项目"></a>使用Yolov5对fps游戏AI挂的原理研究项目</h1><p><img src="/blog/Yolov5_fps%E6%B8%B8%E6%88%8FAI%E6%8C%82%E7%9A%84%E5%8E%9F%E7%90%86%E7%A0%94%E7%A9%B6/2022-09-06-17-22-27.png"><br><a href="https://github.com/DuGuYifei/Yolov5_FPS_AICheatPrinciple">yolov5_valorant项目网址</a></p>
@@ -137,24 +203,6 @@
         <tag>AI</tag>
         <tag>Yolo</tag>
         <tag>机器视觉</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Blog首页文章不要全展开问题</title>
-    <url>/blog/Blog%E9%A6%96%E9%A1%B5%E6%96%87%E7%AB%A0%E4%B8%8D%E8%A6%81%E5%85%A8%E5%B1%95%E5%BC%80%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<h1 id="Blog首页文章不要全展开问题"><a href="#Blog首页文章不要全展开问题" class="headerlink" title="Blog首页文章不要全展开问题"></a>Blog首页文章不要全展开问题</h1><p>将next主题的config里的<code>excerpt_description: true</code>设置为true</p>
-<p>然后在开头添加description即可</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title: ***</span><br><span class="line">description: ***</span><br></pre></td></tr></table></figure>
-
-<p>也可以在文章中加入</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;!--more--&gt;</span><br></pre></td></tr></table></figure>
-<p>将文章截断显示</p>
-]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-      <tags>
-        <tag>Blog</tag>
       </tags>
   </entry>
   <entry>
