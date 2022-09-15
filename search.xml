@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Blog修改url格式</title>
-    <url>/blog/Blog%E4%BF%AE%E6%94%B9url%E6%A0%BC%E5%BC%8F/</url>
-    <content><![CDATA[<h1 id="修改hexo的链接"><a href="#修改hexo的链接" class="headerlink" title="修改hexo的链接"></a>修改hexo的链接</h1><p>在根目录的config里<br>原生成：<br><code>permalink: :year/:month/:day/:title/</code></p>
-<p>修改为：<br><code>permalink: :title/</code></p>
-]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-      <tags>
-        <tag>Blog</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>A part of old projects</title>
     <url>/blog/A-part-of-old-projects/</url>
     <content><![CDATA[<h1 id="catalog"><a href="#catalog" class="headerlink" title="catalog"></a>catalog</h1><ol>
@@ -59,6 +46,19 @@
         <tag>AI</tag>
         <tag>图像识别</tag>
         <tag>SDL</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Blog修改url格式</title>
+    <url>/blog/Blog%E4%BF%AE%E6%94%B9url%E6%A0%BC%E5%BC%8F/</url>
+    <content><![CDATA[<h1 id="修改hexo的链接"><a href="#修改hexo的链接" class="headerlink" title="修改hexo的链接"></a>修改hexo的链接</h1><p>在根目录的config里<br>原生成：<br><code>permalink: :year/:month/:day/:title/</code></p>
+<p>修改为：<br><code>permalink: :title/</code></p>
+]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+      <tags>
+        <tag>Blog</tag>
       </tags>
   </entry>
   <entry>
@@ -130,24 +130,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Blog首页文章不要全展开问题</title>
-    <url>/blog/Blog%E9%A6%96%E9%A1%B5%E6%96%87%E7%AB%A0%E4%B8%8D%E8%A6%81%E5%85%A8%E5%B1%95%E5%BC%80%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<h1 id="Blog首页文章不要全展开问题"><a href="#Blog首页文章不要全展开问题" class="headerlink" title="Blog首页文章不要全展开问题"></a>Blog首页文章不要全展开问题</h1><p>将next主题的config里的<code>excerpt_description: true</code>设置为true</p>
-<p>然后在开头添加description即可</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title: ***</span><br><span class="line">description: ***</span><br></pre></td></tr></table></figure>
-
-<p>也可以在文章中加入</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;!--more--&gt;</span><br></pre></td></tr></table></figure>
-<p>将文章截断显示</p>
-]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-      <tags>
-        <tag>Blog</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Blog图片显示问题</title>
     <url>/blog/Blog%E5%9B%BE%E7%89%87%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<h2 id="markdown语法用于hexo"><a href="#markdown语法用于hexo" class="headerlink" title="markdown语法用于hexo"></a>markdown语法用于hexo</h2><ol>
@@ -158,6 +140,24 @@
 <li><p>使用语法<code>![](ABC/xxx.png)</code>即可</p>
 </li>
 </ol>
+]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+      <tags>
+        <tag>Blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Blog首页文章不要全展开问题</title>
+    <url>/blog/Blog%E9%A6%96%E9%A1%B5%E6%96%87%E7%AB%A0%E4%B8%8D%E8%A6%81%E5%85%A8%E5%B1%95%E5%BC%80%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<h1 id="Blog首页文章不要全展开问题"><a href="#Blog首页文章不要全展开问题" class="headerlink" title="Blog首页文章不要全展开问题"></a>Blog首页文章不要全展开问题</h1><p>将next主题的config里的<code>excerpt_description: true</code>设置为true</p>
+<p>然后在开头添加description即可</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title: ***</span><br><span class="line">description: ***</span><br></pre></td></tr></table></figure>
+
+<p>也可以在文章中加入</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;!--more--&gt;</span><br></pre></td></tr></table></figure>
+<p>将文章截断显示</p>
 ]]></content>
       <categories>
         <category>Blog</category>
@@ -178,13 +178,6 @@
       <tags>
         <tag>Blog</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/blog/hello-world/</url>
-    <content><![CDATA[<p>Welcome to my Blog of “Develpment Log” Where I plan to put something about the progress of my Development of some project.</p>
-<p>Here is not my Notes blog. My Notes are <a href="https://github.com/DuGuYifei/Notes">Here</a></p>
-]]></content>
   </entry>
   <entry>
     <title>Yolov5 fps游戏AI挂的原理研究</title>
@@ -211,6 +204,13 @@
         <tag>Yolo</tag>
         <tag>机器视觉</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/blog/hello-world/</url>
+    <content><![CDATA[<p>Welcome to my Blog of “Develpment Log” Where I plan to put something about the progress of my Development of some project.</p>
+<p>Here is not my Notes blog. My Notes are <a href="https://github.com/DuGuYifei/Notes">Here</a></p>
+]]></content>
   </entry>
   <entry>
     <title>HMFormer姿态估计并让unity模型读取以控制骨骼</title>
