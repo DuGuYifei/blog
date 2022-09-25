@@ -1,56 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>A part of old projects</title>
-    <url>../A-part-of-old-projects/</url>
-    <content><![CDATA[<h1 id="catalog"><a href="#catalog" class="headerlink" title="catalog"></a>catalog</h1><ol>
-<li>图像识别 Robomaster 风车能量靶识别</li>
-<li>dice monster game</li>
-<li>presentation by make a pixel game</li>
-<li>wallpaper engine</li>
-<li>webkit browser (wenkit.Net)</li>
-<li>webkit chrome browswer (cefsharp)</li>
-<li>Sokoban (SDL)</li>
-<li>Vue Music Player (front project)</li>
-</ol>
-<h1 id="图像识别-Robomaster-风车能量靶识别"><a href="#图像识别-Robomaster-风车能量靶识别" class="headerlink" title="图像识别 Robomaster 风车能量靶识别"></a>图像识别 Robomaster 风车能量靶识别</h1><p><img src="../A-part-of-old-projects/2022-09-15-04-26-13.png"></p>
-<p>use opencv and some algorithm inside opencv.</p>
-<p>代码：<a href="https://github.com/DuGuYifei/Robomaster_WIndWheelTargetDetect">https://github.com/DuGuYifei/Robomaster_WIndWheelTargetDetect</a><br>视频：<a href="https://www.bilibili.com/video/BV1tW4y1y7Zy/">https://www.bilibili.com/video/BV1tW4y1y7Zy/</a></p>
-<h1 id="dice-monster-game"><a href="#dice-monster-game" class="headerlink" title="dice monster game"></a>dice monster game</h1><p><img src="../A-part-of-old-projects/2022-09-15-04-23-33.png"></p>
-<p>A dice monster chess game.</p>
-<p>代码：<a href="https://github.com/DuGuYifei/MonsterDuelDice">https://github.com/DuGuYifei/MonsterDuelDice</a><br>视频：<a href="https://www.bilibili.com/video/BV1mq4y1o7ww?p=1&amp;vd_source=6beebf17d5aa6fb3d9fb4b629d0b319a">https://www.bilibili.com/video/BV1mq4y1o7ww?p=1&amp;vd_source=6beebf17d5aa6fb3d9fb4b629d0b319a</a></p>
-<h1 id="presentation-by-make-a-pixel-game"><a href="#presentation-by-make-a-pixel-game" class="headerlink" title="presentation by make a pixel game"></a>presentation by make a pixel game</h1><p><img src="../A-part-of-old-projects/2022-09-15-04-20-56.png"></p>
-<p>Make a unity escaping room game to make class presentation.</p>
-<p>First time try to build pixel model by myself.</p>
-<p>代码：<a href="https://github.com/DuGuYifei/HobbyPresentation_Unity">https://github.com/DuGuYifei/HobbyPresentation_Unity</a><br>视频：<a href="https://www.bilibili.com/video/BV1Dq4y1r7av/">https://www.bilibili.com/video/BV1Dq4y1r7av/</a></p>
-<h1 id="wallpaper-engine"><a href="#wallpaper-engine" class="headerlink" title="wallpaper engine"></a>wallpaper engine</h1><p><img src="../A-part-of-old-projects/2022-09-15-04-14-54.png"><br>It support html, web site, picture (use windows command which make result same with using windows settings), animation picture, exe (including some web apps).</p>
-<p>代码：<a href="https://github.com/DuGuYifei/WallPaperEngine">https://github.com/DuGuYifei/WallPaperEngine</a></p>
-<p>视频：<a href="https://www.bilibili.com/video/BV1gR4y157pz/?vd_source=6beebf17d5aa6fb3d9fb4b629d0b319a">https://www.bilibili.com/video/BV1gR4y157pz/?vd_source=6beebf17d5aa6fb3d9fb4b629d0b319a</a></p>
-<h1 id="webkit-browser-wenkit-Net"><a href="#webkit-browser-wenkit-Net" class="headerlink" title="webkit browser (wenkit.Net)"></a>webkit browser (wenkit.Net)</h1><p>Webkit core browser based on wenkit.Net which is an old tech</p>
-<p>代码：<a href="https://github.com/DuGuYifei/WebkitCoreBrowser">https://github.com/DuGuYifei/WebkitCoreBrowser</a></p>
-<p>It’s build for wallpaper engine, so delete a lot of function. </p>
-<p>I abandon it because it is a too old package.</p>
-<h1 id="webkit-chrome-browswer-cefsharp"><a href="#webkit-chrome-browswer-cefsharp" class="headerlink" title="webkit chrome browswer (cefsharp)"></a>webkit chrome browswer (cefsharp)</h1><p>Webkit chrome browser based on cefsharp</p>
-<p>代码：<a href="https://github.com/DuGuYifei/WebkitChrome">https://github.com/DuGuYifei/WebkitChrome</a></p>
-<p>It’s build for wallpaper engine, so delete a lot of function. </p>
-<h1 id="Sokoban"><a href="#Sokoban" class="headerlink" title="Sokoban"></a>Sokoban</h1><p><img src="../A-part-of-old-projects/2022-09-15-04-28-46.png"><br>Use sokoban and simulate the idea of Unity Engine.</p>
-<p>代码：<a href="https://github.com/DuGuYifei/Sokoban_SDL">https://github.com/DuGuYifei/Sokoban_SDL</a><br>视频：<a href="https://www.bilibili.com/video/BV1UG411879L/">https://www.bilibili.com/video/BV1UG411879L/</a></p>
-<h1 id="Vue-Music-Player-front-project"><a href="#Vue-Music-Player-front-project" class="headerlink" title="Vue Music Player (front project)"></a>Vue Music Player (front project)</h1><p><img src="../A-part-of-old-projects/2022-09-15-05-15-04.png"><br>A Vue project of music player.<br>代码：<a href="https://github.com/DuGuYifei/Vue_MusicPlayer_Demo">https://github.com/DuGuYifei/Vue_MusicPlayer_Demo</a></p>
-]]></content>
-      <categories>
-        <category>other</category>
-      </categories>
-      <tags>
-        <tag>browser</tag>
-        <tag>wallpaper</tag>
-        <tag>unity</tag>
-        <tag>vue</tag>
-        <tag>AI</tag>
-        <tag>图像识别</tag>
-        <tag>SDL</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Blog修改url格式</title>
     <url>../Blog%E4%BF%AE%E6%94%B9url%E6%A0%BC%E5%BC%8F/</url>
     <content><![CDATA[<h1 id="修改hexo的链接"><a href="#修改hexo的链接" class="headerlink" title="修改hexo的链接"></a>修改hexo的链接</h1><p>在根目录的config里<br>原生成：<br><code>permalink: :year/:month/:day/:title/</code></p>
@@ -133,6 +83,56 @@
       </tags>
   </entry>
   <entry>
+    <title>A part of old projects</title>
+    <url>../A-part-of-old-projects/</url>
+    <content><![CDATA[<h1 id="catalog"><a href="#catalog" class="headerlink" title="catalog"></a>catalog</h1><ol>
+<li>图像识别 Robomaster 风车能量靶识别</li>
+<li>dice monster game</li>
+<li>presentation by make a pixel game</li>
+<li>wallpaper engine</li>
+<li>webkit browser (wenkit.Net)</li>
+<li>webkit chrome browswer (cefsharp)</li>
+<li>Sokoban (SDL)</li>
+<li>Vue Music Player (front project)</li>
+</ol>
+<h1 id="图像识别-Robomaster-风车能量靶识别"><a href="#图像识别-Robomaster-风车能量靶识别" class="headerlink" title="图像识别 Robomaster 风车能量靶识别"></a>图像识别 Robomaster 风车能量靶识别</h1><p><img src="../A-part-of-old-projects/2022-09-15-04-26-13.png"></p>
+<p>use opencv and some algorithm inside opencv.</p>
+<p>代码：<a href="https://github.com/DuGuYifei/Robomaster_WIndWheelTargetDetect">https://github.com/DuGuYifei/Robomaster_WIndWheelTargetDetect</a><br>视频：<a href="https://www.bilibili.com/video/BV1tW4y1y7Zy/">https://www.bilibili.com/video/BV1tW4y1y7Zy/</a></p>
+<h1 id="dice-monster-game"><a href="#dice-monster-game" class="headerlink" title="dice monster game"></a>dice monster game</h1><p><img src="../A-part-of-old-projects/2022-09-15-04-23-33.png"></p>
+<p>A dice monster chess game.</p>
+<p>代码：<a href="https://github.com/DuGuYifei/MonsterDuelDice">https://github.com/DuGuYifei/MonsterDuelDice</a><br>视频：<a href="https://www.bilibili.com/video/BV1mq4y1o7ww?p=1&amp;vd_source=6beebf17d5aa6fb3d9fb4b629d0b319a">https://www.bilibili.com/video/BV1mq4y1o7ww?p=1&amp;vd_source=6beebf17d5aa6fb3d9fb4b629d0b319a</a></p>
+<h1 id="presentation-by-make-a-pixel-game"><a href="#presentation-by-make-a-pixel-game" class="headerlink" title="presentation by make a pixel game"></a>presentation by make a pixel game</h1><p><img src="../A-part-of-old-projects/2022-09-15-04-20-56.png"></p>
+<p>Make a unity escaping room game to make class presentation.</p>
+<p>First time try to build pixel model by myself.</p>
+<p>代码：<a href="https://github.com/DuGuYifei/HobbyPresentation_Unity">https://github.com/DuGuYifei/HobbyPresentation_Unity</a><br>视频：<a href="https://www.bilibili.com/video/BV1Dq4y1r7av/">https://www.bilibili.com/video/BV1Dq4y1r7av/</a></p>
+<h1 id="wallpaper-engine"><a href="#wallpaper-engine" class="headerlink" title="wallpaper engine"></a>wallpaper engine</h1><p><img src="../A-part-of-old-projects/2022-09-15-04-14-54.png"><br>It support html, web site, picture (use windows command which make result same with using windows settings), animation picture, exe (including some web apps).</p>
+<p>代码：<a href="https://github.com/DuGuYifei/WallPaperEngine">https://github.com/DuGuYifei/WallPaperEngine</a></p>
+<p>视频：<a href="https://www.bilibili.com/video/BV1gR4y157pz/?vd_source=6beebf17d5aa6fb3d9fb4b629d0b319a">https://www.bilibili.com/video/BV1gR4y157pz/?vd_source=6beebf17d5aa6fb3d9fb4b629d0b319a</a></p>
+<h1 id="webkit-browser-wenkit-Net"><a href="#webkit-browser-wenkit-Net" class="headerlink" title="webkit browser (wenkit.Net)"></a>webkit browser (wenkit.Net)</h1><p>Webkit core browser based on wenkit.Net which is an old tech</p>
+<p>代码：<a href="https://github.com/DuGuYifei/WebkitCoreBrowser">https://github.com/DuGuYifei/WebkitCoreBrowser</a></p>
+<p>It’s build for wallpaper engine, so delete a lot of function. </p>
+<p>I abandon it because it is a too old package.</p>
+<h1 id="webkit-chrome-browswer-cefsharp"><a href="#webkit-chrome-browswer-cefsharp" class="headerlink" title="webkit chrome browswer (cefsharp)"></a>webkit chrome browswer (cefsharp)</h1><p>Webkit chrome browser based on cefsharp</p>
+<p>代码：<a href="https://github.com/DuGuYifei/WebkitChrome">https://github.com/DuGuYifei/WebkitChrome</a></p>
+<p>It’s build for wallpaper engine, so delete a lot of function. </p>
+<h1 id="Sokoban"><a href="#Sokoban" class="headerlink" title="Sokoban"></a>Sokoban</h1><p><img src="../A-part-of-old-projects/2022-09-15-04-28-46.png"><br>Use sokoban and simulate the idea of Unity Engine.</p>
+<p>代码：<a href="https://github.com/DuGuYifei/Sokoban_SDL">https://github.com/DuGuYifei/Sokoban_SDL</a><br>视频：<a href="https://www.bilibili.com/video/BV1UG411879L/">https://www.bilibili.com/video/BV1UG411879L/</a></p>
+<h1 id="Vue-Music-Player-front-project"><a href="#Vue-Music-Player-front-project" class="headerlink" title="Vue Music Player (front project)"></a>Vue Music Player (front project)</h1><p><img src="../A-part-of-old-projects/2022-09-15-05-15-04.png"><br>A Vue project of music player.<br>代码：<a href="https://github.com/DuGuYifei/Vue_MusicPlayer_Demo">https://github.com/DuGuYifei/Vue_MusicPlayer_Demo</a></p>
+]]></content>
+      <categories>
+        <category>other</category>
+      </categories>
+      <tags>
+        <tag>browser</tag>
+        <tag>wallpaper</tag>
+        <tag>unity</tag>
+        <tag>vue</tag>
+        <tag>AI</tag>
+        <tag>图像识别</tag>
+        <tag>SDL</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Blog图片显示问题</title>
     <url>../Blog%E5%9B%BE%E7%89%87%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<h2 id="markdown语法用于hexo"><a href="#markdown语法用于hexo" class="headerlink" title="markdown语法用于hexo"></a>markdown语法用于hexo</h2><ol>
@@ -144,19 +144,6 @@
 </li>
 </ol>
 ]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-      <tags>
-        <tag>Blog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Blog文件间链接问题</title>
-    <url>../Blog%E6%96%87%E4%BB%B6%E9%97%B4%E9%93%BE%E6%8E%A5%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<h1 id="Blog文件间链接问题"><a href="#Blog文件间链接问题" class="headerlink" title="Blog文件间链接问题"></a>Blog文件间链接问题</h1><h2 id="方法一-我不喜欢"><a href="#方法一-我不喜欢" class="headerlink" title="方法一 我不喜欢"></a>方法一 我不喜欢</h2><p>不能<br><code>[](ABC.md)</code><br>只能<br><code>[](../ABC)</code></p>
-<h2 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h2><p>修改<code>\node_modules\hexo-renderer-marked\lib\renderer.js</code>里<code>link</code>函数：</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="title function_">link</span>(<span class="params">href, title, text</span>) &#123;</span><br><span class="line">  <span class="keyword">const</span> &#123; external_link, sanitizeUrl &#125; = <span class="variable language_">this</span>.<span class="property">options</span>;</span><br><span class="line">  <span class="keyword">const</span> &#123; <span class="attr">url</span>: urlCfg &#125; = <span class="variable language_">this</span>.<span class="property">hexo</span>.<span class="property">config</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">if</span> (sanitizeUrl) &#123;</span><br><span class="line">    <span class="keyword">if</span> (href.<span class="title function_">startsWith</span>(<span class="string">&#x27;javascript:&#x27;</span>) || href.<span class="title function_">startsWith</span>(<span class="string">&#x27;vbscript:&#x27;</span>) || href.<span class="title function_">startsWith</span>(<span class="string">&#x27;data:&#x27;</span>)) &#123;</span><br><span class="line">      href = <span class="string">&#x27;&#x27;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">let</span> out = <span class="string">&#x27;&lt;a href=&quot;&#x27;</span>;</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 开始修改</span></span><br><span class="line">  <span class="keyword">try</span> &#123;</span><br><span class="line">    <span class="keyword">let</span> temp = <span class="title function_">encodeURL</span>(href);</span><br><span class="line">    <span class="keyword">if</span>(temp.<span class="title function_">endsWith</span>(<span class="string">&quot;.md&quot;</span>))&#123;</span><br><span class="line">      temp = <span class="string">&quot;../&quot;</span> + temp.<span class="title function_">substr</span>(<span class="number">0</span>, temp.<span class="property">length</span> - <span class="number">3</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    out += temp;</span><br><span class="line">    <span class="comment">//out += encodeURL(href);</span></span><br><span class="line">  &#125; <span class="keyword">catch</span> (e) &#123;</span><br><span class="line">    <span class="keyword">let</span> temp = href;</span><br><span class="line">    <span class="keyword">if</span>(temp.<span class="title function_">endsWith</span>(<span class="string">&quot;.md&quot;</span>))&#123;</span><br><span class="line">      temp = <span class="string">&quot;../&quot;</span> + temp.<span class="title function_">substr</span>(<span class="number">0</span>, temp.<span class="property">length</span> - <span class="number">3</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    out += temp;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//out += href;</span></span><br><span class="line">  &#125;</span><br><span class="line">  <span class="comment">//停止修改</span></span><br><span class="line">  </span><br><span class="line">  out += <span class="string">&#x27;&quot;&#x27;</span>;</span><br><span class="line">  以下省略...</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>Blog</category>
       </categories>
@@ -200,32 +187,16 @@
       </tags>
   </entry>
   <entry>
-    <title>Personal_Webpage</title>
-    <url>../Personal-Webpage/</url>
-    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p><img src="../Personal-Webpage/2022-09-21-07-40-08.png"></p>
-<p><a href="https://duguyifei.github.io/">https://duguyifei.github.io</a></p>
-<h1 id="Knowledge"><a href="#Knowledge" class="headerlink" title="Knowledge"></a>Knowledge</h1><ol>
-<li>Most Knowledge of html css</li>
-<li>Support different browser, device and screen</li>
-<li>Js get different device</li>
-<li>Know more about svg</li>
-<li>browser tag icon</li>
-<li>clip-path, calc, cubic-bezier, etc.</li>
-<li>Know the existance of scss sass</li>
-<li>scroll snap</li>
-<li>Special border</li>
-<li>Basic usage of javascript</li>
-<li>Cool button animation&#x2F;transition</li>
-<li>Open pdf.</li>
-<li>etc…</li>
-</ol>
-]]></content>
+    <title>Blog文件间链接问题</title>
+    <url>../Blog%E6%96%87%E4%BB%B6%E9%97%B4%E9%93%BE%E6%8E%A5%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<h1 id="Blog文件间链接问题"><a href="#Blog文件间链接问题" class="headerlink" title="Blog文件间链接问题"></a>Blog文件间链接问题</h1><h2 id="方法一-我不喜欢"><a href="#方法一-我不喜欢" class="headerlink" title="方法一 我不喜欢"></a>方法一 我不喜欢</h2><p>不能<br><code>[](ABC.md)</code><br>只能<br><code>[](../ABC)</code></p>
+<h2 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h2><p>修改<code>\node_modules\hexo-renderer-marked\lib\renderer.js</code>里<code>link</code>函数：</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="title function_">link</span>(<span class="params">href, title, text</span>) &#123;</span><br><span class="line">  <span class="keyword">const</span> &#123; external_link, sanitizeUrl &#125; = <span class="variable language_">this</span>.<span class="property">options</span>;</span><br><span class="line">  <span class="keyword">const</span> &#123; <span class="attr">url</span>: urlCfg &#125; = <span class="variable language_">this</span>.<span class="property">hexo</span>.<span class="property">config</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">if</span> (sanitizeUrl) &#123;</span><br><span class="line">    <span class="keyword">if</span> (href.<span class="title function_">startsWith</span>(<span class="string">&#x27;javascript:&#x27;</span>) || href.<span class="title function_">startsWith</span>(<span class="string">&#x27;vbscript:&#x27;</span>) || href.<span class="title function_">startsWith</span>(<span class="string">&#x27;data:&#x27;</span>)) &#123;</span><br><span class="line">      href = <span class="string">&#x27;&#x27;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">let</span> out = <span class="string">&#x27;&lt;a href=&quot;&#x27;</span>;</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 开始修改</span></span><br><span class="line">  <span class="keyword">try</span> &#123;</span><br><span class="line">    <span class="keyword">let</span> temp = <span class="title function_">encodeURL</span>(href);</span><br><span class="line">    <span class="keyword">if</span>(temp.<span class="title function_">endsWith</span>(<span class="string">&quot;.md&quot;</span>))&#123;</span><br><span class="line">      temp = <span class="string">&quot;../&quot;</span> + temp.<span class="title function_">substr</span>(<span class="number">0</span>, temp.<span class="property">length</span> - <span class="number">3</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    out += temp;</span><br><span class="line">    <span class="comment">//out += encodeURL(href);</span></span><br><span class="line">  &#125; <span class="keyword">catch</span> (e) &#123;</span><br><span class="line">    <span class="keyword">let</span> temp = href;</span><br><span class="line">    <span class="keyword">if</span>(temp.<span class="title function_">endsWith</span>(<span class="string">&quot;.md&quot;</span>))&#123;</span><br><span class="line">      temp = <span class="string">&quot;../&quot;</span> + temp.<span class="title function_">substr</span>(<span class="number">0</span>, temp.<span class="property">length</span> - <span class="number">3</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    out += temp;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//out += href;</span></span><br><span class="line">  &#125;</span><br><span class="line">  <span class="comment">//停止修改</span></span><br><span class="line">  </span><br><span class="line">  out += <span class="string">&#x27;&quot;&#x27;</span>;</span><br><span class="line">  以下省略...</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>front</category>
+        <category>Blog</category>
       </categories>
       <tags>
-        <tag>website</tag>
-        <tag>front</tag>
+        <tag>Blog</tag>
       </tags>
   </entry>
   <entry>
@@ -260,6 +231,35 @@
     <content><![CDATA[<p>Welcome to my Blog of “Develpment Log” Where I plan to put something about the progress of my Development of some project.</p>
 <p>Here is not my Notes blog. My Notes are <a href="https://github.com/DuGuYifei/Notes">Here</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>Personal_Webpage</title>
+    <url>../Personal-Webpage/</url>
+    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p><img src="../Personal-Webpage/2022-09-21-07-40-08.png"></p>
+<p><a href="https://duguyifei.github.io/">https://duguyifei.github.io</a></p>
+<h1 id="Knowledge"><a href="#Knowledge" class="headerlink" title="Knowledge"></a>Knowledge</h1><ol>
+<li>Most Knowledge of html css</li>
+<li>Support different browser, device and screen</li>
+<li>Js get different device</li>
+<li>Know more about svg</li>
+<li>browser tag icon</li>
+<li>clip-path, calc, cubic-bezier, etc.</li>
+<li>Know the existance of scss sass</li>
+<li>scroll snap</li>
+<li>Special border</li>
+<li>Basic usage of javascript</li>
+<li>Cool button animation&#x2F;transition</li>
+<li>Open pdf.</li>
+<li>etc…</li>
+</ol>
+]]></content>
+      <categories>
+        <category>front</category>
+      </categories>
+      <tags>
+        <tag>website</tag>
+        <tag>front</tag>
+      </tags>
   </entry>
   <entry>
     <title>HMFormer姿态估计并让unity模型读取以控制骨骼</title>
