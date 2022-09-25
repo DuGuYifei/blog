@@ -1,87 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>A part of old projects</title>
-    <url>./A-part-of-old-projects/</url>
-    <content><![CDATA[<h1 id="catalog"><a href="#catalog" class="headerlink" title="catalog"></a>catalog</h1><ol>
-<li>图像识别 Robomaster 风车能量靶识别</li>
-<li>dice monster game</li>
-<li>presentation by make a pixel game</li>
-<li>wallpaper engine</li>
-<li>webkit browser (wenkit.Net)</li>
-<li>webkit chrome browswer (cefsharp)</li>
-<li>Sokoban (SDL)</li>
-<li>Vue Music Player (front project)</li>
-</ol>
-<h1 id="图像识别-Robomaster-风车能量靶识别"><a href="#图像识别-Robomaster-风车能量靶识别" class="headerlink" title="图像识别 Robomaster 风车能量靶识别"></a>图像识别 Robomaster 风车能量靶识别</h1><p><img src="2022-09-15-04-26-13.png"></p>
-<p>use opencv and some algorithm inside opencv.</p>
-<p>代码：<a href="../https://github.com/DuGuYifei/Robomaster_WIndWheelTargetDetect">https://github.com/DuGuYifei/Robomaster_WIndWheelTargetDetect</a><br>视频：<a href="../https://www.bilibili.com/video/BV1tW4y1y7Zy/">https://www.bilibili.com/video/BV1tW4y1y7Zy/</a></p>
-<h1 id="dice-monster-game"><a href="#dice-monster-game" class="headerlink" title="dice monster game"></a>dice monster game</h1><p><img src="2022-09-15-04-23-33.png"></p>
-<p>A dice monster chess game.</p>
-<p>代码：<a href="../https://github.com/DuGuYifei/MonsterDuelDice">https://github.com/DuGuYifei/MonsterDuelDice</a><br>视频：<a href="../https://www.bilibili.com/video/BV1mq4y1o7ww?p=1&amp;vd_source=6beebf17d5aa6fb3d9fb4b629d0b319a">https://www.bilibili.com/video/BV1mq4y1o7ww?p=1&amp;vd_source=6beebf17d5aa6fb3d9fb4b629d0b319a</a></p>
-<h1 id="presentation-by-make-a-pixel-game"><a href="#presentation-by-make-a-pixel-game" class="headerlink" title="presentation by make a pixel game"></a>presentation by make a pixel game</h1><p><img src="2022-09-15-04-20-56.png"></p>
-<p>Make a unity escaping room game to make class presentation.</p>
-<p>First time try to build pixel model by myself.</p>
-<p>代码：<a href="../https://github.com/DuGuYifei/HobbyPresentation_Unity">https://github.com/DuGuYifei/HobbyPresentation_Unity</a><br>视频：<a href="../https://www.bilibili.com/video/BV1Dq4y1r7av/">https://www.bilibili.com/video/BV1Dq4y1r7av/</a></p>
-<h1 id="wallpaper-engine"><a href="#wallpaper-engine" class="headerlink" title="wallpaper engine"></a>wallpaper engine</h1><p><img src="2022-09-15-04-14-54.png"><br>It support html, web site, picture (use windows command which make result same with using windows settings), animation picture, exe (including some web apps).</p>
-<p>代码：<a href="../https://github.com/DuGuYifei/WallPaperEngine">https://github.com/DuGuYifei/WallPaperEngine</a></p>
-<p>视频：<a href="../https://www.bilibili.com/video/BV1gR4y157pz/?vd_source=6beebf17d5aa6fb3d9fb4b629d0b319a">https://www.bilibili.com/video/BV1gR4y157pz/?vd_source=6beebf17d5aa6fb3d9fb4b629d0b319a</a></p>
-<h1 id="webkit-browser-wenkit-Net"><a href="#webkit-browser-wenkit-Net" class="headerlink" title="webkit browser (wenkit.Net)"></a>webkit browser (wenkit.Net)</h1><p>Webkit core browser based on wenkit.Net which is an old tech</p>
-<p>代码：<a href="../https://github.com/DuGuYifei/WebkitCoreBrowser">https://github.com/DuGuYifei/WebkitCoreBrowser</a></p>
-<p>It’s build for wallpaper engine, so delete a lot of function. </p>
-<p>I abandon it because it is a too old package.</p>
-<h1 id="webkit-chrome-browswer-cefsharp"><a href="#webkit-chrome-browswer-cefsharp" class="headerlink" title="webkit chrome browswer (cefsharp)"></a>webkit chrome browswer (cefsharp)</h1><p>Webkit chrome browser based on cefsharp</p>
-<p>代码：<a href="../https://github.com/DuGuYifei/WebkitChrome">https://github.com/DuGuYifei/WebkitChrome</a></p>
-<p>It’s build for wallpaper engine, so delete a lot of function. </p>
-<h1 id="Sokoban"><a href="#Sokoban" class="headerlink" title="Sokoban"></a>Sokoban</h1><p><img src="2022-09-15-04-28-46.png"><br>Use sokoban and simulate the idea of Unity Engine.</p>
-<p>代码：<a href="../https://github.com/DuGuYifei/Sokoban_SDL">https://github.com/DuGuYifei/Sokoban_SDL</a><br>视频：<a href="../https://www.bilibili.com/video/BV1UG411879L/">https://www.bilibili.com/video/BV1UG411879L/</a></p>
-<h1 id="Vue-Music-Player-front-project"><a href="#Vue-Music-Player-front-project" class="headerlink" title="Vue Music Player (front project)"></a>Vue Music Player (front project)</h1><p><img src="2022-09-15-05-15-04.png"><br>A Vue project of music player.<br>代码：<a href="../https://github.com/DuGuYifei/Vue_MusicPlayer_Demo">https://github.com/DuGuYifei/Vue_MusicPlayer_Demo</a></p>
-]]></content>
-      <categories>
-        <category>other</category>
-      </categories>
-      <tags>
-        <tag>browser</tag>
-        <tag>wallpaper</tag>
-        <tag>unity</tag>
-        <tag>vue</tag>
-        <tag>AI</tag>
-        <tag>图像识别</tag>
-        <tag>SDL</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Blog修改url格式</title>
-    <url>./Blog%E4%BF%AE%E6%94%B9url%E6%A0%BC%E5%BC%8F/</url>
-    <content><![CDATA[<h1 id="修改hexo的链接"><a href="#修改hexo的链接" class="headerlink" title="修改hexo的链接"></a>修改hexo的链接</h1><p>在根目录的config里<br>原生成：<br><code>permalink: :year/:month/:day/:title/</code></p>
-<p>修改为：<br><code>permalink: :title/</code></p>
-]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-      <tags>
-        <tag>Blog</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>用Hexo和Github制作Blog</title>
-    <url>./Blog%E5%88%9B%E5%BB%BA/</url>
+    <url>/blog/Blog%E5%88%9B%E5%BB%BA/</url>
     <content><![CDATA[<ol>
-<li><a href="../#%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE">参考文献</a></li>
-<li><a href="../#%E5%88%9B%E5%BB%BA%E5%B9%B6%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%BF%90%E8%A1%8C">创建并第一次运行</a></li>
-<li><a href="../#%E5%88%9B%E5%BB%BA%E6%96%B0blog">创建新blog</a></li>
-<li><a href="../#githubio">github.io</a><ol>
-<li><a href="../#%E4%B8%8D%E4%B8%80%E5%AE%9A%E6%98%AFgithubio%E4%BB%93%E5%BA%93">不一定是github.io仓库</a></li>
+<li><a href="#%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE">参考文献</a></li>
+<li><a href="#%E5%88%9B%E5%BB%BA%E5%B9%B6%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%BF%90%E8%A1%8C">创建并第一次运行</a></li>
+<li><a href="#%E5%88%9B%E5%BB%BA%E6%96%B0blog">创建新blog</a></li>
+<li><a href="#githubio">github.io</a><ol>
+<li><a href="#%E4%B8%8D%E4%B8%80%E5%AE%9A%E6%98%AFgithubio%E4%BB%93%E5%BA%93">不一定是github.io仓库</a></li>
 </ol>
 </li>
-<li><a href="../#%E4%B8%BB%E9%A2%98%E4%BF%AE%E6%94%B9">主题修改</a><ol>
-<li><a href="../#%E6%B7%BB%E5%8A%A0%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD">添加搜索功能</a></li>
+<li><a href="#%E4%B8%BB%E9%A2%98%E4%BF%AE%E6%94%B9">主题修改</a><ol>
+<li><a href="#%E6%B7%BB%E5%8A%A0%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD">添加搜索功能</a></li>
 </ol>
 </li>
-<li><a href="../#%E4%BF%AE%E6%94%B9%E6%96%87%E7%AB%A0%E5%86%85%E9%93%BE%E6%8E%A5%E6%96%87%E6%9C%AC%E6%A0%B7%E5%BC%8F">修改文章内链接文本样式</a></li>
-<li><a href="../#%E6%B7%BB%E5%8A%A0tags%E5%92%8Ccategories">添加tags和categories</a></li>
+<li><a href="#%E4%BF%AE%E6%94%B9%E6%96%87%E7%AB%A0%E5%86%85%E9%93%BE%E6%8E%A5%E6%96%87%E6%9C%AC%E6%A0%B7%E5%BC%8F">修改文章内链接文本样式</a></li>
+<li><a href="#%E6%B7%BB%E5%8A%A0tags%E5%92%8Ccategories">添加tags和categories</a></li>
 </ol>
-<h1 id="Blog创建"><a href="#Blog创建" class="headerlink" title="Blog创建"></a>Blog创建</h1><h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><p><a href="../https://blog.csdn.net/sywdebug/article/details/113942047?fbclid=IwAR3CZC9vs8qEObbcHqdRKS4vsWZvNt39yiAOetyvj8hdPv3aKkRKcNFsqRg">CSDN博客_github hexo</a></p>
+<h1 id="Blog创建"><a href="#Blog创建" class="headerlink" title="Blog创建"></a>Blog创建</h1><h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><p><a href="https://blog.csdn.net/sywdebug/article/details/113942047?fbclid=IwAR3CZC9vs8qEObbcHqdRKS4vsWZvNt39yiAOetyvj8hdPv3aKkRKcNFsqRg">CSDN博客_github hexo</a></p>
 <h2 id="创建并第一次运行"><a href="#创建并第一次运行" class="headerlink" title="创建并第一次运行"></a>创建并第一次运行</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># npm install hexo-cli -g</span></span><br><span class="line">hexo init blog</span><br><span class="line"><span class="built_in">cd</span> blog</span><br><span class="line">hexo server   <span class="comment"># hexo s</span></span><br></pre></td></tr></table></figure>
 
 <h2 id="创建新blog"><a href="#创建新blog" class="headerlink" title="创建新blog"></a>创建新blog</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
@@ -89,9 +26,9 @@
 <h1 id="Github"><a href="#Github" class="headerlink" title="Github"></a>Github</h1><h2 id="github-io"><a href="#github-io" class="headerlink" title="github.io"></a>github.io</h2><p>下载插件到根目录</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
 
-<p>用编辑器打开目录中的 _config.yml 文件<br>先上面的 url 和 root 补充完整，不然会没有 css 样式和 js 脚本<br><img src="2022-08-13-16-18-27.png"></p>
+<p>用编辑器打开目录中的 _config.yml 文件<br>先上面的 url 和 root 补充完整，不然会没有 css 样式和 js 脚本<br><img src="/blog/Blog%E5%88%9B%E5%BB%BA/2022-08-13-16-18-27.png"></p>
 <p><strong>关于root的深入理解 以及 解决自定义url后出现的无法加载资源问题</strong><br>如果是靠 liuyifei.tech&#x2F;blog 连接就不会出问题，如果单独设置了一个CNAME连接比如’blog.liuyifei.tech’，并将root设置为 <code>/blog</code> 那么发送请求就变成了 blog.liuyifei.tech&#x2F;blog&#x2F; 就不对了，<br>我们需要<strong>blog.liuyifei.tech</strong>，所以这时候只需要将root设置为<code>./</code>即可。</p>
-<p>也可以加上 branch:[自定义分支名称] 和 massage:[自定义提交消息]<br><img src="2022-08-13-16-18-35.png"></p>
+<p>也可以加上 branch:[自定义分支名称] 和 massage:[自定义提交消息]<br><img src="/blog/Blog%E5%88%9B%E5%BB%BA/2022-08-13-16-18-35.png"></p>
 <p>保存后执行 hexo generate 更新本地代码或执行hexo clean删除本地代码<br>执行 hexo deploy 生成本地代码并推送到 github 库</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean <span class="comment"># 清除已生成文件及缓存</span></span><br><span class="line">hexo generate <span class="comment"># 生成静态页面，简写做hexo g</span></span><br><span class="line">hexo deploy <span class="comment">#推送到github库，简写做hexo d</span></span><br><span class="line">hexo server <span class="comment"># 启动本地WEB服务器，简写做hexo s</span></span><br></pre></td></tr></table></figure>
 
@@ -133,8 +70,71 @@
       </tags>
   </entry>
   <entry>
+    <title>Blog修改url格式</title>
+    <url>/blog/Blog%E4%BF%AE%E6%94%B9url%E6%A0%BC%E5%BC%8F/</url>
+    <content><![CDATA[<h1 id="修改hexo的链接"><a href="#修改hexo的链接" class="headerlink" title="修改hexo的链接"></a>修改hexo的链接</h1><p>在根目录的config里<br>原生成：<br><code>permalink: :year/:month/:day/:title/</code></p>
+<p>修改为：<br><code>permalink: :title/</code></p>
+]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+      <tags>
+        <tag>Blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>A part of old projects</title>
+    <url>/blog/A-part-of-old-projects/</url>
+    <content><![CDATA[<h1 id="catalog"><a href="#catalog" class="headerlink" title="catalog"></a>catalog</h1><ol>
+<li>图像识别 Robomaster 风车能量靶识别</li>
+<li>dice monster game</li>
+<li>presentation by make a pixel game</li>
+<li>wallpaper engine</li>
+<li>webkit browser (wenkit.Net)</li>
+<li>webkit chrome browswer (cefsharp)</li>
+<li>Sokoban (SDL)</li>
+<li>Vue Music Player (front project)</li>
+</ol>
+<h1 id="图像识别-Robomaster-风车能量靶识别"><a href="#图像识别-Robomaster-风车能量靶识别" class="headerlink" title="图像识别 Robomaster 风车能量靶识别"></a>图像识别 Robomaster 风车能量靶识别</h1><p><img src="/blog/A-part-of-old-projects/2022-09-15-04-26-13.png"></p>
+<p>use opencv and some algorithm inside opencv.</p>
+<p>代码：<a href="https://github.com/DuGuYifei/Robomaster_WIndWheelTargetDetect">https://github.com/DuGuYifei/Robomaster_WIndWheelTargetDetect</a><br>视频：<a href="https://www.bilibili.com/video/BV1tW4y1y7Zy/">https://www.bilibili.com/video/BV1tW4y1y7Zy/</a></p>
+<h1 id="dice-monster-game"><a href="#dice-monster-game" class="headerlink" title="dice monster game"></a>dice monster game</h1><p><img src="/blog/A-part-of-old-projects/2022-09-15-04-23-33.png"></p>
+<p>A dice monster chess game.</p>
+<p>代码：<a href="https://github.com/DuGuYifei/MonsterDuelDice">https://github.com/DuGuYifei/MonsterDuelDice</a><br>视频：<a href="https://www.bilibili.com/video/BV1mq4y1o7ww?p=1&amp;vd_source=6beebf17d5aa6fb3d9fb4b629d0b319a">https://www.bilibili.com/video/BV1mq4y1o7ww?p=1&amp;vd_source=6beebf17d5aa6fb3d9fb4b629d0b319a</a></p>
+<h1 id="presentation-by-make-a-pixel-game"><a href="#presentation-by-make-a-pixel-game" class="headerlink" title="presentation by make a pixel game"></a>presentation by make a pixel game</h1><p><img src="/blog/A-part-of-old-projects/2022-09-15-04-20-56.png"></p>
+<p>Make a unity escaping room game to make class presentation.</p>
+<p>First time try to build pixel model by myself.</p>
+<p>代码：<a href="https://github.com/DuGuYifei/HobbyPresentation_Unity">https://github.com/DuGuYifei/HobbyPresentation_Unity</a><br>视频：<a href="https://www.bilibili.com/video/BV1Dq4y1r7av/">https://www.bilibili.com/video/BV1Dq4y1r7av/</a></p>
+<h1 id="wallpaper-engine"><a href="#wallpaper-engine" class="headerlink" title="wallpaper engine"></a>wallpaper engine</h1><p><img src="/blog/A-part-of-old-projects/2022-09-15-04-14-54.png"><br>It support html, web site, picture (use windows command which make result same with using windows settings), animation picture, exe (including some web apps).</p>
+<p>代码：<a href="https://github.com/DuGuYifei/WallPaperEngine">https://github.com/DuGuYifei/WallPaperEngine</a></p>
+<p>视频：<a href="https://www.bilibili.com/video/BV1gR4y157pz/?vd_source=6beebf17d5aa6fb3d9fb4b629d0b319a">https://www.bilibili.com/video/BV1gR4y157pz/?vd_source=6beebf17d5aa6fb3d9fb4b629d0b319a</a></p>
+<h1 id="webkit-browser-wenkit-Net"><a href="#webkit-browser-wenkit-Net" class="headerlink" title="webkit browser (wenkit.Net)"></a>webkit browser (wenkit.Net)</h1><p>Webkit core browser based on wenkit.Net which is an old tech</p>
+<p>代码：<a href="https://github.com/DuGuYifei/WebkitCoreBrowser">https://github.com/DuGuYifei/WebkitCoreBrowser</a></p>
+<p>It’s build for wallpaper engine, so delete a lot of function. </p>
+<p>I abandon it because it is a too old package.</p>
+<h1 id="webkit-chrome-browswer-cefsharp"><a href="#webkit-chrome-browswer-cefsharp" class="headerlink" title="webkit chrome browswer (cefsharp)"></a>webkit chrome browswer (cefsharp)</h1><p>Webkit chrome browser based on cefsharp</p>
+<p>代码：<a href="https://github.com/DuGuYifei/WebkitChrome">https://github.com/DuGuYifei/WebkitChrome</a></p>
+<p>It’s build for wallpaper engine, so delete a lot of function. </p>
+<h1 id="Sokoban"><a href="#Sokoban" class="headerlink" title="Sokoban"></a>Sokoban</h1><p><img src="/blog/A-part-of-old-projects/2022-09-15-04-28-46.png"><br>Use sokoban and simulate the idea of Unity Engine.</p>
+<p>代码：<a href="https://github.com/DuGuYifei/Sokoban_SDL">https://github.com/DuGuYifei/Sokoban_SDL</a><br>视频：<a href="https://www.bilibili.com/video/BV1UG411879L/">https://www.bilibili.com/video/BV1UG411879L/</a></p>
+<h1 id="Vue-Music-Player-front-project"><a href="#Vue-Music-Player-front-project" class="headerlink" title="Vue Music Player (front project)"></a>Vue Music Player (front project)</h1><p><img src="/blog/A-part-of-old-projects/2022-09-15-05-15-04.png"><br>A Vue project of music player.<br>代码：<a href="https://github.com/DuGuYifei/Vue_MusicPlayer_Demo">https://github.com/DuGuYifei/Vue_MusicPlayer_Demo</a></p>
+]]></content>
+      <categories>
+        <category>other</category>
+      </categories>
+      <tags>
+        <tag>browser</tag>
+        <tag>wallpaper</tag>
+        <tag>unity</tag>
+        <tag>vue</tag>
+        <tag>AI</tag>
+        <tag>图像识别</tag>
+        <tag>SDL</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Blog图片显示问题</title>
-    <url>./Blog%E5%9B%BE%E7%89%87%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/</url>
+    <url>/blog/Blog%E5%9B%BE%E7%89%87%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<h2 id="markdown语法用于hexo"><a href="#markdown语法用于hexo" class="headerlink" title="markdown语法用于hexo"></a>markdown语法用于hexo</h2><ol>
 <li><p>将config里：<code>post_asset_folder: true</code> 设置位<code>true</code></p>
 </li>
@@ -153,7 +153,7 @@
   </entry>
   <entry>
     <title>Blog文件间链接问题</title>
-    <url>./Blog%E6%96%87%E4%BB%B6%E9%97%B4%E9%93%BE%E6%8E%A5%E9%97%AE%E9%A2%98/</url>
+    <url>/blog/Blog%E6%96%87%E4%BB%B6%E9%97%B4%E9%93%BE%E6%8E%A5%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<h1 id="Blog文件间链接问题"><a href="#Blog文件间链接问题" class="headerlink" title="Blog文件间链接问题"></a>Blog文件间链接问题</h1><h2 id="方法一-我不喜欢"><a href="#方法一-我不喜欢" class="headerlink" title="方法一 我不喜欢"></a>方法一 我不喜欢</h2><p>不能<br><code>[](ABC.md)</code><br>只能<br><code>[](../ABC)</code></p>
 <h2 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h2><p>修改<code>\node_modules\hexo-renderer-marked\lib\renderer.js</code>里<code>link</code>函数：</p>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="title function_">link</span>(<span class="params">href, title, text</span>) &#123;</span><br><span class="line">  <span class="keyword">const</span> &#123; external_link, sanitizeUrl &#125; = <span class="variable language_">this</span>.<span class="property">options</span>;</span><br><span class="line">  <span class="keyword">const</span> &#123; <span class="attr">url</span>: urlCfg &#125; = <span class="variable language_">this</span>.<span class="property">hexo</span>.<span class="property">config</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">if</span> (sanitizeUrl) &#123;</span><br><span class="line">    <span class="keyword">if</span> (href.<span class="title function_">startsWith</span>(<span class="string">&#x27;javascript:&#x27;</span>) || href.<span class="title function_">startsWith</span>(<span class="string">&#x27;vbscript:&#x27;</span>) || href.<span class="title function_">startsWith</span>(<span class="string">&#x27;data:&#x27;</span>)) &#123;</span><br><span class="line">      href = <span class="string">&#x27;&#x27;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">let</span> out = <span class="string">&#x27;&lt;a href=&quot;&#x27;</span>;</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 开始修改</span></span><br><span class="line">  <span class="keyword">try</span> &#123;</span><br><span class="line">    <span class="keyword">let</span> temp = <span class="title function_">encodeURL</span>(href);</span><br><span class="line">    <span class="keyword">if</span>(temp.<span class="title function_">endsWith</span>(<span class="string">&quot;.md&quot;</span>))&#123;</span><br><span class="line">      temp = <span class="string">&quot;../&quot;</span> + temp.<span class="title function_">substr</span>(<span class="number">0</span>, temp.<span class="property">length</span> - <span class="number">3</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    out += temp;</span><br><span class="line">    <span class="comment">//out += encodeURL(href);</span></span><br><span class="line">  &#125; <span class="keyword">catch</span> (e) &#123;</span><br><span class="line">    <span class="keyword">let</span> temp = href;</span><br><span class="line">    <span class="keyword">if</span>(temp.<span class="title function_">endsWith</span>(<span class="string">&quot;.md&quot;</span>))&#123;</span><br><span class="line">      temp = <span class="string">&quot;../&quot;</span> + temp.<span class="title function_">substr</span>(<span class="number">0</span>, temp.<span class="property">length</span> - <span class="number">3</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    out += temp;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//out += href;</span></span><br><span class="line">  &#125;</span><br><span class="line">  <span class="comment">//停止修改</span></span><br><span class="line">  </span><br><span class="line">  out += <span class="string">&#x27;&quot;&#x27;</span>;</span><br><span class="line">  以下省略...</span><br></pre></td></tr></table></figure>]]></content>
@@ -166,11 +166,11 @@
   </entry>
   <entry>
     <title>Blog设置单独的自定义域名</title>
-    <url>./Blog%E8%AE%BE%E7%BD%AE%E5%8D%95%E7%8B%AC%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D/</url>
+    <url>/blog/Blog%E8%AE%BE%E7%BD%AE%E5%8D%95%E7%8B%AC%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D/</url>
     <content><![CDATA[<h1 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h1><p>解析到 ‘blog.liuyifei.tech&#96;</p>
-<h1 id="无法加载资源的问题"><a href="#无法加载资源的问题" class="headerlink" title="无法加载资源的问题"></a>无法加载资源的问题</h1><p>用编辑器打开目录中的 _config.yml 文件<br><img src="2022-08-13-16-18-27.png"><br><strong>关于root的深入理解 以及 解决自定义url后出现的无法加载资源问题</strong><br>如果是靠 liuyifei.tech&#x2F;blog 连接就不会出问题，如果单独设置了一个CNAME连接比如’blog.liuyifei.tech’，并将root设置为 <code>/blog</code> 那么发送请求就变成了 blog.liuyifei.tech&#x2F;blog&#x2F; 就不对了，<br>我们需要<strong>blog.liuyifei.tech</strong>，所以这时候只需要将root设置为<code>./</code>即可。</p>
+<h1 id="无法加载资源的问题"><a href="#无法加载资源的问题" class="headerlink" title="无法加载资源的问题"></a>无法加载资源的问题</h1><p>用编辑器打开目录中的 _config.yml 文件<br><img src="/blog/Blog%E5%88%9B%E5%BB%BA/2022-08-13-16-18-27.png"><br><strong>关于root的深入理解 以及 解决自定义url后出现的无法加载资源问题</strong><br>如果是靠 liuyifei.tech&#x2F;blog 连接就不会出问题，如果单独设置了一个CNAME连接比如’blog.liuyifei.tech’，并将root设置为 <code>/blog</code> 那么发送请求就变成了 blog.liuyifei.tech&#x2F;blog&#x2F; 就不对了，<br>我们需要<strong>blog.liuyifei.tech</strong>，所以这时候只需要将root设置为<code>./</code>即可。</p>
 <h1 id="CNAME文件"><a href="#CNAME文件" class="headerlink" title="CNAME文件"></a>CNAME文件</h1><p>将CNAME文件直接放在source下即可，不要放进_posts</p>
-<h1 id="DNS解析"><a href="#DNS解析" class="headerlink" title="DNS解析"></a>DNS解析</h1><p><img src="2022-09-25-23-03-47.png"></p>
+<h1 id="DNS解析"><a href="#DNS解析" class="headerlink" title="DNS解析"></a>DNS解析</h1><p><img src="/blog/Blog%E8%AE%BE%E7%BD%AE%E5%8D%95%E7%8B%AC%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D/2022-09-25-23-03-47.png"></p>
 ]]></content>
       <categories>
         <category>Blog</category>
@@ -182,28 +182,10 @@
       </tags>
   </entry>
   <entry>
-    <title>Blog首页文章不要全展开问题</title>
-    <url>./Blog%E9%A6%96%E9%A1%B5%E6%96%87%E7%AB%A0%E4%B8%8D%E8%A6%81%E5%85%A8%E5%B1%95%E5%BC%80%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<h1 id="Blog首页文章不要全展开问题"><a href="#Blog首页文章不要全展开问题" class="headerlink" title="Blog首页文章不要全展开问题"></a>Blog首页文章不要全展开问题</h1><p>将next主题的config里的<code>excerpt_description: true</code>设置为true</p>
-<p>然后在开头添加description即可</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title: ***</span><br><span class="line">description: ***</span><br></pre></td></tr></table></figure>
-
-<p>也可以在文章中加入</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;!--more--&gt;</span><br></pre></td></tr></table></figure>
-<p>将文章截断显示</p>
-]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-      <tags>
-        <tag>Blog</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Personal_Webpage</title>
-    <url>./Personal-Webpage/</url>
-    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p><img src="2022-09-21-07-40-08.png"></p>
-<p><a href="../https://duguyifei.github.io/">https://duguyifei.github.io</a></p>
+    <url>/blog/Personal-Webpage/</url>
+    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p><img src="/blog/Personal-Webpage/2022-09-21-07-40-08.png"></p>
+<p><a href="https://duguyifei.github.io/">https://duguyifei.github.io</a></p>
 <h1 id="Knowledge"><a href="#Knowledge" class="headerlink" title="Knowledge"></a>Knowledge</h1><ol>
 <li>Most Knowledge of html css</li>
 <li>Support different browser, device and screen</li>
@@ -230,8 +212,8 @@
   </entry>
   <entry>
     <title>Yolov5 fps游戏AI挂的原理研究</title>
-    <url>./Yolov5_fps%E6%B8%B8%E6%88%8FAI%E6%8C%82%E7%9A%84%E5%8E%9F%E7%90%86%E7%A0%94%E7%A9%B6/</url>
-    <content><![CDATA[<h1 id="使用Yolov5对fps游戏AI挂的原理研究项目"><a href="#使用Yolov5对fps游戏AI挂的原理研究项目" class="headerlink" title="使用Yolov5对fps游戏AI挂的原理研究项目"></a>使用Yolov5对fps游戏AI挂的原理研究项目</h1><p><img src="2022-09-06-17-22-27.png"><br><a href="../https://github.com/DuGuYifei/Yolov5_FPS_AICheatPrinciple">yolov5_valorant项目网址</a></p>
+    <url>/blog/Yolov5_fps%E6%B8%B8%E6%88%8FAI%E6%8C%82%E7%9A%84%E5%8E%9F%E7%90%86%E7%A0%94%E7%A9%B6/</url>
+    <content><![CDATA[<h1 id="使用Yolov5对fps游戏AI挂的原理研究项目"><a href="#使用Yolov5对fps游戏AI挂的原理研究项目" class="headerlink" title="使用Yolov5对fps游戏AI挂的原理研究项目"></a>使用Yolov5对fps游戏AI挂的原理研究项目</h1><p><img src="/blog/Yolov5_fps%E6%B8%B8%E6%88%8FAI%E6%8C%82%E7%9A%84%E5%8E%9F%E7%90%86%E7%A0%94%E7%A9%B6/2022-09-06-17-22-27.png"><br><a href="https://github.com/DuGuYifei/Yolov5_FPS_AICheatPrinciple">yolov5_valorant项目网址</a></p>
 <h1 id="流程设计"><a href="#流程设计" class="headerlink" title="流程设计"></a>流程设计</h1><ol>
 <li>中键开关挂</li>
 <li>左键按下时检测（即非自动开火模式）</li>
@@ -255,18 +237,29 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>./hello-world/</url>
-    <content><![CDATA[<p>Welcome to my Blog of “Develpment Log” Where I plan to put something about the progress of my Development of some project.</p>
-<p>Here is not my Notes blog. My Notes are <a href="../https://github.com/DuGuYifei/Notes">Here</a></p>
+    <title>Blog首页文章不要全展开问题</title>
+    <url>/blog/Blog%E9%A6%96%E9%A1%B5%E6%96%87%E7%AB%A0%E4%B8%8D%E8%A6%81%E5%85%A8%E5%B1%95%E5%BC%80%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<h1 id="Blog首页文章不要全展开问题"><a href="#Blog首页文章不要全展开问题" class="headerlink" title="Blog首页文章不要全展开问题"></a>Blog首页文章不要全展开问题</h1><p>将next主题的config里的<code>excerpt_description: true</code>设置为true</p>
+<p>然后在开头添加description即可</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title: ***</span><br><span class="line">description: ***</span><br></pre></td></tr></table></figure>
+
+<p>也可以在文章中加入</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;!--more--&gt;</span><br></pre></td></tr></table></figure>
+<p>将文章截断显示</p>
 ]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+      <tags>
+        <tag>Blog</tag>
+      </tags>
   </entry>
   <entry>
     <title>HMFormer姿态估计并让unity模型读取以控制骨骼</title>
-    <url>./%E5%A7%BF%E6%80%81%E4%BC%B0%E8%AE%A1%E5%B9%B6%E8%AE%A9unity%E6%A8%A1%E5%9E%8B%E8%AF%BB%E5%8F%96%E4%BB%A5%E6%8E%A7%E5%88%B6%E9%AA%A8%E9%AA%BC/</url>
-    <content><![CDATA[<h1 id="项目介绍"><a href="#项目介绍" class="headerlink" title="项目介绍"></a>项目介绍</h1><p><img src="2022-09-14-17-01-16.png"><br>使用HMFormer进行非实时姿态估计，并使用unity读取结果以控制模型骨骼</p>
-<p>项目地址: <a href="../https://github.com/DuGuYifei/PoseDetect2UnityModel">https://github.com/DuGuYifei/PoseDetect2UnityModel</a><br>视频地址：<a href="../https://www.bilibili.com/video/BV1M14y1v73w/">https://www.bilibili.com/video/BV1M14y1v73w/</a></p>
-<h1 id="HMFormer"><a href="#HMFormer" class="headerlink" title="HMFormer"></a>HMFormer</h1><p><a href="../https://github.com/Vegetebird/MHFormer">GitHub - Vegetebird&#x2F;MHFormer: [CVPR 2022] MHFormer: Multi-Hypothesis Transformer for 3D Human Pose Estimation</a></p>
+    <url>/blog/%E5%A7%BF%E6%80%81%E4%BC%B0%E8%AE%A1%E5%B9%B6%E8%AE%A9unity%E6%A8%A1%E5%9E%8B%E8%AF%BB%E5%8F%96%E4%BB%A5%E6%8E%A7%E5%88%B6%E9%AA%A8%E9%AA%BC/</url>
+    <content><![CDATA[<h1 id="项目介绍"><a href="#项目介绍" class="headerlink" title="项目介绍"></a>项目介绍</h1><p><img src="/blog/%E5%A7%BF%E6%80%81%E4%BC%B0%E8%AE%A1%E5%B9%B6%E8%AE%A9unity%E6%A8%A1%E5%9E%8B%E8%AF%BB%E5%8F%96%E4%BB%A5%E6%8E%A7%E5%88%B6%E9%AA%A8%E9%AA%BC/2022-09-14-17-01-16.png"><br>使用HMFormer进行非实时姿态估计，并使用unity读取结果以控制模型骨骼</p>
+<p>项目地址: <a href="https://github.com/DuGuYifei/PoseDetect2UnityModel">https://github.com/DuGuYifei/PoseDetect2UnityModel</a><br>视频地址：<a href="https://www.bilibili.com/video/BV1M14y1v73w/">https://www.bilibili.com/video/BV1M14y1v73w/</a></p>
+<h1 id="HMFormer"><a href="#HMFormer" class="headerlink" title="HMFormer"></a>HMFormer</h1><p><a href="https://github.com/Vegetebird/MHFormer">GitHub - Vegetebird&#x2F;MHFormer: [CVPR 2022] MHFormer: Multi-Hypothesis Transformer for 3D Human Pose Estimation</a></p>
 <p>研究完源码发现结果在：<br>在函数<code>get_pose3D(video_path, output_dir):</code> 中：</p>
 <figure class="highlight py"><table><tr><td class="code"><pre><span class="line"><span class="comment">## 3D</span></span><br><span class="line">        fig = plt.figure(figsize=(<span class="number">9.6</span>, <span class="number">5.4</span>))</span><br><span class="line">        gs = gridspec.GridSpec(<span class="number">1</span>, <span class="number">1</span>)</span><br><span class="line">        gs.update(wspace=-<span class="number">0.00</span>, hspace=<span class="number">0.05</span>)</span><br><span class="line">        ax = plt.subplot(gs[<span class="number">0</span>], projection=<span class="string">&#x27;3d&#x27;</span>)</span><br><span class="line">        ax.set_xlabel(<span class="string">&#x27;X Label&#x27;</span>)</span><br><span class="line">        ax.set_ylabel(<span class="string">&#x27;Y Label&#x27;</span>)</span><br><span class="line">        ax.set_zlabel(<span class="string">&#x27;Z Label&#x27;</span>)</span><br><span class="line">        <span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;points.txt&#x27;</span>, <span class="string">&#x27;ab&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">            np.savetxt(f, post_out, delimiter=<span class="string">&quot;\n&quot;</span>) <span class="comment"># 在这里</span></span><br><span class="line">            <span class="comment"># print(post_out)</span></span><br><span class="line">        show3Dpose(post_out, ax)</span><br><span class="line"></span><br><span class="line">        output_dir_3D = output_dir + <span class="string">&#x27;pose3D/&#x27;</span></span><br><span class="line">        os.makedirs(output_dir_3D, exist_ok=<span class="literal">True</span>)</span><br><span class="line">        plt.savefig(output_dir_3D + <span class="built_in">str</span>((<span class="string">&#x27;%04d&#x27;</span> % i)) + <span class="string">&#x27;_3D.png&#x27;</span>, dpi=<span class="number">200</span>, <span class="built_in">format</span>=<span class="string">&#x27;png&#x27;</span>, bbox_inches=<span class="string">&#x27;tight&#x27;</span>)</span><br></pre></td></tr></table></figure>
 
@@ -322,5 +315,12 @@
         <tag>姿态估计</tag>
         <tag>HMFormer</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/blog/hello-world/</url>
+    <content><![CDATA[<p>Welcome to my Blog of “Develpment Log” Where I plan to put something about the progress of my Development of some project.</p>
+<p>Here is not my Notes blog. My Notes are <a href="https://github.com/DuGuYifei/Notes">Here</a></p>
+]]></content>
   </entry>
 </search>
