@@ -83,6 +83,19 @@
       </tags>
   </entry>
   <entry>
+    <title>Blog文件间链接问题</title>
+    <url>/blog/Blog%E6%96%87%E4%BB%B6%E9%97%B4%E9%93%BE%E6%8E%A5%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<h1 id="Blog文件间链接问题"><a href="#Blog文件间链接问题" class="headerlink" title="Blog文件间链接问题"></a>Blog文件间链接问题</h1><h2 id="方法一-我不喜欢"><a href="#方法一-我不喜欢" class="headerlink" title="方法一 我不喜欢"></a>方法一 我不喜欢</h2><p>不能<br><code>[](ABC.md)</code><br>只能<br><code>[](../ABC)</code></p>
+<h2 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h2><p>修改<code>\node_modules\hexo-renderer-marked\lib\renderer.js</code>里<code>link</code>函数：</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="title function_">link</span>(<span class="params">href, title, text</span>) &#123;</span><br><span class="line">  <span class="keyword">const</span> &#123; external_link, sanitizeUrl &#125; = <span class="variable language_">this</span>.<span class="property">options</span>;</span><br><span class="line">  <span class="keyword">const</span> &#123; <span class="attr">url</span>: urlCfg &#125; = <span class="variable language_">this</span>.<span class="property">hexo</span>.<span class="property">config</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">if</span> (sanitizeUrl) &#123;</span><br><span class="line">    <span class="keyword">if</span> (href.<span class="title function_">startsWith</span>(<span class="string">&#x27;javascript:&#x27;</span>) || href.<span class="title function_">startsWith</span>(<span class="string">&#x27;vbscript:&#x27;</span>) || href.<span class="title function_">startsWith</span>(<span class="string">&#x27;data:&#x27;</span>)) &#123;</span><br><span class="line">      href = <span class="string">&#x27;&#x27;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">let</span> out = <span class="string">&#x27;&lt;a href=&quot;&#x27;</span>;</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 开始修改</span></span><br><span class="line">  <span class="keyword">try</span> &#123;</span><br><span class="line">    <span class="keyword">let</span> temp = <span class="title function_">encodeURL</span>(href);</span><br><span class="line">    <span class="keyword">if</span>(temp.<span class="title function_">endsWith</span>(<span class="string">&quot;.md&quot;</span>))&#123;</span><br><span class="line">      temp = <span class="string">&quot;../&quot;</span> + temp.<span class="title function_">substr</span>(<span class="number">0</span>, temp.<span class="property">length</span> - <span class="number">3</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    out += temp;</span><br><span class="line">    <span class="comment">//out += encodeURL(href);</span></span><br><span class="line">  &#125; <span class="keyword">catch</span> (e) &#123;</span><br><span class="line">    <span class="keyword">let</span> temp = href;</span><br><span class="line">    <span class="keyword">if</span>(temp.<span class="title function_">endsWith</span>(<span class="string">&quot;.md&quot;</span>))&#123;</span><br><span class="line">      temp = <span class="string">&quot;../&quot;</span> + temp.<span class="title function_">substr</span>(<span class="number">0</span>, temp.<span class="property">length</span> - <span class="number">3</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    out += temp;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//out += href;</span></span><br><span class="line">  &#125;</span><br><span class="line">  <span class="comment">//停止修改</span></span><br><span class="line">  </span><br><span class="line">  out += <span class="string">&#x27;&quot;&#x27;</span>;</span><br><span class="line">  以下省略...</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+      <tags>
+        <tag>Blog</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>用Hexo和Github制作Blog</title>
     <url>/blog/Blog%E5%88%9B%E5%BB%BA/</url>
     <content><![CDATA[<ol>
@@ -109,7 +122,7 @@
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
 
 <p>用编辑器打开目录中的 _config.yml 文件<br>先上面的 url 和 root 补充完整，不然会没有 css 样式和 js 脚本<br><img src="/blog/Blog%E5%88%9B%E5%BB%BA/2022-08-13-16-18-27.png"></p>
-<p><strong>关于root的深入理解 以及 解决自定义url后出现的无法加载资源问题</strong><br>如果是靠 liuyifei.tech&#x2F;blog 连接就不会出问题，如果单独设置了一个CNAME连接比如’blog.liuyifei.tech’，并将root设置为 <code>/blog</code> 那么发送请求就变成了 blog.liuyifei.tech&#x2F;blog&#x2F; 就不对了，<br>我们需要<strong>blog.liuyifei.tech</strong>，所以这时候只需要将root设置为<code>../</code>即可。</p>
+<p><strong>关于root的深入理解 以及 解决自定义url后出现的无法加载资源问题</strong><br>如果是靠 liuyifei.tech&#x2F;blog 连接就不会出问题，如果单独设置了一个CNAME连接比如’blog.liuyifei.tech’，并将root设置为 <code>/blog</code> 那么发送请求就变成了 blog.liuyifei.tech&#x2F;blog&#x2F; 就不对了，<br>我们需要<strong>blog.liuyifei.tech</strong>，所以这时候只需要将root设置为<code>../</code>即可。<br>暂时放弃子域名链接，由于hexo的结构经过长时间维护已经很混乱，对于不同的url解读代码太过分散，修改太浪费精力了，以后有时间自己写。</p>
 <p>也可以加上 branch:[自定义分支名称] 和 massage:[自定义提交消息]<br><img src="/blog/Blog%E5%88%9B%E5%BB%BA/2022-08-13-16-18-35.png"></p>
 <p>保存后执行 hexo generate 更新本地代码或执行hexo clean删除本地代码<br>执行 hexo deploy 生成本地代码并推送到 github 库</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean <span class="comment"># 清除已生成文件及缓存</span></span><br><span class="line">hexo generate <span class="comment"># 生成静态页面，简写做hexo g</span></span><br><span class="line">hexo deploy <span class="comment">#推送到github库，简写做hexo d</span></span><br><span class="line">hexo server <span class="comment"># 启动本地WEB服务器，简写做hexo s</span></span><br></pre></td></tr></table></figure>
@@ -152,11 +165,34 @@
       </tags>
   </entry>
   <entry>
-    <title>Blog文件间链接问题</title>
-    <url>/blog/Blog%E6%96%87%E4%BB%B6%E9%97%B4%E9%93%BE%E6%8E%A5%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<h1 id="Blog文件间链接问题"><a href="#Blog文件间链接问题" class="headerlink" title="Blog文件间链接问题"></a>Blog文件间链接问题</h1><h2 id="方法一-我不喜欢"><a href="#方法一-我不喜欢" class="headerlink" title="方法一 我不喜欢"></a>方法一 我不喜欢</h2><p>不能<br><code>[](ABC.md)</code><br>只能<br><code>[](../ABC)</code></p>
-<h2 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h2><p>修改<code>\node_modules\hexo-renderer-marked\lib\renderer.js</code>里<code>link</code>函数：</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="title function_">link</span>(<span class="params">href, title, text</span>) &#123;</span><br><span class="line">  <span class="keyword">const</span> &#123; external_link, sanitizeUrl &#125; = <span class="variable language_">this</span>.<span class="property">options</span>;</span><br><span class="line">  <span class="keyword">const</span> &#123; <span class="attr">url</span>: urlCfg &#125; = <span class="variable language_">this</span>.<span class="property">hexo</span>.<span class="property">config</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">if</span> (sanitizeUrl) &#123;</span><br><span class="line">    <span class="keyword">if</span> (href.<span class="title function_">startsWith</span>(<span class="string">&#x27;javascript:&#x27;</span>) || href.<span class="title function_">startsWith</span>(<span class="string">&#x27;vbscript:&#x27;</span>) || href.<span class="title function_">startsWith</span>(<span class="string">&#x27;data:&#x27;</span>)) &#123;</span><br><span class="line">      href = <span class="string">&#x27;&#x27;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">let</span> out = <span class="string">&#x27;&lt;a href=&quot;&#x27;</span>;</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 开始修改</span></span><br><span class="line">  <span class="keyword">try</span> &#123;</span><br><span class="line">    <span class="keyword">let</span> temp = <span class="title function_">encodeURL</span>(href);</span><br><span class="line">    <span class="keyword">if</span>(temp.<span class="title function_">endsWith</span>(<span class="string">&quot;.md&quot;</span>))&#123;</span><br><span class="line">      temp = <span class="string">&quot;../&quot;</span> + temp.<span class="title function_">substr</span>(<span class="number">0</span>, temp.<span class="property">length</span> - <span class="number">3</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    out += temp;</span><br><span class="line">    <span class="comment">//out += encodeURL(href);</span></span><br><span class="line">  &#125; <span class="keyword">catch</span> (e) &#123;</span><br><span class="line">    <span class="keyword">let</span> temp = href;</span><br><span class="line">    <span class="keyword">if</span>(temp.<span class="title function_">endsWith</span>(<span class="string">&quot;.md&quot;</span>))&#123;</span><br><span class="line">      temp = <span class="string">&quot;../&quot;</span> + temp.<span class="title function_">substr</span>(<span class="number">0</span>, temp.<span class="property">length</span> - <span class="number">3</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    out += temp;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//out += href;</span></span><br><span class="line">  &#125;</span><br><span class="line">  <span class="comment">//停止修改</span></span><br><span class="line">  </span><br><span class="line">  out += <span class="string">&#x27;&quot;&#x27;</span>;</span><br><span class="line">  以下省略...</span><br></pre></td></tr></table></figure>]]></content>
+    <title>Blog设置单独的自定义域名</title>
+    <url>/blog/Blog%E8%AE%BE%E7%BD%AE%E5%8D%95%E7%8B%AC%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D/</url>
+    <content><![CDATA[<h1 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h1><p>解析到 ‘blog.liuyifei.tech&#96;</p>
+<p>放弃这样做，由于hexo的结构经过长时间维护已经很混乱，对于不同的url解读代码太过分散，修改太浪费精力了，以后有时间自己写。</p>
+<h1 id="无法加载资源的问题"><a href="#无法加载资源的问题" class="headerlink" title="无法加载资源的问题"></a>无法加载资源的问题</h1><p>用编辑器打开目录中的 _config.yml 文件<br><img src="/blog/Blog%E5%88%9B%E5%BB%BA/2022-08-13-16-18-27.png"><br><strong>关于root的深入理解 以及 解决自定义url后出现的无法加载资源问题</strong><br>如果是靠 liuyifei.tech&#x2F;blog 连接就不会出问题，如果单独设置了一个CNAME连接比如’blog.liuyifei.tech’，并将root设置为 <code>/blog</code> 那么发送请求就变成了 blog.liuyifei.tech&#x2F;blog&#x2F; 就不对了，<br>我们需要<strong>blog.liuyifei.tech</strong>，所以这时候只需要将root设置为<code>../</code>即可。</p>
+<h1 id="CNAME文件"><a href="#CNAME文件" class="headerlink" title="CNAME文件"></a>CNAME文件</h1><p>将CNAME文件直接放在source下即可，不要放进_posts</p>
+<h1 id="DNS解析"><a href="#DNS解析" class="headerlink" title="DNS解析"></a>DNS解析</h1><p><img src="/blog/Blog%E8%AE%BE%E7%BD%AE%E5%8D%95%E7%8B%AC%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D/2022-09-25-23-03-47.png"></p>
+]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+      <tags>
+        <tag>Blog</tag>
+        <tag>Hexo</tag>
+        <tag>Github</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Blog首页文章不要全展开问题</title>
+    <url>/blog/Blog%E9%A6%96%E9%A1%B5%E6%96%87%E7%AB%A0%E4%B8%8D%E8%A6%81%E5%85%A8%E5%B1%95%E5%BC%80%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<h1 id="Blog首页文章不要全展开问题"><a href="#Blog首页文章不要全展开问题" class="headerlink" title="Blog首页文章不要全展开问题"></a>Blog首页文章不要全展开问题</h1><p>将next主题的config里的<code>excerpt_description: true</code>设置为true</p>
+<p>然后在开头添加description即可</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title: ***</span><br><span class="line">description: ***</span><br></pre></td></tr></table></figure>
+
+<p>也可以在文章中加入</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;!--more--&gt;</span><br></pre></td></tr></table></figure>
+<p>将文章截断显示</p>
+]]></content>
       <categories>
         <category>Blog</category>
       </categories>
@@ -194,41 +230,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Blog首页文章不要全展开问题</title>
-    <url>/blog/Blog%E9%A6%96%E9%A1%B5%E6%96%87%E7%AB%A0%E4%B8%8D%E8%A6%81%E5%85%A8%E5%B1%95%E5%BC%80%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<h1 id="Blog首页文章不要全展开问题"><a href="#Blog首页文章不要全展开问题" class="headerlink" title="Blog首页文章不要全展开问题"></a>Blog首页文章不要全展开问题</h1><p>将next主题的config里的<code>excerpt_description: true</code>设置为true</p>
-<p>然后在开头添加description即可</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title: ***</span><br><span class="line">description: ***</span><br></pre></td></tr></table></figure>
-
-<p>也可以在文章中加入</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;!--more--&gt;</span><br></pre></td></tr></table></figure>
-<p>将文章截断显示</p>
-]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-      <tags>
-        <tag>Blog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Blog设置单独的自定义域名</title>
-    <url>/blog/Blog%E8%AE%BE%E7%BD%AE%E5%8D%95%E7%8B%AC%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D/</url>
-    <content><![CDATA[<h1 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h1><p>解析到 ‘blog.liuyifei.tech&#96;</p>
-<h1 id="无法加载资源的问题"><a href="#无法加载资源的问题" class="headerlink" title="无法加载资源的问题"></a>无法加载资源的问题</h1><p>用编辑器打开目录中的 _config.yml 文件<br><img src="/blog/Blog%E5%88%9B%E5%BB%BA/2022-08-13-16-18-27.png"><br><strong>关于root的深入理解 以及 解决自定义url后出现的无法加载资源问题</strong><br>如果是靠 liuyifei.tech&#x2F;blog 连接就不会出问题，如果单独设置了一个CNAME连接比如’blog.liuyifei.tech’，并将root设置为 <code>/blog</code> 那么发送请求就变成了 blog.liuyifei.tech&#x2F;blog&#x2F; 就不对了，<br>我们需要<strong>blog.liuyifei.tech</strong>，所以这时候只需要将root设置为<code>../</code>即可。</p>
-<h1 id="CNAME文件"><a href="#CNAME文件" class="headerlink" title="CNAME文件"></a>CNAME文件</h1><p>将CNAME文件直接放在source下即可，不要放进_posts</p>
-<h1 id="DNS解析"><a href="#DNS解析" class="headerlink" title="DNS解析"></a>DNS解析</h1><p><img src="/blog/Blog%E8%AE%BE%E7%BD%AE%E5%8D%95%E7%8B%AC%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D/2022-09-25-23-03-47.png"></p>
-]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-      <tags>
-        <tag>Blog</tag>
-        <tag>Hexo</tag>
-        <tag>Github</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Yolov5 fps游戏AI挂的原理研究</title>
     <url>/blog/Yolov5_fps%E6%B8%B8%E6%88%8FAI%E6%8C%82%E7%9A%84%E5%8E%9F%E7%90%86%E7%A0%94%E7%A9%B6/</url>
     <content><![CDATA[<h1 id="使用Yolov5对fps游戏AI挂的原理研究项目"><a href="#使用Yolov5对fps游戏AI挂的原理研究项目" class="headerlink" title="使用Yolov5对fps游戏AI挂的原理研究项目"></a>使用Yolov5对fps游戏AI挂的原理研究项目</h1><p><img src="/blog/Yolov5_fps%E6%B8%B8%E6%88%8FAI%E6%8C%82%E7%9A%84%E5%8E%9F%E7%90%86%E7%A0%94%E7%A9%B6/2022-09-06-17-22-27.png"><br><a href="https://github.com/DuGuYifei/Yolov5_FPS_AICheatPrinciple">yolov5_valorant项目网址</a></p>
@@ -253,6 +254,13 @@
         <tag>Yolo</tag>
         <tag>机器视觉</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/blog/hello-world/</url>
+    <content><![CDATA[<p>Welcome to my Blog of “Develpment Log” Where I plan to put something about the progress of my Development of some project.</p>
+<p>Here is not my Notes blog. My Notes are <a href="https://github.com/DuGuYifei/Notes">Here</a></p>
+]]></content>
   </entry>
   <entry>
     <title>HMFormer姿态估计并让unity模型读取以控制骨骼</title>
@@ -315,12 +323,5 @@
         <tag>姿态估计</tag>
         <tag>HMFormer</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/blog/hello-world/</url>
-    <content><![CDATA[<p>Welcome to my Blog of “Develpment Log” Where I plan to put something about the progress of my Development of some project.</p>
-<p>Here is not my Notes blog. My Notes are <a href="https://github.com/DuGuYifei/Notes">Here</a></p>
-]]></content>
   </entry>
 </search>
