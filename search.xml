@@ -324,4 +324,68 @@
         <tag>HMFormer</tag>
       </tags>
   </entry>
+  <entry>
+    <title>全栈项目KeyChcker密钥访问</title>
+    <url>/blog/%E5%85%A8%E6%A0%88%E9%A1%B9%E7%9B%AEKeyChcker%E5%AF%86%E9%92%A5%E8%AE%BF%E9%97%AE/</url>
+    <content><![CDATA[<h2 id="Intro"><a href="#Intro" class="headerlink" title="Intro"></a>Intro</h2><p><a href="https://github.com/DuGuYifei/KeyChecker">Github link</a></p>
+<p><img src="/blog/%E5%85%A8%E6%A0%88%E9%A1%B9%E7%9B%AEKeyChcker%E5%AF%86%E9%92%A5%E8%AE%BF%E9%97%AE/2023-02-27-20-49-51.png"></p>
+<p><img src="/blog/%E5%85%A8%E6%A0%88%E9%A1%B9%E7%9B%AEKeyChcker%E5%AF%86%E9%92%A5%E8%AE%BF%E9%97%AE/2023-02-27-21-04-32.png"></p>
+<p>Prepare a “coat” for other programs which user can use a time-limited key to log in. Their machines are bound.</p>
+<p>The wrapper framework use <code>mysql</code> and contains back-end (<code>Springboot</code>), back-end supervise interface (<code>vue</code>) and user client (<code>Qt c++</code>).</p>
+<p>Also display a wrappee example by <code>pyhon</code> to use the shared memory or message pipe.</p>
+<h2 id="Tech-stack"><a href="#Tech-stack" class="headerlink" title="Tech stack"></a>Tech stack</h2><ol>
+<li><img src="https://user-images.githubusercontent.com/25181517/183891303-41f257f8-6b3d-487c-aa56-c497b880d0fb.png"  width="20" height="20"> Springboot - java</li>
+<li><img src="https://user-images.githubusercontent.com/25181517/117448124-a2da9800-af3e-11eb-85d2-bd1b69b65603.png"  width="20" height="20"> Vue.js - javascript, html, css</li>
+<li><img src="./qt.png"  width="20" height="20"> Qt desktop - C++</li>
+<li><img src="https://user-images.githubusercontent.com/25181517/183423507-c056a6f9-1ba8-4312-a350-19bcbc5a8697.png"  width="20" height="20"> Python script</li>
+<li><img src="https://user-images.githubusercontent.com/25181517/183896128-ec99105a-ec1a-4d85-b08b-1aa1620b2046.png"  width="20" height="20"> Database - MySQL</li>
+</ol>
+<ul>
+<li><img src="https://user-images.githubusercontent.com/25181517/192107854-765620d7-f909-4953-a6da-36e1ef69eea6.png"  width="20" height="20"> Http request</li>
+<li><img src="https://user-images.githubusercontent.com/25181517/186884150-05e9ff6d-340e-4802-9533-2c3f02363ee3.png"  width="20" height="20"> WinAPI - C++, python</li>
+<li><img src="./multiprocess.png"  width="20" height="20"> Multi-processes communication - Shared Memory, Message Pipe</li>
+<li><img src="./multithread.png"  width="20" height="20"> Multithread in Qt C++</li>
+<li><img src="https://user-images.githubusercontent.com/25181517/117207330-263ba280-adf4-11eb-9b97-0ac5b40bc3be.png"  width="20" height="20"> Test by Docker</li>
+</ul>
+<h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2><ol>
+<li>Give log-in func in back-end supervise interface</li>
+<li>Use JWT token in no.1 of todo list</li>
+</ol>
+]]></content>
+      <categories>
+        <category>全栈</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
+        <tag>qt</tag>
+        <tag>C++</tag>
+        <tag>springboot</tag>
+        <tag>mysql</tag>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>BagPack个人商铺</title>
+    <url>/blog/BagPack%E4%B8%AA%E4%BA%BA%E5%95%86%E9%93%BA/</url>
+    <content><![CDATA[<h2 id="intro"><a href="#intro" class="headerlink" title="intro"></a>intro</h2><p>link: <a href="https://www.liuyifei.tech/BagPack/">Bag Pack</a></p>
+<p>This is an app based on <strong>indexedDB</strong> which is used for merchant to record orders, customers with their pre-paid money and calculate benefit and balance.</p>
+<p>This project is created for my customer who don’t want back-end and want to use it in ipad, so it is designed by indexedDB. Then it support <strong>export and import json file</strong>.</p>
+<p><img src="/blog/BagPack%E4%B8%AA%E4%BA%BA%E5%95%86%E9%93%BA/2023-02-27-18-26-31.png"></p>
+<h2 id="Tech"><a href="#Tech" class="headerlink" title="Tech:"></a>Tech:</h2><ul>
+<li>vue</li>
+<li>prop: the value transfer between components</li>
+<li>indexedDB</li>
+<li>read(import), write(export) file</li>
+<li>Element plus</li>
+</ul>
+]]></content>
+      <categories>
+        <category>vue</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
+        <tag>indexedDB</tag>
+        <tag>typescript</tag>
+      </tags>
+  </entry>
 </search>
