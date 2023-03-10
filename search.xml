@@ -1,56 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>A part of old projects</title>
-    <url>/blog/A-part-of-old-projects/</url>
-    <content><![CDATA[<h1 id="catalog"><a href="#catalog" class="headerlink" title="catalog"></a>catalog</h1><ol>
-<li>图像识别 Robomaster 风车能量靶识别</li>
-<li>dice monster game</li>
-<li>presentation by make a pixel game</li>
-<li>wallpaper engine</li>
-<li>webkit browser (wenkit.Net)</li>
-<li>webkit chrome browswer (cefsharp)</li>
-<li>Sokoban (SDL)</li>
-<li>Vue Music Player (front project)</li>
-</ol>
-<h1 id="图像识别-Robomaster-风车能量靶识别"><a href="#图像识别-Robomaster-风车能量靶识别" class="headerlink" title="图像识别 Robomaster 风车能量靶识别"></a>图像识别 Robomaster 风车能量靶识别</h1><p><img src="/blog/A-part-of-old-projects/2022-09-15-04-26-13.png"></p>
-<p>use opencv and some algorithm inside opencv.</p>
-<p>代码：<a href="https://github.com/DuGuYifei/Robomaster_WIndWheelTargetDetect">https://github.com/DuGuYifei/Robomaster_WIndWheelTargetDetect</a><br>视频：<a href="https://www.bilibili.com/video/BV1tW4y1y7Zy/">https://www.bilibili.com/video/BV1tW4y1y7Zy/</a></p>
-<h1 id="dice-monster-game"><a href="#dice-monster-game" class="headerlink" title="dice monster game"></a>dice monster game</h1><p><img src="/blog/A-part-of-old-projects/2022-09-15-04-23-33.png"></p>
-<p>A dice monster chess game.</p>
-<p>代码：<a href="https://github.com/DuGuYifei/MonsterDuelDice">https://github.com/DuGuYifei/MonsterDuelDice</a><br>视频：<a href="https://www.bilibili.com/video/BV1mq4y1o7ww?p=1&amp;vd_source=6beebf17d5aa6fb3d9fb4b629d0b319a">https://www.bilibili.com/video/BV1mq4y1o7ww?p=1&amp;vd_source=6beebf17d5aa6fb3d9fb4b629d0b319a</a></p>
-<h1 id="presentation-by-make-a-pixel-game"><a href="#presentation-by-make-a-pixel-game" class="headerlink" title="presentation by make a pixel game"></a>presentation by make a pixel game</h1><p><img src="/blog/A-part-of-old-projects/2022-09-15-04-20-56.png"></p>
-<p>Make a unity escaping room game to make class presentation.</p>
-<p>First time try to build pixel model by myself.</p>
-<p>代码：<a href="https://github.com/DuGuYifei/HobbyPresentation_Unity">https://github.com/DuGuYifei/HobbyPresentation_Unity</a><br>视频：<a href="https://www.bilibili.com/video/BV1Dq4y1r7av/">https://www.bilibili.com/video/BV1Dq4y1r7av/</a></p>
-<h1 id="wallpaper-engine"><a href="#wallpaper-engine" class="headerlink" title="wallpaper engine"></a>wallpaper engine</h1><p><img src="/blog/A-part-of-old-projects/2022-09-15-04-14-54.png"><br>It support html, web site, picture (use windows command which make result same with using windows settings), animation picture, exe (including some web apps).</p>
-<p>代码：<a href="https://github.com/DuGuYifei/WallPaperEngine">https://github.com/DuGuYifei/WallPaperEngine</a></p>
-<p>视频：<a href="https://www.bilibili.com/video/BV1gR4y157pz/?vd_source=6beebf17d5aa6fb3d9fb4b629d0b319a">https://www.bilibili.com/video/BV1gR4y157pz/?vd_source=6beebf17d5aa6fb3d9fb4b629d0b319a</a></p>
-<h1 id="webkit-browser-wenkit-Net"><a href="#webkit-browser-wenkit-Net" class="headerlink" title="webkit browser (wenkit.Net)"></a>webkit browser (wenkit.Net)</h1><p>Webkit core browser based on wenkit.Net which is an old tech</p>
-<p>代码：<a href="https://github.com/DuGuYifei/WebkitCoreBrowser">https://github.com/DuGuYifei/WebkitCoreBrowser</a></p>
-<p>It’s build for wallpaper engine, so delete a lot of function. </p>
-<p>I abandon it because it is a too old package.</p>
-<h1 id="webkit-chrome-browswer-cefsharp"><a href="#webkit-chrome-browswer-cefsharp" class="headerlink" title="webkit chrome browswer (cefsharp)"></a>webkit chrome browswer (cefsharp)</h1><p>Webkit chrome browser based on cefsharp</p>
-<p>代码：<a href="https://github.com/DuGuYifei/WebkitChrome">https://github.com/DuGuYifei/WebkitChrome</a></p>
-<p>It’s build for wallpaper engine, so delete a lot of function. </p>
-<h1 id="Sokoban"><a href="#Sokoban" class="headerlink" title="Sokoban"></a>Sokoban</h1><p><img src="/blog/A-part-of-old-projects/2022-09-15-04-28-46.png"><br>Use sokoban and simulate the idea of Unity Engine.</p>
-<p>代码：<a href="https://github.com/DuGuYifei/Sokoban_SDL">https://github.com/DuGuYifei/Sokoban_SDL</a><br>视频：<a href="https://www.bilibili.com/video/BV1UG411879L/">https://www.bilibili.com/video/BV1UG411879L/</a></p>
-<h1 id="Vue-Music-Player-front-project"><a href="#Vue-Music-Player-front-project" class="headerlink" title="Vue Music Player (front project)"></a>Vue Music Player (front project)</h1><p><img src="/blog/A-part-of-old-projects/2022-09-15-05-15-04.png"><br>A Vue project of music player.<br>代码：<a href="https://github.com/DuGuYifei/Vue_MusicPlayer_Demo">https://github.com/DuGuYifei/Vue_MusicPlayer_Demo</a></p>
-]]></content>
-      <categories>
-        <category>other</category>
-      </categories>
-      <tags>
-        <tag>browser</tag>
-        <tag>wallpaper</tag>
-        <tag>unity</tag>
-        <tag>vue</tag>
-        <tag>AI</tag>
-        <tag>图像识别</tag>
-        <tag>SDL</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Blog修改url格式</title>
     <url>/blog/Blog%E4%BF%AE%E6%94%B9url%E6%A0%BC%E5%BC%8F/</url>
     <content><![CDATA[<h1 id="修改hexo的链接"><a href="#修改hexo的链接" class="headerlink" title="修改hexo的链接"></a>修改hexo的链接</h1><p>在根目录的config里<br>原生成：<br><code>permalink: :year/:month/:day/:title/</code></p>
@@ -222,11 +172,10 @@
 </ol>
 ]]></content>
       <categories>
-        <category>front</category>
+        <category>Front</category>
       </categories>
       <tags>
         <tag>website</tag>
-        <tag>front</tag>
       </tags>
   </entry>
   <entry>
@@ -252,7 +201,8 @@
       <tags>
         <tag>AI</tag>
         <tag>Yolo</tag>
-        <tag>机器视觉</tag>
+        <tag>game</tag>
+        <tag>computer vision</tag>
       </tags>
   </entry>
   <entry>
@@ -318,14 +268,16 @@
         <category>AI</category>
       </categories>
       <tags>
+        <tag>unity</tag>
         <tag>AI</tag>
-        <tag>Unity</tag>
         <tag>姿态估计</tag>
         <tag>HMFormer</tag>
+        <tag>game</tag>
+        <tag>computer vision</tag>
       </tags>
   </entry>
   <entry>
-    <title>全栈项目KeyChcker密钥访问</title>
+    <title>FullStack Project - KeyChcker &lt;br /&gt; An app wrapper supplying key access with time and machine limited and communication between wrapper and wrappee.</title>
     <url>/blog/%E5%85%A8%E6%A0%88%E9%A1%B9%E7%9B%AEKeyChcker%E5%AF%86%E9%92%A5%E8%AE%BF%E9%97%AE/</url>
     <content><![CDATA[<h2 id="Intro"><a href="#Intro" class="headerlink" title="Intro"></a>Intro</h2><p><a href="https://github.com/DuGuYifei/KeyChecker">Github link</a></p>
 <p><img src="/blog/%E5%85%A8%E6%A0%88%E9%A1%B9%E7%9B%AEKeyChcker%E5%AF%86%E9%92%A5%E8%AE%BF%E9%97%AE/2023-02-27-20-49-51.png"></p>
@@ -353,7 +305,7 @@
 </ol>
 ]]></content>
       <categories>
-        <category>全栈</category>
+        <category>FullStack</category>
       </categories>
       <tags>
         <tag>vue</tag>
@@ -365,7 +317,7 @@
       </tags>
   </entry>
   <entry>
-    <title>BagPack个人商铺</title>
+    <title>BagPack - Personal shop record app</title>
     <url>/blog/BagPack%E4%B8%AA%E4%BA%BA%E5%95%86%E9%93%BA/</url>
     <content><![CDATA[<h2 id="intro"><a href="#intro" class="headerlink" title="intro"></a>intro</h2><p>link: <a href="https://www.liuyifei.tech/BagPack/">Bag Pack</a></p>
 <p>This is an app based on <strong>indexedDB</strong> which is used for merchant to record orders, customers with their pre-paid money and calculate benefit and balance.</p>
@@ -380,12 +332,160 @@
 </ul>
 ]]></content>
       <categories>
-        <category>vue</category>
+        <category>Front</category>
       </categories>
       <tags>
         <tag>vue</tag>
         <tag>indexedDB</tag>
-        <tag>typescript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Vue-MusicPlayer</title>
+    <url>/blog/Vue-MusicPlayer/</url>
+    <content><![CDATA[<h1 id="Vue-Music-Player"><a href="#Vue-Music-Player" class="headerlink" title="Vue Music Player"></a>Vue Music Player</h1><p><img src="/blog/Vue-MusicPlayer/2022-09-15-05-15-04.png"></p>
+<p>A Vue project of music player.</p>
+<p>代码：<a href="https://github.com/DuGuYifei/Vue_MusicPlayer_Demo">https://github.com/DuGuYifei/Vue_MusicPlayer_Demo</a></p>
+<p>链接：<a href="https://duguyifei.github.io/Vue_MusicPlayer_Demo/">https://duguyifei.github.io/Vue_MusicPlayer_Demo/</a></p>
+]]></content>
+      <tags>
+        <tag>vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Robomaster风车能量靶识别</title>
+    <url>/blog/Robomaster%E9%A3%8E%E8%BD%A6%E8%83%BD%E9%87%8F%E9%9D%B6%E8%AF%86%E5%88%AB/</url>
+    <content><![CDATA[<h1 id="图像识别-Robomaster-风车能量靶识别"><a href="#图像识别-Robomaster-风车能量靶识别" class="headerlink" title="图像识别 Robomaster 风车能量靶识别"></a>图像识别 Robomaster 风车能量靶识别</h1><p><img src="/blog/Robomaster%E9%A3%8E%E8%BD%A6%E8%83%BD%E9%87%8F%E9%9D%B6%E8%AF%86%E5%88%AB/2022-09-15-04-26-13.png"></p>
+<p>use opencv and some algorithm inside opencv.</p>
+<p>代码：<a href="https://github.com/DuGuYifei/Robomaster_WIndWheelTargetDetect">https://github.com/DuGuYifei/Robomaster_WIndWheelTargetDetect</a><br>视频：<a href="https://www.bilibili.com/video/BV1tW4y1y7Zy/">https://www.bilibili.com/video/BV1tW4y1y7Zy/</a></p>
+]]></content>
+      <tags>
+        <tag>AI</tag>
+        <tag>opencv</tag>
+        <tag>computer vision</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Webkit Browser (webkit.Net)</title>
+    <url>/blog/Webkit-Browser-webkit-Net/</url>
+    <content><![CDATA[<h1 id="webkit-browser-wenkit-Net"><a href="#webkit-browser-wenkit-Net" class="headerlink" title="webkit browser (wenkit.Net)"></a>webkit browser (wenkit.Net)</h1><p>Webkit core browser based on wenkit. Net which is an old tech</p>
+<p>代码：<a href="https://github.com/DuGuYifei/WebkitCoreBrowser">https://github.com/DuGuYifei/WebkitCoreBrowser</a></p>
+<p>It’s build for wallpaper engine, so delete a lot of function. </p>
+<p>I abandon it because it is a too old package.</p>
+]]></content>
+      <tags>
+        <tag>browser</tag>
+        <tag>wallpaper</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Monster Duel Dice</title>
+    <url>/blog/Monster-Duel-Dice/</url>
+    <content><![CDATA[<h1 id="Monster-Duel-Dice"><a href="#Monster-Duel-Dice" class="headerlink" title="Monster Duel Dice"></a>Monster Duel Dice</h1><p><img src="/blog/Monster-Duel-Dice/2022-09-15-04-23-33.png"></p>
+<p><img src="/blog/Monster-Duel-Dice/2023-03-10-17-53-36.png"></p>
+<p><img src="/blog/Monster-Duel-Dice/2023-03-10-17-57-26.png"></p>
+<p><img src="/blog/Monster-Duel-Dice/2023-03-10-17-54-57.png"></p>
+<p><img src="/blog/Monster-Duel-Dice/2023-03-10-17-55-41.png"></p>
+<p><img src="/blog/Monster-Duel-Dice/2023-03-10-17-56-36.png"></p>
+<p>A game I designed in primary school inspired by Dungeon Dice Monsters which can be played by 2 players.</p>
+<p>Player use three dice to obtain different commands and use these commands to control monsters on the panel. The panel will be projected onto the large battlefield between two players.</p>
+<p>Same dice can be merged to a stronger command. Different dice have different effects. For example, 1 can summon a monster, 1-1 can merge two same level monsters to upgrade it. Some dice can let players alter or change terrain and place traps.</p>
+<p>代码：<a href="https://github.com/DuGuYifei/MonsterDuelDice">https://github.com/DuGuYifei/MonsterDuelDice</a></p>
+<p>视频：<a href="https://www.bilibili.com/video/BV1mq4y1o7ww">https://www.bilibili.com/video/BV1mq4y1o7ww</a></p>
+<h1 id="TODO"><a href="#TODO" class="headerlink" title="TODO:"></a>TODO:</h1><p>This game was completed during my second semester. I am planning to remake it using Unreal Engine in the future and make it playable online with multiplayer support, after I learn Computer Network and Socket Programming. Currently, it can only be played locally by two players taking turns to control.</p>
+]]></content>
+      <categories>
+        <category>Game</category>
+      </categories>
+      <tags>
+        <tag>unity</tag>
+        <tag>game</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>RoomEscape_HoobyPresentation</title>
+    <url>/blog/RoomEscape-HoobyPresentation/</url>
+    <content><![CDATA[<h1 id="presentation-by-making-a-pixel-game"><a href="#presentation-by-making-a-pixel-game" class="headerlink" title="presentation by making a pixel game"></a>presentation by making a pixel game</h1><p><img src="/blog/RoomEscape-HoobyPresentation/2022-09-15-04-20-56.png"></p>
+<p>Make a unity escaping room game to make class presentation.</p>
+<p>First time try to build pixel model by myself.</p>
+<p>代码：<a href="https://github.com/DuGuYifei/HobbyPresentation_Unity">https://github.com/DuGuYifei/HobbyPresentation_Unity</a></p>
+<p>视频：<a href="https://www.bilibili.com/video/BV1Dq4y1r7av/">https://www.bilibili.com/video/BV1Dq4y1r7av/</a></p>
+]]></content>
+      <categories>
+        <category>Game</category>
+      </categories>
+      <tags>
+        <tag>unity</tag>
+        <tag>game</tag>
+        <tag>pixel</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>SDL2 RobotUnicornAttack</title>
+    <url>/blog/SDL2-RobotUnicornAttack/</url>
+    <content><![CDATA[<h1 id="Robot-Unicorn-Attack"><a href="#Robot-Unicorn-Attack" class="headerlink" title="Robot Unicorn Attack"></a>Robot Unicorn Attack</h1><p><img src="/blog/SDL2-Sokoban/2022-09-15-04-28-46.png"></p>
+<p>A RobotUnicornAttack game remake using SDL2. This was my first game, which I made during my first semester of learning programming. It included pixel collision checking, but at the time, I didn’t realize the complexity of the algorithm.</p>
+<p>代码：<a href="https://github.com/DuGuYifei/SDL2_Game_RobotUnicornAttack">https://github.com/DuGuYifei/SDL2_Game_RobotUnicornAttack</a></p>
+]]></content>
+      <tags>
+        <tag>SDL2</tag>
+        <tag>game remake</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>SDL2 Sokoban</title>
+    <url>/blog/SDL2-Sokoban/</url>
+    <content><![CDATA[<h1 id="Sokoban"><a href="#Sokoban" class="headerlink" title="Sokoban"></a>Sokoban</h1><p><img src="/blog/SDL2-Sokoban/2022-09-15-04-28-46.png"></p>
+<p>A sokoban game remake with SDL2. Simulated the lifecycle running process of a game engine.</p>
+<p>代码：<a href="https://github.com/DuGuYifei/Sokoban_SDL">https://github.com/DuGuYifei/Sokoban_SDL</a></p>
+<p>视频：<a href="https://www.bilibili.com/video/BV1UG411879L/">https://www.bilibili.com/video/BV1UG411879L/</a></p>
+]]></content>
+      <tags>
+        <tag>SDL2</tag>
+        <tag>game remake</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>SDL2 SpyHunter</title>
+    <url>/blog/SDL2-SpyHunter/</url>
+    <content><![CDATA[<h1 id="Spy-Hunter"><a href="#Spy-Hunter" class="headerlink" title="Spy Hunter"></a>Spy Hunter</h1><p><img src="/blog/SDL2-SpyHunter/spyhunter.jpg"></p>
+<p>代码：<a href="https://github.com/DuGuYifei/SDL2_SpyHunter">https://github.com/DuGuYifei/SDL2_SpyHunter</a></p>
+<p>Spy Hunter is a classic 1983 vehicular combat arcade game where you play as a spy behind the wheels of an armed sports car.</p>
+<p>Player control the car. There are normal cars which can be attacked but shouldn’t be attacked. There are enemies can be attacked. There are enemies can attack player.</p>
+<p>Use sin() function draw road.</p>
+<p>Use object pool to decrease the memory used.</p>
+<p>Design the structure similar as Unity, in game logically main control function, it will update each object position (GUI) in one loop.</p>
+<p>Store points in file, and it can be ranked by score or time in menu.</p>
+]]></content>
+      <tags>
+        <tag>SDL2</tag>
+        <tag>game remake</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Wallpaper Engine</title>
+    <url>/blog/Wallpaper-Engine/</url>
+    <content><![CDATA[<h1 id="wallpaper-engine"><a href="#wallpaper-engine" class="headerlink" title="wallpaper engine"></a>wallpaper engine</h1><p><img src="/blog/Wallpaper-Engine/2022-09-15-04-14-54.png"></p>
+<p>It support html, web site, picture (use windows command which make result same with using windows settings), animation picture, video, exe (including some web apps). </p>
+<p>Additionally, it allows users to interact with their wallpaper, such as playing a game. </p>
+<p>It also supports multi-screens.</p>
+<p>代码：<a href="https://github.com/DuGuYifei/WallPaperEngine">https://github.com/DuGuYifei/WallPaperEngine</a></p>
+<p>视频：<a href="https://www.bilibili.com/video/BV1gR4y157pz/?vd_source=6beebf17d5aa6fb3d9fb4b629d0b319a">https://www.bilibili.com/video/BV1gR4y157pz/?vd_source=6beebf17d5aa6fb3d9fb4b629d0b319a</a></p>
+]]></content>
+      <tags>
+        <tag>browser</tag>
+        <tag>wallpaper</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Webkit Browser (cefsharp)</title>
+    <url>/blog/Webkit-Browser-cefsharp/</url>
+    <content><![CDATA[<h1 id="webkit-chrome-browswer-cefsharp"><a href="#webkit-chrome-browswer-cefsharp" class="headerlink" title="webkit chrome browswer (cefsharp)"></a>webkit chrome browswer (cefsharp)</h1><p>Webkit chrome browser based on cefsharp</p>
+<p>代码：<a href="https://github.com/DuGuYifei/WebkitChrome">https://github.com/DuGuYifei/WebkitChrome</a></p>
+<p>It was built for the Wallpaper Engine project as a replacement for Webkit.Net, and as such, it has removed many of the features that Wallpaper Engine doesn’t require.</p>
+]]></content>
+      <tags>
+        <tag>browser</tag>
+        <tag>wallpaper</tag>
       </tags>
   </entry>
 </search>

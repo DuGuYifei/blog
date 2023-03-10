@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.2.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/blog/images/rabbit-apple.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/blog/images/rabbit-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/blog/images/rabbit-16x16-next.png">
+  <link rel="mask-icon" href="/blog/images/rabbit.svg" color="#222">
+
+<link rel="stylesheet" href="/blog/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha256-xejo6yLi6vGtAjcMIsY8BHdKsLg7QynVlFMzdQgUuy8=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"duguyifei.github.io","root":"/blog/","images":"/blog/images","scheme":"Gemini","darkmode":true,"version":"8.12.3","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":true,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/blog/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":5,"unescape":false,"preload":false}}</script><script src="/blog/js/config.js"></script>
+
+    <meta name="description" content="A game I designed in primary school inspired by Dungeon Dice Monsters which can be played by 2 players.  Player use three dice to obtain different commands and use these commands to control mon">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Monster Duel Dice">
+<meta property="og:url" content="https://duguyifei.github.io/blog/Monster-Duel-Dice/index.html">
+<meta property="og:site_name" content="ψ(｀∇´)ψ&lt;br &#x2F;&gt;Project Blog">
+<meta property="og:description" content="A game I designed in primary school inspired by Dungeon Dice Monsters which can be played by 2 players.  Player use three dice to obtain different commands and use these commands to control mon">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://duguyifei.github.io/blog/Monster-Duel-Dice/2022-09-15-04-23-33.png">
+<meta property="og:image" content="https://duguyifei.github.io/blog/Monster-Duel-Dice/2023-03-10-17-53-36.png">
+<meta property="og:image" content="https://duguyifei.github.io/blog/Monster-Duel-Dice/2023-03-10-17-57-26.png">
+<meta property="og:image" content="https://duguyifei.github.io/blog/Monster-Duel-Dice/2023-03-10-17-54-57.png">
+<meta property="og:image" content="https://duguyifei.github.io/blog/Monster-Duel-Dice/2023-03-10-17-55-41.png">
+<meta property="og:image" content="https://duguyifei.github.io/blog/Monster-Duel-Dice/2023-03-10-17-56-36.png">
+<meta property="article:published_time" content="2022-09-15T02:04:56.000Z">
+<meta property="article:modified_time" content="2023-03-10T18:27:36.064Z">
+<meta property="article:author" content="DuGuYifei">
+<meta property="article:tag" content="unity">
+<meta property="article:tag" content="game">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://duguyifei.github.io/blog/Monster-Duel-Dice/2022-09-15-04-23-33.png">
+
+
+<link rel="canonical" href="https://duguyifei.github.io/blog/Monster-Duel-Dice/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://duguyifei.github.io/blog/Monster-Duel-Dice/","path":"Monster-Duel-Dice/","title":"Monster Duel Dice"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>Monster Duel Dice | ψ(｀∇´)ψ<br />Project Blog</title>
+  
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/blog/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/blog/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">ψ(｀∇´)ψ<br />Project Blog</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/blog/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-tags"><a href="/blog/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">24</span></a></li><li class="menu-item menu-item-categories"><a href="/blog/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories<span class="badge">5</span></a></li><li class="menu-item menu-item-archives"><a href="/blog/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">22</span></a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Monster-Duel-Dice"><span class="nav-number">1.</span> <span class="nav-text">Monster Duel Dice</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#TODO"><span class="nav-number">2.</span> <span class="nav-text">TODO:</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="DuGuYifei"
+      src="/blog/images/rabbit.png">
+  <p class="site-author-name" itemprop="name">DuGuYifei</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/blog/archives/">
+          <span class="site-state-item-count">22</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/blog/categories/">
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/blog/tags/">
+        <span class="site-state-item-count">24</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/DuGuYifei" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;DuGuYifei" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:chnliuyifei@gmail.com" title="E-Mail → mailto:chnliuyifei@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+
+        </div>
+      </div>
+        <div class="back-to-top animated" role="button" aria-label="Back to top">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://duguyifei.github.io/blog/Monster-Duel-Dice/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/blog/images/rabbit.png">
+      <meta itemprop="name" content="DuGuYifei">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ψ(｀∇´)ψ<br />Project Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="Monster Duel Dice | ψ(｀∇´)ψ<br />Project Blog">
+      <meta itemprop="description" content="<div style="text-align:center;"> <img src="https://duguyifei.github.io/blog/Monster-Duel-Dice/2022-09-15-04-23-33.png" width="40%" style="display:inline-block;"> <img src="https://duguyifei.github.io/blog/Monster-Duel-Dice/2023-03-10-17-53-36.png" width="40%" style="display:inline-block;"> <br> <img src="https://duguyifei.github.io/blog/Monster-Duel-Dice/2023-03-10-17-57-26.png" width="40%" style="display:inline-block;"> <img src="https://duguyifei.github.io/blog/Monster-Duel-Dice/2023-03-10-17-55-41.png" width="40%" style="display:inline-block;"> </div> A game I designed in primary school inspired by Dungeon Dice Monsters which can be played by 2 players. <br /> Player use three dice to obtain different commands and use these commands to control monsters on the panel. The panel will be projected onto the large battlefield between two players.">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Monster Duel Dice
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2022-09-15 04:04:56" itemprop="dateCreated datePublished" datetime="2022-09-15T04:04:56+02:00">2022-09-15</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2023-03-10 19:27:36" itemprop="dateModified" datetime="2023-03-10T19:27:36+01:00">2023-03-10</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/blog/categories/Game/" itemprop="url" rel="index"><span itemprop="name">Game</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+            <div class="post-description"><div style="text-align:center;"> <img src="https://duguyifei.github.io/blog/Monster-Duel-Dice/2022-09-15-04-23-33.png" width="40%" style="display:inline-block;"> <img src="https://duguyifei.github.io/blog/Monster-Duel-Dice/2023-03-10-17-53-36.png" width="40%" style="display:inline-block;"> <br> <img src="https://duguyifei.github.io/blog/Monster-Duel-Dice/2023-03-10-17-57-26.png" width="40%" style="display:inline-block;"> <img src="https://duguyifei.github.io/blog/Monster-Duel-Dice/2023-03-10-17-55-41.png" width="40%" style="display:inline-block;"> </div> A game I designed in primary school inspired by Dungeon Dice Monsters which can be played by 2 players. <br /> Player use three dice to obtain different commands and use these commands to control monsters on the panel. The panel will be projected onto the large battlefield between two players.</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h1 id="Monster-Duel-Dice"><a href="#Monster-Duel-Dice" class="headerlink" title="Monster Duel Dice"></a>Monster Duel Dice</h1><p><img src="/blog/Monster-Duel-Dice/2022-09-15-04-23-33.png"></p>
+<p><img src="/blog/Monster-Duel-Dice/2023-03-10-17-53-36.png"></p>
+<p><img src="/blog/Monster-Duel-Dice/2023-03-10-17-57-26.png"></p>
+<p><img src="/blog/Monster-Duel-Dice/2023-03-10-17-54-57.png"></p>
+<p><img src="/blog/Monster-Duel-Dice/2023-03-10-17-55-41.png"></p>
+<p><img src="/blog/Monster-Duel-Dice/2023-03-10-17-56-36.png"></p>
+<p>A game I designed in primary school inspired by Dungeon Dice Monsters which can be played by 2 players.</p>
+<p>Player use three dice to obtain different commands and use these commands to control monsters on the panel. The panel will be projected onto the large battlefield between two players.</p>
+<p>Same dice can be merged to a stronger command. Different dice have different effects. For example, 1 can summon a monster, 1-1 can merge two same level monsters to upgrade it. Some dice can let players alter or change terrain and place traps.</p>
+<p>代码：<a target="_blank" rel="noopener" href="https://github.com/DuGuYifei/MonsterDuelDice">https://github.com/DuGuYifei/MonsterDuelDice</a></p>
+<p>视频：<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1mq4y1o7ww">https://www.bilibili.com/video/BV1mq4y1o7ww</a></p>
+<h1 id="TODO"><a href="#TODO" class="headerlink" title="TODO:"></a>TODO:</h1><p>This game was completed during my second semester. I am planning to remake it using Unreal Engine in the future and make it playable online with multiplayer support, after I learn Computer Network and Socket Programming. Currently, it can only be played locally by two players taking turns to control.</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/blog/tags/unity/" rel="tag"><i class="fa fa-tag"></i> unity</a>
+              <a href="/blog/tags/game/" rel="tag"><i class="fa fa-tag"></i> game</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/blog/RoomEscape-HoobyPresentation/" rel="prev" title="RoomEscape_HoobyPresentation">
+                  <i class="fa fa-chevron-left"></i> RoomEscape_HoobyPresentation
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/blog/Yolov5_fps%E6%B8%B8%E6%88%8FAI%E6%8C%82%E7%9A%84%E5%8E%9F%E7%90%86%E7%A0%94%E7%A9%B6/" rel="next" title="Yolov5 fps游戏AI挂的原理研究">
+                  Yolov5 fps游戏AI挂的原理研究 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">独孤逸飞</span>
+</div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/blog/js/comments.js"></script><script src="/blog/js/utils.js"></script><script src="/blog/js/motion.js"></script><script src="/blog/js/next-boot.js"></script>
+
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.0/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+<script src="/blog/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+  
+
+
+
+
+
+</body>
+</html>
