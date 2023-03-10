@@ -347,6 +347,9 @@
 <p>代码：<a href="https://github.com/DuGuYifei/Vue_MusicPlayer_Demo">https://github.com/DuGuYifei/Vue_MusicPlayer_Demo</a></p>
 <p>链接：<a href="https://duguyifei.github.io/Vue_MusicPlayer_Demo/">https://duguyifei.github.io/Vue_MusicPlayer_Demo/</a></p>
 ]]></content>
+      <categories>
+        <category>Front</category>
+      </categories>
       <tags>
         <tag>vue</tag>
       </tags>
@@ -358,6 +361,9 @@
 <p>use opencv and some algorithm inside opencv.</p>
 <p>代码：<a href="https://github.com/DuGuYifei/Robomaster_WIndWheelTargetDetect">https://github.com/DuGuYifei/Robomaster_WIndWheelTargetDetect</a><br>视频：<a href="https://www.bilibili.com/video/BV1tW4y1y7Zy/">https://www.bilibili.com/video/BV1tW4y1y7Zy/</a></p>
 ]]></content>
+      <categories>
+        <category>AI</category>
+      </categories>
       <tags>
         <tag>AI</tag>
         <tag>opencv</tag>
@@ -372,6 +378,9 @@
 <p>It’s build for wallpaper engine, so delete a lot of function. </p>
 <p>I abandon it because it is a too old package.</p>
 ]]></content>
+      <categories>
+        <category>Desktop App</category>
+      </categories>
       <tags>
         <tag>browser</tag>
         <tag>wallpaper</tag>
@@ -426,6 +435,9 @@
 <p>A RobotUnicornAttack game remake using SDL2. This was my first game, which I made during my first semester of learning programming. It included pixel collision checking, but at the time, I didn’t realize the complexity of the algorithm.</p>
 <p>代码：<a href="https://github.com/DuGuYifei/SDL2_Game_RobotUnicornAttack">https://github.com/DuGuYifei/SDL2_Game_RobotUnicornAttack</a></p>
 ]]></content>
+      <categories>
+        <category>Game</category>
+      </categories>
       <tags>
         <tag>SDL2</tag>
         <tag>game remake</tag>
@@ -439,6 +451,9 @@
 <p>代码：<a href="https://github.com/DuGuYifei/Sokoban_SDL">https://github.com/DuGuYifei/Sokoban_SDL</a></p>
 <p>视频：<a href="https://www.bilibili.com/video/BV1UG411879L/">https://www.bilibili.com/video/BV1UG411879L/</a></p>
 ]]></content>
+      <categories>
+        <category>Game</category>
+      </categories>
       <tags>
         <tag>SDL2</tag>
         <tag>game remake</tag>
@@ -456,6 +471,9 @@
 <p>Design the structure similar as Unity, in game logically main control function, it will update each object position (GUI) in one loop.</p>
 <p>Store points in file, and it can be ranked by score or time in menu.</p>
 ]]></content>
+      <categories>
+        <category>Game</category>
+      </categories>
       <tags>
         <tag>SDL2</tag>
         <tag>game remake</tag>
@@ -471,6 +489,9 @@
 <p>代码：<a href="https://github.com/DuGuYifei/WallPaperEngine">https://github.com/DuGuYifei/WallPaperEngine</a></p>
 <p>视频：<a href="https://www.bilibili.com/video/BV1gR4y157pz/?vd_source=6beebf17d5aa6fb3d9fb4b629d0b319a">https://www.bilibili.com/video/BV1gR4y157pz/?vd_source=6beebf17d5aa6fb3d9fb4b629d0b319a</a></p>
 ]]></content>
+      <categories>
+        <category>Desktop App</category>
+      </categories>
       <tags>
         <tag>browser</tag>
         <tag>wallpaper</tag>
@@ -483,6 +504,9 @@
 <p>代码：<a href="https://github.com/DuGuYifei/WebkitChrome">https://github.com/DuGuYifei/WebkitChrome</a></p>
 <p>It was built for the Wallpaper Engine project as a replacement for Webkit.Net, and as such, it has removed many of the features that Wallpaper Engine doesn’t require.</p>
 ]]></content>
+      <categories>
+        <category>Desktop App</category>
+      </categories>
       <tags>
         <tag>browser</tag>
         <tag>wallpaper</tag>
