@@ -439,8 +439,9 @@
         <category>Game</category>
       </categories>
       <tags>
+        <tag>game</tag>
         <tag>SDL2</tag>
-        <tag>game remake</tag>
+        <tag>remake</tag>
       </tags>
   </entry>
   <entry>
@@ -455,6 +456,7 @@
         <category>Game</category>
       </categories>
       <tags>
+        <tag>game</tag>
         <tag>SDL2</tag>
         <tag>game remake</tag>
       </tags>
@@ -475,6 +477,7 @@
         <category>Game</category>
       </categories>
       <tags>
+        <tag>game</tag>
         <tag>SDL2</tag>
         <tag>game remake</tag>
       </tags>
