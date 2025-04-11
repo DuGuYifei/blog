@@ -1,10 +1,11 @@
 #  The contact options.
 
+- type: personal-website
+  icon: "fas fa-user"
+  url: "https://github.liuyifei.tech"
+
 - type: github
   icon: "fab fa-github"
-
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
 
 - type: email
   icon: "fas fa-envelope"
@@ -13,6 +14,22 @@
 - type: rss
   icon: "fas fa-rss"
   noblank: true
+
+- type: notes
+  icon: "fas fa-book"
+  url: "https://notes.liuyifei.tech"
+
+- type: leetcode
+  icon: "fas fa-l"
+  url: "https://leetcode.cn/u/duguyifei/"
+
+- type: bilibili
+  icon: "fab fa-bilibili"
+  url: "https://space.bilibili.com/28449360"
+
+# - type: twitter
+#   icon: "fa-brands fa-x-twitter"
+
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
