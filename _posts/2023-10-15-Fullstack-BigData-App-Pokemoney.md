@@ -1,6 +1,6 @@
 ---
-title: Fullstack-Pokemoney
-date: 2023-10-15 07:36:28
+title: Fullstack-BigData-App-Pokemoney
+date: 2023-10-15 07:36:28 +0800
 tags:
  - Java
  - Big Data
@@ -31,7 +31,9 @@ description:
    <br />
    Backend is SpringCloud + Dubbo + Nacos + Higress + Hadoop ecosystem + Nifi + Spark + Doris + Kafka + Zookeeper + Redis + MySQL + Docker. 
    The backend supports a large number of users, and the docker is used to build and connect to the big data platform, as well as create its own data warehouse.
-   <img src="/attachments/Pokemoney/main_page_1.png">
+image:
+ path: /attachments/Fullstack-BigData-App-Pokemoney/image.png
+ alt: Pokemoney
 ---
 # Pokemoney
 
@@ -82,28 +84,28 @@ Pokemoney = poke + money = pocket + money = 宝可梦 :)
 ### 手机端 flutter
 
 <div style="text-align:center;">
-    <img src="/attachments/Pokemoney/login_page.png" width="30%" style="display:inline-block;">
-    <img src="/attachments/Pokemoney/Ledger_books.png" width="30%" style="display:inline-block;">
-    <img src="/attachments/Pokemoney/The_app_navigation.png" width="30%" style="display:inline-block;">
-    <img src="/attachments/Pokemoney/main_page_1.png" width="30%" style="display:inline-block;">
-    <img src="/attachments/Pokemoney/Funds_main.png" width="30%" style="display:inline-block;">
-    <img src="/attachments/Pokemoney/Funds_MoreDetails.png" width="30%" style="display:inline-block;">
+    <img src="/attachments/Fullstack-BigData-App-Pokemoney/login_page.png" width="30%" style="display:inline-block;">
+    <img src="/attachments/Fullstack-BigData-App-Pokemoney/Ledger_books.png" width="30%" style="display:inline-block;">
+    <img src="/attachments/Fullstack-BigData-App-Pokemoney/The_app_navigation.png" width="30%" style="display:inline-block;">
+    <img src="/attachments/Fullstack-BigData-App-Pokemoney/main_page_1.png" width="30%" style="display:inline-block;">
+    <img src="/attachments/Fullstack-BigData-App-Pokemoney/Funds_main.png" width="30%" style="display:inline-block;">
+    <img src="/attachments/Fullstack-BigData-App-Pokemoney/Funds_MoreDetails.png" width="30%" style="display:inline-block;">
 </div>
 
 ### 后端架构
 1. v1: SpringClould + Eureka + SpringCloudGateway
-![alt text](/attachments/Pokemoney/Frame_1.png)
+![alt text](/attachments/Fullstack-BigData-App-Pokemoney/Frame_1.png)
 2. v2: Dubbo + Nacos + SpringCloudGateway
-![alt text](/attachments/Pokemoney/Frame_2.png) 
+![alt text](/attachments/Fullstack-BigData-App-Pokemoney/Frame_2.png) 
 3. v3: Dubbo + Nacos + Higress
-![alt text](/attachments/Pokemoney/Frame_6.png)
+![alt text](/attachments/Fullstack-BigData-App-Pokemoney/Frame_6.png)
 
 ### 大数据架构
 1. v1
-![alt text](/attachments/Pokemoney/Frame_3.png)
+   ![alt text](/attachments/Fullstack-BigData-App-Pokemoney/Frame_3.png)
 2. v2
-![alt text](/attachments/Pokemoney/Frame_4.png) 
+   ![alt text](/attachments/Fullstack-BigData-App-Pokemoney/Frame_4.png) 
 
 ## 代码链接
-未开源：
+
 [Pokemoney记账软件](https://github.com/DuGuYifei/Pokemoney)

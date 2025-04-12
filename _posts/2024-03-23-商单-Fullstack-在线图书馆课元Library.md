@@ -1,6 +1,6 @@
 ---
 title: Commercial Project-Fullstack-在线图书馆课元Library
-date: 2024-03-23 00:00:05
+date: 2024-03-23 00:00:05 +0800
 tags:
   - SpringBoot
   - Solr
@@ -9,14 +9,12 @@ categories:
   - Fullstack
 description:
   一个在线图书馆，包括前端展示，后台管理，后端开发，以及solr搜索引擎的使用。但是受到了最终商家服务器的性能和带宽限制，因此需要对前端和后端进行优化。
-  <img src="/attachments/商单-Fullstack-在线图书馆课元Library/image.png">
-  <a href="https://kybook.witnew.net/">Keyuan Library</a>
+image:
+ path: /attachments/商单-全栈-在线图书馆课元Library/image.png
+ alt: 商单-全栈-在线图书馆课元Library
 ---
 
 # 商单-全栈-在线图书馆课元Library
-
-课元图书馆客户之一：
-![alt text](/attachments/商单-Fullstack-在线图书馆课元Library/image.png)
 
 网页：[Keyuan Library](https://kybook.witnew.net/)
 
@@ -45,9 +43,13 @@ Responsible for `architecture design` and `backend development`.
 ### 有趣的东西
 将封面的2d图片通过css变为3d的图书。[]
 
+## 课元图书馆客户之一：
+
+![alt text](/attachments/商单-全栈-在线图书馆课元Library/image-3.png)
+
 ## 设计师初稿
-![alt text](/attachments/商单5-全栈-在线图书馆课元Library/image.png)
+![alt text](/attachments/商单-全栈-在线图书馆课元Library/image.png)
 
-![alt text](/attachments/商单5-全栈-在线图书馆课元Library/image-2.png)
+![alt text](/attachments/商单-全栈-在线图书馆课元Library/image-2.png)
 
-![alt text](/attachments/商单5-全栈-在线图书馆课元Library/image-1.png)
+![alt text](/attachments/商单-全栈-在线图书馆课元Library/image-1.png)

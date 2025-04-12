@@ -1,6 +1,6 @@
 ---
 title: Commercial Project-Fullstack-kochisake日本清酒
-date: 2024-03-23 00:00:01
+date: 2024-03-23 00:00:01 +0800
 tags:
  - Vue
  - SpringBoot
@@ -9,11 +9,12 @@ categories:
 description: 
     A commercial project which is used for a Japanese sake merchant to customizely show their products and receive contact from customers.
     The frontend is designed to be able to show the content of each page and receive contact from customers.
+image:
+ path: /attachments/商单-全栈-kochisake日本清酒/image.png
+ alt: 商单-全栈-kochisake日本清酒
 ---
 
 # 商单-全栈-kochisake日本清酒
-
-![alt text](/attachments/商单1-全栈-kochisake日本清酒/image.png)
 
 前端展示 + 后台可定制各个页面的内容 + 接收contact
 

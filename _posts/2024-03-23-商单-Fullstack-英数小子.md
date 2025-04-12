@@ -1,6 +1,6 @@
 ---
 title: Commercial Project-Fullstack-英数小子
-date: 2024-03-23 00:00:02
+date: 2024-03-23 00:00:02 +0800
 tags:
  - Vue
  - Swift
@@ -10,7 +10,9 @@ categories:
 description:
     ios + backend controller + backend service - Tutoring company software. Record students, teachers, courses, book a class time, salary, different roles and permissions.
     After the project was delivered, Party A found that it did not provide the expected financial help to the company, so they applied for a half refund and the negotiation was successful.
-    <img src="/attachments/商单2-全栈-英数小子/image.png">
+image:
+ path: /attachments/商单-全栈-英数小子/image.png
+ alt: 商单-全栈-英数小子
 ---
 
 # 商单-全栈-英数小子
@@ -25,14 +27,14 @@ After the project was delivered, Party A found that it did not provide the expec
 ## ios
 
 <div style="text-align:center;">
-    <img src="/attachments/商单2-全栈-英数小子/image.png" width="30%" style="display:inline-block;">
-    <img src="/attachments/商单2-全栈-英数小子/image-1.png" width="30%" style="display:inline-block;">
-    <img src="/attachments/商单2-全栈-英数小子/image-2.png" width="30%" style="display:inline-block;">
-    <img src="/attachments/商单2-全栈-英数小子/image-3.png" width="30%" style="display:inline-block;">
-    <img src="/attachments/商单2-全栈-英数小子/image-4.png" width="30%" style="display:inline-block;">
-    <img src="/attachments/商单2-全栈-英数小子/image-5.png" width="30%" style="display:inline-block;">
+    <img src="/attachments/商单-全栈-英数小子/image.png" width="30%" style="display:inline-block;">
+    <img src="/attachments/商单-全栈-英数小子/image-1.png" width="30%" style="display:inline-block;">
+    <img src="/attachments/商单-全栈-英数小子/image-2.png" width="30%" style="display:inline-block;">
+    <img src="/attachments/商单-全栈-英数小子/image-3.png" width="30%" style="display:inline-block;">
+    <img src="/attachments/商单-全栈-英数小子/image-4.png" width="30%" style="display:inline-block;">
+    <img src="/attachments/商单-全栈-英数小子/image-5.png" width="30%" style="display:inline-block;">
 </div>
 
 ## 后台
 
-![alt text](/attachments/商单2-全栈-英数小子/image-6.png)
+![alt text](/attachments/商单-全栈-英数小子/image-6.png)

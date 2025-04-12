@@ -1,6 +1,6 @@
 ---
 title: Unity-CatalysmCards_DOTS
-date: 2025-01-30 00:00:00
+date: 2025-01-30 00:00:00 +0800
 tags:
  - Unity
  - Game
@@ -10,19 +10,21 @@ categories:
 description:
  A game developed in Unity using DOTS. <br />
  The theme of the game laboratory is Chain Reaction. <br />
- <a href="https://www.bilibili.com/video/BV1dP9gYbEEn/">Video Link https://www.bilibili.com/video/BV1dP9gYbEEn/</a><br />
  <img src="/attachments/Unity-CatalysmCards_DOTS/image.png">
+image:
+ path: /attachments/Unity-CatalysmCards_DOTS/image.png
+ alt: Unity-CatalysmCards_DOTS
 ---
 
 # ![][image1]
 
-# **Technische Universität München**
+# Technische Universität München
 
 Game Laboratory theme: Chain Reaction
 
 [Catalysm Cards - 灾害卡牌 Unity DOTS 作业主题Chain Reaction](https://www.bilibili.com/video/BV1dP9gYbEEn/)
 
-# **Winter Semester 2024/2025**
+# Winter Semester 2024/2025
 
 Games Laboratory  
 **─**

@@ -1,17 +1,18 @@
 ---
 title: Personal_Webpage
-date: 2022-09-21 07:36:28
+date: 2022-09-21 07:36:28 +0800
 tags:
  - Website
 categories:
  - Front
 description: 
- <img src="/attachments/Personal-Webpage/2022-09-21-07-40-08.png">
  The personal webpage in my github io (https://duguyifei.github.io).
+image:
+ path: /attachments/Personal-Webpage/2022-09-21-07-40-08.png
+ alt: Personal Webpage
 ---
 
 # Introduction
-![](/attachments/Personal-Webpage/2022-09-21-07-40-08.png)
 
 ![](/attachments/Personal-Webpage/image.png)
 

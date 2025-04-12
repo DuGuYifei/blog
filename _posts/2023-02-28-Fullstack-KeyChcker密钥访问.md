@@ -1,6 +1,6 @@
 ---
 title: FullStack Project - KeyChcker <br /> An app wrapper supplying key access with time and machine limited and communication between wrapper and wrappee.
-date: 2023-02-28 00:33:53
+date: 2023-02-28 00:33:53 +0800
 tags:
  - Vue
  - QtC++
@@ -17,18 +17,16 @@ description:
  Use SHA-256 encrytion, http request, Multi-processes communication(Shared Memory, Message Pipe), Multithread, WinAPI.
  <br />
  QtC++, Springboot, Vue.js, Python, Mysql.
- <img src="/attachments/全栈项目KeyChcker密钥访问/2023-02-27-20-49-51.png" >
- <img src="/attachments/全栈项目KeyChcker密钥访问/2023-02-27-21-04-32.png" >
+image:
+ path: /attachments/全栈项目KeyChcker密钥访问/2023-02-27-21-04-32.png
+ alt: KeyChecker
 ---
-
 
 ## Intro
 
-[Github link](https://github.com/DuGuYifei/KeyChecker)
-
 ![](/attachments/全栈项目KeyChcker密钥访问/2023-02-27-20-49-51.png)
 
-![](/attachments/全栈项目KeyChcker密钥访问/2023-02-27-21-04-32.png)
+[Github link](https://github.com/DuGuYifei/KeyChecker)
 
 Prepare a "coat" for other programs which user can use a time-limited key to log in. Their machines are bound.
 

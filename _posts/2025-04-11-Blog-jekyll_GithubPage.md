@@ -1,11 +1,14 @@
 ---
 title: Blog-jekyll_GithubPage
-date: 2025-04-11 20:00:00
+date: 2025-04-11 20:00:00 +0800
 tags:
 - Blog
 categories:
 - Blog
 description: 使用Github Pages + jekyll + Chirpy 搭建个人博客
+image:
+ path: /attachments/2025-04-11-Blog-jekyll_GithubPage/image.png
+ alt: Blog-jekyll_GithubPage  
 ---
 
 # 安装环境

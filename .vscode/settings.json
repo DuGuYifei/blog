@@ -28,6 +28,6 @@
     "zsh": { "path": "/bin/zsh", "args": ["-l", "-i"] }
   },
   "markdown.copyFiles.destination": {
-    "*": "${projectRoot}/attachments/${documentBaseName}/${fileName}"
+    "*": "/attachments/${documentBaseName}/${fileName}"
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: Commercial Project-Automation-Toutiao Post by Bit Browser
-date: 2024-09-23 00:00:05
+date: 2024-09-23 00:00:05 +0800
 tags:
   - Python
   - PyQt
@@ -9,6 +9,9 @@ categories:
   - Automation
 description: 
     Use Selenium to link to Bit Browser debugger address to post Toutiao article as configuration automatically. Use PyQt to build the GUI.
+image:
+ path: /attachments/商单-Automation-ToutiaoPostBitBrowser/image.png
+ alt: Automation-Toutiao Post by Bit Browser
 ---
 
 # Commercial Project-Automation-Toutiao Post by Bit Browser
@@ -31,7 +34,3 @@ Use Selenium to link to Bit Browser debugger address to post Toutiao article as 
 * Avoid Toutiao's monitoring mechanisms, otherwise your posts will be throttled.
 * GUI and business logic should be in different threads.
 * Use signal and slot to communicate between threads.
-
-## Screenshots
-
-![alt text](/attachments/商单-Automation-ToutiaoPostBitBrowser/image.png)

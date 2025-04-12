@@ -1,6 +1,6 @@
 ---
 title: Commercial Project-Fullstack-模拟考试系统Simulate Exam
-date: 2024-03-23 00:00:06
+date: 2024-03-23 00:00:06 +0800
 tags:
   - SpringBoot
   - Vue
@@ -8,7 +8,9 @@ categories:
   - Fullstack
 description: 
     A simulate exam system in web and use WeChat to login.
-    <img src="/attachments/商单6-全栈-模拟考试系统/image.png">
+image:
+ path: /attachments/商单-全栈-模拟考试系统/image.png
+ alt: 商单-全栈-模拟考试系统
 ---
 
 # 商单-全栈-模拟考试系统
@@ -38,6 +40,8 @@ Responsible for `architecture design`, `back-end development`, and `front-end we
 
 ## 图片
 
-![alt text](/attachments/商单6-全栈-模拟考试系统/image.png)
-![alt text](/attachments/商单6-全栈-模拟考试系统/image-1.png)
-![alt text](/attachments/商单6-全栈-模拟考试系统/image-2.png)
+![alt text](/attachments/商单-全栈-模拟考试系统/image.png)
+
+![alt text](/attachments/商单-全栈-模拟考试系统/image-1.png)
+
+![alt text](/attachments/商单-全栈-模拟考试系统/image-2.png)

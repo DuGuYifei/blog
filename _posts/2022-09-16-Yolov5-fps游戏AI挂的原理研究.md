@@ -1,6 +1,6 @@
 ---
 title: Yolov5 fps游戏AI挂的原理研究
-date: 2022-09-16 13:08:41
+date: 2022-09-16 13:08:41 +0800
 tags:
  - AI
  - Computer Vision
@@ -9,11 +9,13 @@ categories:
  - AI
 description: 
  使用Yolov5对屏幕实时检测，并控制鼠标
- <img src="/attachments/Yolov5_fps游戏AI挂的原理研究/2022-09-06-17-22-27.png" >
+image:
+ path: /attachments/Yolov5_fps游戏AI挂的原理研究/2022-09-06-17-22-27.png
+ alt: 使用Yolov5对fps游戏AI挂的原理研究项目
 ---
 
 # 使用Yolov5对fps游戏AI挂的原理研究项目
-![](/attachments/Yolov5_fps游戏AI挂的原理研究/2022-09-06-17-22-27.png)
+
 [yolov5_valorant项目网址](https://github.com/DuGuYifei/Yolov5_FPS_AICheatPrinciple)
 
 
@@ -108,5 +110,7 @@ if __name__ == "__main__":
 ```
 
 # 鼠标的操控和窗口句柄问题
+
 [鼠标](https://github.com/DuGuYifei/Notes/blob/main/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80/Python/Python%E7%9F%A5%E8%AF%86%E7%A7%AF%E7%B4%AF/%E9%BC%A0%E6%A0%87%E8%BE%93%E5%85%A5%E4%BA%8B%E4%BB%B6.md)
+
 [窗口句柄](https://github.com/DuGuYifei/Notes/blob/main/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80/Python/Python%E7%9F%A5%E8%AF%86%E7%A7%AF%E7%B4%AF/%E7%AA%97%E5%8F%A3%E5%8F%A5%E6%9F%84.md)

@@ -171,6 +171,9 @@ collections:
   tabs:
     output: true
     sort_by: order
+  articles:
+    output: true
+    permalink: /:categories/:title/
 
 defaults:
   - scope:
