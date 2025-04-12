@@ -26,12 +26,12 @@ After the project was delivered, Party A found that it did not provide the expec
 ## ios
 
 <div style="text-align:center;">
-    <img src="/attachments/商单-全栈-英数小子/image.png" width="30%" style="display:inline-block;">
-    <img src="/attachments/商单-全栈-英数小子/image-1.png" width="30%" style="display:inline-block;">
-    <img src="/attachments/商单-全栈-英数小子/image-2.png" width="30%" style="display:inline-block;">
-    <img src="/attachments/商单-全栈-英数小子/image-3.png" width="30%" style="display:inline-block;">
-    <img src="/attachments/商单-全栈-英数小子/image-4.png" width="30%" style="display:inline-block;">
-    <img src="/attachments/商单-全栈-英数小子/image-5.png" width="30%" style="display:inline-block;">
+    <img alt="alt text" src="/attachments/商单-全栈-英数小子/image.png" width="30%" style="display:inline-block;">
+    <img alt="alt text" src="/attachments/商单-全栈-英数小子/image-1.png" width="30%" style="display:inline-block;">
+    <img alt="alt text" src="/attachments/商单-全栈-英数小子/image-2.png" width="30%" style="display:inline-block;">
+    <img alt="alt text" src="/attachments/商单-全栈-英数小子/image-3.png" width="30%" style="display:inline-block;">
+    <img alt="alt text" src="/attachments/商单-全栈-英数小子/image-4.png" width="30%" style="display:inline-block;">
+    <img alt="alt text" src="/attachments/商单-全栈-英数小子/image-5.png" width="30%" style="display:inline-block;">
 </div>
 
 ## 后台

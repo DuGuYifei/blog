@@ -83,12 +83,12 @@ Pokemoney = poke + money = pocket + money = 宝可梦 :)
 ### 手机端 flutter
 
 <div style="text-align:center;">
-    <img src="/attachments/Fullstack-BigData-App-Pokemoney/login_page.png" width="30%" style="display:inline-block;">
-    <img src="/attachments/Fullstack-BigData-App-Pokemoney/Ledger_books.png" width="30%" style="display:inline-block;">
-    <img src="/attachments/Fullstack-BigData-App-Pokemoney/The_app_navigation.png" width="30%" style="display:inline-block;">
-    <img src="/attachments/Fullstack-BigData-App-Pokemoney/main_page_1.png" width="30%" style="display:inline-block;">
-    <img src="/attachments/Fullstack-BigData-App-Pokemoney/Funds_main.png" width="30%" style="display:inline-block;">
-    <img src="/attachments/Fullstack-BigData-App-Pokemoney/Funds_MoreDetails.png" width="30%" style="display:inline-block;">
+    <img alt="alt text" src="/attachments/Fullstack-BigData-App-Pokemoney/login_page.png" width="30%" style="display:inline-block;">
+    <img alt="alt text" src="/attachments/Fullstack-BigData-App-Pokemoney/Ledger_books.png" width="30%" style="display:inline-block;">
+    <img alt="alt text" src="/attachments/Fullstack-BigData-App-Pokemoney/The_app_navigation.png" width="30%" style="display:inline-block;">
+    <img alt="alt text" src="/attachments/Fullstack-BigData-App-Pokemoney/main_page_1.png" width="30%" style="display:inline-block;">
+    <img alt="alt text" src="/attachments/Fullstack-BigData-App-Pokemoney/Funds_main.png" width="30%" style="display:inline-block;">
+    <img alt="alt text" src="/attachments/Fullstack-BigData-App-Pokemoney/Funds_MoreDetails.png" width="30%" style="display:inline-block;">
 </div>
 
 ### 后端架构

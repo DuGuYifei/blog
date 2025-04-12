@@ -18,17 +18,17 @@ image:
 
 ## Monster Duel Dice
 
-![](/attachments/Monster-Duel-Dice/2022-09-15-04-23-33.png)
+![alt text](/attachments/Monster-Duel-Dice/2022-09-15-04-23-33.png)
 
-![](/attachments/Monster-Duel-Dice/2023-03-10-17-53-36.png)
+![alt text](/attachments/Monster-Duel-Dice/2023-03-10-17-53-36.png)
 
-![](/attachments/Monster-Duel-Dice/2023-03-10-17-57-26.png)
+![alt text](/attachments/Monster-Duel-Dice/2023-03-10-17-57-26.png)
 
-![](/attachments/Monster-Duel-Dice/2023-03-10-17-54-57.png)
+![alt text](/attachments/Monster-Duel-Dice/2023-03-10-17-54-57.png)
 
-![](/attachments/Monster-Duel-Dice/2023-03-10-17-55-41.png)
+![alt text](/attachments/Monster-Duel-Dice/2023-03-10-17-55-41.png)
 
-![](/attachments/Monster-Duel-Dice/2023-03-10-17-56-36.png)
+![alt text](/attachments/Monster-Duel-Dice/2023-03-10-17-56-36.png)
 
 A game I designed in primary school inspired by Dungeon Dice Monsters which can be played by 2 players.
 
