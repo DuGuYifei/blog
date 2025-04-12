@@ -14,7 +14,7 @@ image:
  alt: Wallpaper Engine
 ---
 
-# wallpaper engine
+## wallpaper engine
 
 It support html, web site, picture (use windows command which make result same with using windows settings), animation picture, video, exe (including some web apps). 
 
@@ -25,3 +25,5 @@ It also supports multi-screens.
 代码：[https://github.com/DuGuYifei/WallPaperEngine](https://github.com/DuGuYifei/WallPaperEngine)
 
 视频：[https://www.bilibili.com/video/BV1gR4y157pz/](https://www.bilibili.com/video/BV1gR4y157pz/)
+
+{% include embed/bilibili.html id='BV1gR4y157pz' %}

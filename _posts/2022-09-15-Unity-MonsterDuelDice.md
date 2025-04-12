@@ -15,7 +15,7 @@ image:
 ---
 
 
-# Monster Duel Dice
+## Monster Duel Dice
 
 ![](/attachments/Monster-Duel-Dice/2022-09-15-04-23-33.png)
 
@@ -39,5 +39,7 @@ Same dice can be merged to a stronger command. Different dice have different eff
 
 视频：[https://www.bilibili.com/video/BV1mq4y1o7ww](https://www.bilibili.com/video/BV1mq4y1o7ww)
 
-# TODO:
-This game was completed during my second semester. I am planning to remake it using Unreal Engine in the future and make it playable online with multiplayer support, after I learn Computer Network and Socket Programming. Currently, it can only be played locally by two players taking turns to control.
+## TODO:
+This game was completed during my second semester. I am planning to remake it using Unreal Engine in the future and make it playable online with multiplayer support, after I learn Computer Network and Socket Programming. Currently, it can only be played locally by two players taking turns to ontrol.
+
+{% include embed/bilibili.html id='BV1mq4y1o7ww' %}

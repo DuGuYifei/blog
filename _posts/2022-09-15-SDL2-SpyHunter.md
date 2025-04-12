@@ -14,7 +14,7 @@ image:
  alt: Spy Hunter
 ---
 
-# Spy Hunter
+## Spy Hunter
 
 代码：[https://github.com/DuGuYifei/SDL2_SpyHunter](https://github.com/DuGuYifei/SDL2_SpyHunter)
 

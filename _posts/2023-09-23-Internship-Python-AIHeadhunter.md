@@ -14,8 +14,6 @@ image:
   alt: AI automation 猎头
 ---
 
-# Internship-Python-AIHeadhunter
-
 ## Introduction
 
 * LiePin 猎聘 + MaiMai 脉脉

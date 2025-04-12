@@ -35,7 +35,6 @@ image:
  path: /attachments/Fullstack-BigData-App-Pokemoney/image.png
  alt: Pokemoney
 ---
-# Pokemoney
 
 ## 项目介绍
 Pokemoney = poke + money = pocket + money = 宝可梦 :)

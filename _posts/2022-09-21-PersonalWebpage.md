@@ -12,13 +12,15 @@ image:
  alt: Personal Webpage
 ---
 
-# Introduction
+## Introduction
 
+![](/attachments/Personal-Webpage/2022-09-21-07-40-08.png)
 ![](/attachments/Personal-Webpage/image.png)
+![](/attachments/Personal-Webpage/image1.png)
 
 [https://duguyifei.github.io](https://duguyifei.github.io)
 
-# Knowledge
+## Knowledge get
 1. Most Knowledge of html css
 2. Support different browser, device and screen
 3. Js get different device

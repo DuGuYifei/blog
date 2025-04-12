@@ -14,7 +14,7 @@ image:
  alt: RoomEscape for presentation
 ---
 
-# presentation by making a pixel game
+## presentation by making a pixel game
 
 Make a unity escaping room game to make class presentation.
 
@@ -23,3 +23,5 @@ First time try to build pixel model by myself.
 代码：[https://github.com/DuGuYifei/HobbyPresentation_Unity](https://github.com/DuGuYifei/HobbyPresentation_Unity)
 
 视频：[https://www.bilibili.com/video/BV1Dq4y1r7av/](https://www.bilibili.com/video/BV1Dq4y1r7av/)
+
+{% include embed/bilibili.html id='BV1Dq4y1r7av' %}

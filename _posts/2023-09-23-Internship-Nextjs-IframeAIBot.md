@@ -13,8 +13,6 @@ image:
  alt: AI bot
 ---
 
-# Internship-Nextjs-Iframe AI Bot
-
 ## Introduction
 
 Use Nextjs to create a iframe of AI bot that can insert into any webpage. The AI bot is written in javascript.

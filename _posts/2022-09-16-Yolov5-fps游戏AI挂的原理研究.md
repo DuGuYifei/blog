@@ -14,26 +14,30 @@ image:
  alt: 使用Yolov5对fps游戏AI挂的原理研究项目
 ---
 
-# 使用Yolov5对fps游戏AI挂的原理研究项目
+## 使用Yolov5对fps游戏AI挂的原理研究项目
 
 [yolov5_valorant项目网址](https://github.com/DuGuYifei/Yolov5_FPS_AICheatPrinciple)
 
+[fps游戏AI外挂原理实现](https://www.bilibili.com/video/BV1xY4y1M75D/)
 
-# 流程设计
+{% include embed/bilibili.html id='BV1xY4y1M75D' %}
+
+
+## 流程设计
 1. 中键开关挂
 2. 左键按下时检测（即非自动开火模式）
 3. 抓取屏幕
 4. yolo检测
 5. 鼠标控制模拟
 
-# 屏幕抓取
+## 屏幕抓取
 ```py
 from PIL import ImageGrab
 im = ImageGrab.grab(bbox=rect)
 img0 = np.array(im)
 ```
 
-# yolov5的检测关键代码提取
+## yolov5的检测关键代码提取
 ```py
 import win32api
 import win32con
@@ -46,7 +50,7 @@ from utils.augmentations import letterbox
 from utils.general import (non_max_suppression, scale_coords)
 from models.experimental import attempt_load
 
-# pt_path = 'valorant-v12.pt'
+## pt_path = 'valorant-v12.pt'
 pt_path = 'valorant-bot.pt'
 
 def run():
@@ -61,7 +65,7 @@ def run():
     iou_thres = 0.05
 
     model = attempt_load(pt_path, device=device, inplace=True, fuse=True)
-    stride = max(int(model.stride.max()), 32)  # model stride
+    stride = max(int(model.stride.max()), 32)  ## model stride
     model.half()
 
     open_helper = False
@@ -75,20 +79,20 @@ def run():
             img = np.ascontiguousarray(img)
             img = torch.from_numpy(img).to(device)
             img = img.half() if half else img.float()
-            img /= 255  # 0 - 255 to 0.0 - 1.0
+            img /= 255  ## 0 - 255 to 0.0 - 1.0
             if len(img.shape) == 3:
-                img = img[None]  # 压缩数据维度
+                img = img[None]  ## 压缩数据维度
 
             img = img.permute(0, 3, 1, 2)
             pred = model(img, augment=False, visualize=False)[0]
             pred = non_max_suppression(pred, conf_thres, iou_thres)
 
-            # Process predictions (based on source code of yolo)
-            for i, det in enumerate(pred):  # per image
+            ## Process predictions (based on source code of yolo)
+            for i, det in enumerate(pred):  ## per image
                 if len(det):
-                    # Rescale boxes from img_size to im0 size
+                    ## Rescale boxes from img_size to im0 size
                     det[:, :4] = scale_coords(img.shape[2:], det[:, :4], img0.shape).round()
-                    # Write results
+                    ## Write results
                     for *xyxy, conf, cls in reversed(det):
                         aims.append(((xyxy[0] + xyxy[2]) / 2, (xyxy[3] - xyxy[1]) / 5 + xyxy[1]))
 
@@ -109,7 +113,7 @@ if __name__ == "__main__":
     run()
 ```
 
-# 鼠标的操控和窗口句柄问题
+## 鼠标的操控和窗口句柄问题
 
 [鼠标](https://github.com/DuGuYifei/Notes/blob/main/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80/Python/Python%E7%9F%A5%E8%AF%86%E7%A7%AF%E7%B4%AF/%E9%BC%A0%E6%A0%87%E8%BE%93%E5%85%A5%E4%BA%8B%E4%BB%B6.md)
 

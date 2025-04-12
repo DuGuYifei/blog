@@ -14,8 +14,6 @@ image:
  alt: Automation-Toutiao Post by Bit Browser
 ---
 
-# Commercial Project-Automation-Toutiao Post by Bit Browser
-
 ## Introduction
 Use Selenium to link to Bit Browser debugger address to post Toutiao article as configuration automatically. Use PyQt to build the GUI.
 

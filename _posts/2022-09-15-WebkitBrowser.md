@@ -10,8 +10,6 @@ description:
  Webkit Chrome browser is based on CefSharp. It was built for the Wallpaper Engine project as a replacement for Webkit.Net (also record below), and as such, it has removed many of the features that Wallpaper Engine doesn't require.
 ---
 
-# Webkit Browser
-
 ## webkit chrome browswer (cefsharp)
 Webkit chrome browser based on cefsharp
 

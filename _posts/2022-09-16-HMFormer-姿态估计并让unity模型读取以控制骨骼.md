@@ -17,13 +17,15 @@ image:
  alt: HMFormer姿态估计并让unity模型读取以控制骨骼
 ---
 
-# 项目介绍
+## 项目介绍
 
 使用HMFormer进行非实时姿态估计，并使用unity读取结果以控制模型骨骼
 
 项目地址: [https://github.com/DuGuYifei/PoseDetect2UnityModel](https://github.com/DuGuYifei/PoseDetect2UnityModel)
 
 视频地址：[https://www.bilibili.com/video/BV1M14y1v73w/](https://www.bilibili.com/video/BV1M14y1v73w/)
+
+{% include embed/bilibili.html id='BV1M14y1v73w' %}
 
 ## HMFormer
 [GitHub - Vegetebird/MHFormer: [CVPR 2022] MHFormer: Multi-Hypothesis Transformer for 3D Human Pose Estimation](https://github.com/Vegetebird/MHFormer)

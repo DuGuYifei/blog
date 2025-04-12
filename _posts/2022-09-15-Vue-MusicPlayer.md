@@ -12,7 +12,7 @@ image:
  alt: Vue Music Player
 ---
 
-# Vue Music Player
+## Vue Music Player
 
 A Vue project of music player.
 
