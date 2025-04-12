@@ -13,6 +13,7 @@ image:
  path: /attachments/Internship-Python-AIHeadhunter/image.png
  lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAAEwAACwAAQUxQSBgAAAABD0CQbePPvO3XiIg4EAgk7U++QUT/Iz5WUDggXAAAANADAJ0BKhQADAA/EXKxUKwmpKKwCAGAIglsAJ0R/+A8fl33Xb08MAD33Eau/fC8utK2wbFsBFEzVKbkcYQFH+G0+0gL9PsU040/84B63jO6W8pyFJoLizqQ6UYA
  alt: AI automation 猎头
+pin: true
 ---
 
 ## Introduction

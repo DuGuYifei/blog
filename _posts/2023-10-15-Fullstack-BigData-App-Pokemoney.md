@@ -25,7 +25,6 @@ tags:
 categories:
  - Fullstack
 description: 
-   <br />
    It is a money management app that can be used offline and online with syncronization, and can be logged in on multiple devices with syncronization. 
    Frontend is Flutter + SQLite.
    <br />
@@ -34,6 +33,7 @@ description:
 image:
  path: /attachments/Fullstack-BigData-App-Pokemoney/login_page.png
  alt: Pokemoney
+pin: true
 ---
 
 ## 项目介绍

@@ -9,6 +9,7 @@ categories:
   - Desktop
 description: 
     (Legal statement：it is a project branch under the support of Shanghai government which is try to use AI in business field.) Use Reverse Engineering Injection to connect the WeChat service and LLM. Go is use to build the tcp server. One of the dll from public need to be rewritten to satisfy the requirement of the project. Also use Go to create a UI console.
+pin: true
 ---
 
 ## Introduction
