@@ -8,6 +8,7 @@ categories:
 description: 使用Github Pages + docsify 搭建笔记博客
 image:
  path: /attachments/2025-04-12-Notes-docsify/image.png
+ lqip: data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACQAwCdASoUAAwAPxFysVAsJqSisAgBgCIJaQAAW+umowQF8j4AAP7tQAWP9Y8SkC8NDv3Qh+eVWwrDNeC5HkEV5QcoAAAA
  alt: Notes-docsify
 ---
 

@@ -17,7 +17,7 @@ def generate_lqip(image_path):
         return None
 
 # Set your target folder here
-target_folder = "./posts"
+target_folder = "./_posts"
 updated_files = []
 
 # Recursively walk through the directory
@@ -55,7 +55,8 @@ for root, _, files in os.walk(target_folder):
                     path_line = next((line for line in front_matter if "path:" in line), None)
                     if path_line:
                         image_path = path_line.split("path:")[-1].strip()
-                        local_image_path = os.path.normpath(os.path.join(root, "..", image_path))
+                        local_image_path = f"./{image_path}"
+                        print(f"Local image path: {local_image_path}")
 
                         if os.path.exists(local_image_path):
                             lqip = generate_lqip(local_image_path)

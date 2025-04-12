@@ -32,6 +32,7 @@ description:
    The backend supports a large number of users, and the docker is used to build and connect to the big data platform, as well as create its own data warehouse.
 image:
  path: /attachments/Fullstack-BigData-App-Pokemoney/login_page.png
+ lqip: data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAAwAPxFwsFAsJiSisAgBgCIJZwDG9BwbgjPTJJciAAD+7WF2z8MjknSrkzEEE6bg7/sBQsJe1JBQ7JIeBiRLM1lRp8AA
  alt: Pokemoney
 pin: true
 ---

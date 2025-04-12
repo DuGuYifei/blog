@@ -15,6 +15,7 @@ description:
     The drone simulation system can be used to simulate the flight of drones, and the GIS monitor system can be used to monitor the flight of drones in real time.
 image:
  path: /attachments/2023-06-07-DroneSimulation_GISMonitor/image.png
+ lqip: data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADQAwCdASoUAAwAPxFwsFAsJiSisAgBgCIJYgAAW9tk+4dKw2bGNvAA/I+WItr4rxThHc+1W84UHnhegXaTkMpO0rLNlG4tIl6usAfd466fp02b58vE7iyyQJk/rJhhvi5BHv2vJQxTAeiDg0nC7/hSEHwEfBAA
  alt: Drone Simulation and GIS Monitor
 pin: true
 ---
