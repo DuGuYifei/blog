@@ -54,11 +54,9 @@
         const img = imgDiv.querySelector("img");
         if (!img) return;
 
-        // 图片已加载完成
         if (img.complete && img.naturalHeight !== 0) {
           checkOrientation(imgDiv, img);
         } else {
-          // 等待图片加载完成
           img.onload = () => {
             checkOrientation(imgDiv, img);
           };
@@ -66,9 +64,7 @@
       });
 
       function checkOrientation(imgDiv, img) {
-        // 手机宽高比常见的是
         if (img.naturalWidth / img.naturalHeight < 0.6) {
-          // 如果当前的路径https://ip/posts/*
           if (window.location.pathname.startsWith("/posts/")) {
             imgDiv.classList.add("post-portrait");
           } else {
