@@ -16,7 +16,7 @@ image:
  alt: Unity-CatalysmCards_DOTS
 ---
 
-## ![][image1]
+## ![alt text][image1]
 
 ## Technische Universität München
 
@@ -41,29 +41,29 @@ Games Laboratory
 
 ## 1. Game preview
 
-![][image2]  
+![alt text][image2]  
 Figure 1.1. Background story  
-![][image3]  
+![alt text][image3]  
 Figure 1.2. Skill achievement  
-![][image4]  
+![alt text][image4]  
 Figure 1.3. Main menu  
-![][image5]  
+![alt text][image5]  
 Figure 1.4. Deck design and monster tips between waves  
-![][image6]  
+![alt text][image6]  
 Figure 1.5. Combat   
-![][image7]  
+![alt text][image7]  
 Figure 1.6. Triggered skills  
 Figure 1.7. Boss fight
 
 ## 1. New things for last milestone
 
-## ![][image8]
+## ![alt text][image8]
 
 Figure 2.1 Kanban for last milestone
 
 ## 2. Chainreaction Theme
 
-![][image9]  
+![alt text][image9]  
 Figure 3.1. Game design relate to theme
 
 ## 3. Technical Reflection

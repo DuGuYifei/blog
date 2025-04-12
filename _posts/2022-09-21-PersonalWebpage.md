@@ -15,9 +15,9 @@ image:
 
 ## Introduction
 
-![](/attachments/Personal-Webpage/2022-09-21-07-40-08.png)
-![](/attachments/Personal-Webpage/image.png)
-![](/attachments/Personal-Webpage/image1.png)
+![alt text](/attachments/Personal-Webpage/2022-09-21-07-40-08.png)
+![alt text](/attachments/Personal-Webpage/image.png)
+![alt text](/attachments/Personal-Webpage/image1.png)
 
 [https://duguyifei.github.io](https://duguyifei.github.io)
 

@@ -25,7 +25,7 @@ image:
 
 ## Intro
 
-![](/attachments/全栈项目KeyChcker密钥访问/2023-02-27-20-49-51.png)
+![alt text](/attachments/全栈项目KeyChcker密钥访问/2023-02-27-20-49-51.png)
 
 [Github link](https://github.com/DuGuYifei/KeyChecker)
 
