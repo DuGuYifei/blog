@@ -14,6 +14,7 @@ description:
  使用HMFormer进行非实时姿态估计，并使用unity读取结果以控制模型骨骼
 image:
  path: /attachments/姿态估计并让unity模型读取以控制骨骼/2022-09-14-17-01-16.png
+ lqip: data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAACwAwCdASoUAAwAPxFysVAsJqSisAgBgCIJZwAAXvcY/tojbk6LAAD+3LQT+8PumNB9WUSZGZup5UBtovoEjO6+/D8eG3XU2OkQ3thhyz76DdxHUkghLSHSG7GOAAAA
  alt: HMFormer姿态估计并让unity模型读取以控制骨骼
 ---
 

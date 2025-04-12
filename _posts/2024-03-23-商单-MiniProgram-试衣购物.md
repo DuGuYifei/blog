@@ -11,6 +11,7 @@ description:
   A mini program for a clothing merchant to show their products and receive contact from customers.
 image:
  path: /attachments/商单-小程序前端-试衣购物/商城-1.png
+ lqip: data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAACwAwCdASoUAAwAPxFwsFAsJiSisAgBgCIJZwDE2CHOntM4XbJ7gAD+xyvDqVoBeFKcxXy6WtxVqdLV9GWbRh+mlzX/3Hm+49g+1sxKl+IA/VC1nL+/ElLhU4l/vHHu8dGvoTNl9/l0TkvR9tPfuihUVaEyQiCAAAA=
  alt: 商单-小程序-试衣购物
 ---
 

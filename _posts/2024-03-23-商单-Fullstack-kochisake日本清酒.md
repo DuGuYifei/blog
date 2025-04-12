@@ -11,6 +11,7 @@ description:
     The frontend is designed to be able to show the content of each page and receive contact from customers.
 image:
  path: /attachments/商单-全栈-kochisake日本清酒/image.png
+ lqip: data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAwAwCdASoUAAwAPxFysFAsJqSisAgBgCIJaQAAQr22YBQAAP7nQM0lhfIVWRvpKfKFuGfKz1NwnQN03uA9Ng61QMaJcnh+pttjgiFhqnEhohwAAAA=
  alt: 商单-全栈-kochisake日本清酒
 ---
 

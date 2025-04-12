@@ -11,6 +11,7 @@ description:
   A very simple unity escaping room game which is used to do presentation in class. The model inside is built by myself in MagicaVoxel(a really interesting pixel model app).
 image:
  path: /attachments/RoomEscape-HoobyPresentation/2022-09-15-04-20-56.png
+ lqip: data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADQAwCdASoUAAwAPxF0sFCsJqSisAgBgCIJYwDG9B6NqBmB//besgAA/nF7s6h/hiErEz1hXlldaZVaNoVKTiGyG0ib61sXlz0wFxI/PEneJHBdY/gRTig026LNQAAA
  alt: RoomEscape for presentation
 ---
 

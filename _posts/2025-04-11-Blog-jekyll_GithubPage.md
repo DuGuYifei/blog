@@ -8,6 +8,7 @@ categories:
 description: 使用Github Pages + jekyll + Chirpy 搭建个人博客
 image:
  path: /attachments/2025-04-11-Blog-jekyll_GithubPage/image.png
+ lqip: data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAABwAwCdASoUAAwAPxFysFAsJqSisAgBgCIJZwDLLCFb+dJqHwAA/uhH2RxB1rLpp7Ghs/sDlUGABxlxwr/xUw9jsu3JPjEteJN6AA==
  alt: Blog-jekyll_GithubPage  
 ---
 

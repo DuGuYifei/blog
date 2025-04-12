@@ -10,6 +10,7 @@ description:
  An app based on indexedDB which is used for merchant to record orders, customers with their pre-paid money and calculate benefit and balance.
 image:
  path: /attachments/BagPack个人商铺/2023-02-27-18-26-31.png
+ lqip: data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAgCdASoUAAwAPxFysFAsJqSisAgBgCIJZwBTAAo4gAD+79gKZUUE0Y2gACigDOxJZU8cWU+++oQrVnX9gAAA
  alt: Bag Pack
 ---
 

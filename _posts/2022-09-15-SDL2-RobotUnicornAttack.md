@@ -10,6 +10,7 @@ description:
   A RobotUnicornAttack game remake using SDL2. This was my first game, which I made during my first semester of learning programming. It included pixel collision checking, but at the time, I didn't realize the complexity of the algorithm.
 image:
  path: /attachments/SDL2-Sokoban/2022-09-15-04-28-46.png
+ lqip: data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAABwAwCdASoUAAwAPxFysFAsJqSisAgBgCIJZwDH5CKLnInT8gAA/sxiFISLv7KV7tkaIgel/oVSRE1zWoTCFWCpO4pJUGVXoyq+72PcKIAAAA==
  alt: Robot Unicorn Attack
   
 ---

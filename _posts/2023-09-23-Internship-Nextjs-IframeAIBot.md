@@ -10,6 +10,7 @@ description:
     Use Nextjs to create a iframe of AI bot that can insert into any webpage.
 image:
  path: /attachments/Internship-Nextjs-IframeAIBot/image.png
+ lqip: data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAwAwCdASoUAAwAPxFwsFAsJiSisAgBgCIJYgC/OCzcF9HoAP7uNGRUAs9AaRIq5CJxPr7UWMCvC3GuuPiHtWQmxUgIAA==
  alt: AI bot
 ---
 

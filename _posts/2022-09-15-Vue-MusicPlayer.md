@@ -9,6 +9,7 @@ description:
  This is a simple vue music player for listen the music from Netease Cloud Music. The music source which get music from Netease is deployed in vercel.
 image:
  path: /attachments/Vue-MusicPlayer/2022-09-15-05-15-04.png
+ lqip: data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAwCdASoUAAwAPxFysFAsJqSisAgBgCIJZgCdACIEO1t/ZIE/+gAA/Ze9PxfnrX/Ty8G6K/apwHU8YrG4VPhgfVc5xzCzW7MjeClJ1ZHA/IYqF8AAAA==
  alt: Vue Music Player
 ---
 

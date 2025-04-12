@@ -11,6 +11,7 @@ description:
  Player use three dice to obtain different commands and use these commands to control monsters on the panel. The panel will be projected onto the large battlefield between two players.
 image:
  path: /attachments/Monster-Duel-Dice/2023-03-10-17-53-36.png
+ lqip: data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAAAwBACdASoUAAwAPxFysFAsJqSisAgBgCIJZwC7MoAC75qTb4TzzN7Ug8AA/eMM/0NOLU3WoQ81UQaxAfH/KmIWj5AceBt4wlo1Wko/Xgwshw6d16TgSTedK1ldEwKLkelq39Rbv2Nd4a77K7I4k8GYAAA=
  alt: Monster Duel Dice
 ---
 

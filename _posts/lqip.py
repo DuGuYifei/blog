@@ -1,5 +1,4 @@
 import os
-import re
 from PIL import Image
 import base64
 from io import BytesIO
@@ -21,13 +20,22 @@ updated_files = []
 
 for filename in os.listdir():
     if filename.endswith(".md"):
+        print(f"Found markdown file: {filename}")
         with open(filename, "r", encoding="utf-8") as file:
             lines = file.readlines()
 
         # Detect front matter boundaries
         if lines[0].strip() == "---":
+            print("Found front matter")
             try:
-                end_index = lines[1:].index("---\n") + 1
+                end_index = -1
+                for i, line in enumerate(lines):
+                    if i == 0:
+                        continue
+                    if line.strip() == "---":
+                        end_index = i
+                        break
+                print(f"Front matter ends at line {end_index}")
             except ValueError:
                 continue  # skip malformed files
 
@@ -36,13 +44,14 @@ for filename in os.listdir():
 
             has_image = any("image:" in line for line in front_matter)
             has_lqip = any("lqip:" in line for line in front_matter)
-
+            print(f"has_image: {has_image}, has_lqip: {has_lqip}")
             if has_image and not has_lqip:
+                print("Image found, but no LQIP")
                 # Try to find image path
                 path_line = next((line for line in front_matter if "path:" in line), None)
                 if path_line:
                     image_path = path_line.split("path:")[-1].strip()
-                    local_image_path = image_path.lstrip("/")  # Assuming relative to project root
+                    local_image_path = f"../{image_path}"  # Assuming relative to project root
 
                     if os.path.exists(local_image_path):
                         lqip = generate_lqip(local_image_path)
@@ -55,5 +64,3 @@ for filename in os.listdir():
                             with open(filename, "w", encoding="utf-8") as file:
                                 file.writelines(front_matter + body)
                             updated_files.append(filename)
-
-updated_files

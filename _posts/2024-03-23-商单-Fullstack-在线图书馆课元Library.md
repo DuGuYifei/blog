@@ -11,6 +11,7 @@ description:
   一个在线图书馆，包括前端展示，后台管理，后端开发，以及solr搜索引擎的使用。但是受到了最终商家服务器的性能和带宽限制，因此需要对前端和后端进行优化。
 image:
  path: /attachments/商单-全栈-在线图书馆课元Library/image.png
+ lqip: data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAADQAwCdASoUAAwAPxFysFAsJqSisAgBgCIJYwDG9CG+2G9NJ/uE14AA/up7yTYg+v0fkZ50iFakbXBFErxoPYuv4V7er9PkPanPJxDKsi+Rr8QfWbkL/f0fxL8BqBdn5TeIfiMKw6kyQAAA
  alt: 商单-全栈-在线图书馆课元Library
 ---
 

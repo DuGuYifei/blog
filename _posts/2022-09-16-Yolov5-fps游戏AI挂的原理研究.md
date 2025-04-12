@@ -11,6 +11,7 @@ description:
  使用Yolov5对屏幕实时检测，并控制鼠标
 image:
  path: /attachments/Yolov5_fps游戏AI挂的原理研究/2022-09-06-17-22-27.png
+ lqip: data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQBACdASoUAAwAPxFysFAsJqSisAgBgCIJQBOmUABv6qq4xImFA/EhAAD9TBUE7zDaSIEBxy3DhPIWaW/zocuJfNnigiYaaEJUjdS/4ulg5H0LqJgDS/QXAAA=
  alt: 使用Yolov5对fps游戏AI挂的原理研究项目
 ---
 

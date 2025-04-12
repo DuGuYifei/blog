@@ -11,6 +11,7 @@ description:
  It supports HTML, websites, pictures, animated pictures, and executable files. Additionally, it allows users to interact with their wallpaper, such as playing a game. It also supports multi-screens.
 image:
  path: /attachments/Wallpaper-Engine/2022-09-15-04-14-54.png
+ lqip: data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAABQBACdASoUAAwAPxFysFAsJqSisAgBgCIJbACdMoR3AB4nKvuMr8XbWGOAAP4bvRgfE3T5OT3od+BYLedwcO70kuXIPGkbBA0+f7lGj7Rifc0lM+Lk8tg+sCPPU3WaTE7gAA==
  alt: Wallpaper Engine
 ---
 

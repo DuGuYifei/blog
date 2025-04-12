@@ -12,6 +12,7 @@ description:
  The theme of the game laboratory is Chain Reaction. <br />
 image:
  path: /attachments/Unity-CatalysmCards_DOTS/image.png
+ lqip: data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAwCdASoUAAwAPxFysFAsJqSisAgBgCIJZACdMoAB1+M5iwato0AAtwik/q9Teyaiok58qhz6YU1oUCH3gXA5uiW08QZ9rerIAA==
  alt: Unity-CatalysmCards_DOTS
 ---
 

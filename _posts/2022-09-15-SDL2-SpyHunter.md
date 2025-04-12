@@ -11,6 +11,7 @@ description:
   Player control the car. There are normal cars which can be attacked but shouldn't be attacked. There are enemies can be attacked. There are enemies can attack player.
 image:
  path: /attachments/SDL2-SpyHunter/spyhunter.jpg
+ lqip: data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAABwAwCdASoUAAwAPxF0slCsJqSisAgBgCIJaQAAW+i2c3zv/4AA/trVKZr3CGiBap+NrpBn0AKNgGA+4imTQAAA
  alt: Spy Hunter
 ---
 

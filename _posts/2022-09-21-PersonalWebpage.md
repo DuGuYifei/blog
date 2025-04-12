@@ -9,6 +9,7 @@ description:
  The personal webpage in my github io (https://duguyifei.github.io).
 image:
  path: /attachments/Personal-Webpage/2022-09-21-07-40-08.png
+ lqip: data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAwCdASoUAAwAPxFysFAsJqSisAgBgCIJYwC7ACFDLhycrza7AAAA/sy82NbIuy1cgszTRC1ehIP8qeeorEhzV2r0cju1BG46xNj7ukopVMUyOdjVJM88AAA=
  alt: Personal Webpage
 ---
 

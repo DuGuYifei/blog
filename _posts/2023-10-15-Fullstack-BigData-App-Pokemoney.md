@@ -32,7 +32,7 @@ description:
    Backend is SpringCloud + Dubbo + Nacos + Higress + Hadoop ecosystem + Nifi + Spark + Doris + Kafka + Zookeeper + Redis + MySQL + Docker. 
    The backend supports a large number of users, and the docker is used to build and connect to the big data platform, as well as create its own data warehouse.
 image:
- path: /attachments/Fullstack-BigData-App-Pokemoney/image.png
+ path: /attachments/Fullstack-BigData-App-Pokemoney/login_page.png
  alt: Pokemoney
 ---
 
