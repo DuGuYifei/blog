@@ -93,3 +93,67 @@ git push origin gh-pages
 ## favicon
 
 放到`assets/img/favicon/`目录下，命名为`favicon.ico`
+
+## 自定义 css js
+
+* 放到`assets/css/jeykyll-theme-chirpy.scss`里
+    ```scss
+    ---
+    ---
+
+    @use 'main
+    {%- if jekyll.environment == 'production' -%}
+    .bundle
+    {%- endif -%}
+    ';
+
+    /* append your custom style below */
+
+    /* 特殊处理竖图 */
+    .preview-img.portrait {
+    width: 32%
+    }
+
+    .preview-img.post-portrait{
+    width: 32%;
+    aspect-ratio: auto;
+    }
+    ```
+* 从github页面复制_includes任意要的文件，比如我建议放到footer里，就复制`_includes/footer.html`，然后放到`_includes/`目录下，并在最后加上
+    ```html
+    <footer>
+        ...
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+            const imgDivs = document.querySelectorAll(".preview-img");
+
+            imgDivs.forEach(imgDiv => {
+                const img = imgDiv.querySelector("img");
+                if (!img) return;
+
+                // 图片已加载完成
+                if (img.complete && img.naturalHeight !== 0) {
+                checkOrientation(imgDiv, img);
+                } else {
+                // 等待图片加载完成
+                img.onload = () => {
+                    checkOrientation(imgDiv, img);
+                };
+                }
+            });
+
+            function checkOrientation(imgDiv, img) {
+                // 手机宽高比常见的是
+                if (img.naturalWidth / img.naturalHeight < 0.6) {
+                // 如果当前的路径https://ip/posts/*
+                if (window.location.pathname.startsWith("/posts/")) {
+                    imgDiv.classList.add("post-portrait");
+                } else {
+                    imgDiv.classList.add("portrait");
+                }
+                }
+            }
+            });
+        </script>
+    </footer>
+    ```
