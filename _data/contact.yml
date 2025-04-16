@@ -2,10 +2,11 @@
 
 - type: personal-website
   icon: "fas fa-user"
-  url: "https://github.liuyifei.tech"
+  url: "https://about.liuyifei.tech"
 
-- type: github
-  icon: "fab fa-github"
+- type: linkedin
+  icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
+  url:  'https://www.linkedin.com/in/yifeiliu-tobi/'                  # Fill with your Linkedin homepage
 
 - type: email
   icon: "fas fa-envelope"
@@ -14,6 +15,9 @@
 - type: rss
   icon: "fas fa-rss"
   noblank: true
+
+- type: github
+  icon: "fab fa-github"
 
 - type: notes
   icon: "fas fa-book"
@@ -36,9 +40,6 @@
 #   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
 #   url:  ''                  # Fill with your Mastodon account page, rel="me" will be applied for verification
 #
-# - type: linkedin
-#   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
-#   url:  ''                  # Fill with your Linkedin homepage
 #
 # - type: stack-overflow
 #   icon: 'fab fa-stack-overflow'
