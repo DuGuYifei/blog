@@ -4,10 +4,16 @@ icon: fas fa-info-circle
 order: 4
 ---
 
+<script>
+window.location.href = "https://about.liuyifei.tech";
+</script>
+
 > This is my Project Blog. It will record some of my projects experiences.
 {: .prompt-tip }
 
 Personal Page: [https://liuyifei.tech](https://liuyifei.tech)
+
+LinkedIn: [https://www.linkedin.com/in/yifeiliu-tobi/](https://www.linkedin.com/in/yifeiliu-tobi/)
 
 Notes Blog: [https://notes.liuyifei.tech](https://notes.liuyifei.tech)
 
