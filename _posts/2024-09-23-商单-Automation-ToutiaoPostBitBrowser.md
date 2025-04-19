@@ -5,6 +5,7 @@ tags:
   - Python
   - PyQt
   - Automation
+  - Commercial
 categories:
   - Automation
 description: 
