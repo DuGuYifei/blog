@@ -3,7 +3,7 @@ title: OpenCV-Robomaster风车能量靶识别
 date: 2022-09-15 04:02:58 +0800
 tags:
  - AI
- - Computer Vision
+ - ComputerVision
 categories:
  - AI
 description:

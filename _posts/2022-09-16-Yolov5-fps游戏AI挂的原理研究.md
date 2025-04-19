@@ -3,7 +3,7 @@ title: Yolov5 fps游戏AI挂的原理研究
 date: 2022-09-16 13:08:41 +0800
 tags:
  - AI
- - Computer Vision
+ - ComputerVision
  - Game
 categories:
  - AI

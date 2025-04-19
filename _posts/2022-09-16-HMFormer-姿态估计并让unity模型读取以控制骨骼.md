@@ -1,13 +1,13 @@
 ---
-title: HMFormer姿态估计并让unity模型读取以控制骨骼
+title: HMFormer Pose Estimation并让unity模型读取以控制骨骼
 date: 2022-09-16 16:33:38 +0800
 tags:
  - Unity
  - Game
- - 姿态估计
+ - PoseEstimation
  - AI
  - HMFormer
- - Computer Vision
+ - ComputerVision
 categories:
  - AI
 description: 
