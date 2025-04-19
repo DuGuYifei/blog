@@ -29,6 +29,7 @@ tags:
  - Docker
  - Backend
  - Frontend
+ - FullStack
 categories:
  - FullStack
 description: 

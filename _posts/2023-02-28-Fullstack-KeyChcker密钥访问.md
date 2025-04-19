@@ -11,6 +11,7 @@ tags:
  - Erupt
  - Backend
  - Frontend
+ - FullStack
 categories:
  - FullStack
 description: 

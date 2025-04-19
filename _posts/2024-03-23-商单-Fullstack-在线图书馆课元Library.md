@@ -7,6 +7,7 @@ tags:
   - Vue
   - Backend
   - Frontend
+  - FullStack
 categories:
   - FullStack
 description:

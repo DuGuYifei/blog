@@ -7,6 +7,7 @@ tags:
   - Go
   - Backend
   - Frontend
+  - FullStack
 categories:
   - FullStack
 description: 
