@@ -7,7 +7,7 @@ tags:
  - WeChat
  - Frontend
 categories:
- - FrontEnd
+ - Frontend
 description: 
   A mini program for a clothing merchant to show their products and receive contact from customers.
 image:
