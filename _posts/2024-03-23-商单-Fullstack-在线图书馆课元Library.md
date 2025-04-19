@@ -1,5 +1,5 @@
 ---
-title: Commercial Project-Fullstack-在线图书馆课元Library
+title: Commercial Project-FullStack-在线图书馆课元Library
 date: 2024-03-23 00:00:05 +0800
 tags:
   - SpringBoot
@@ -8,7 +8,7 @@ tags:
   - Backend
   - Frontend
 categories:
-  - Fullstack
+  - FullStack
 description:
   一个在线图书馆，包括前端展示，后台管理，后端开发，以及solr搜索引擎的使用。但是受到了最终商家服务器的性能和带宽限制，因此需要对前端和后端进行优化。
 image:

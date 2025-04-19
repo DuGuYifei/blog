@@ -1,5 +1,5 @@
 ---
-title: Commercial Project-Fullstack-模拟考试系统Simulate Exam
+title: Commercial Project-FullStack-模拟考试系统Simulate Exam
 date: 2024-03-23 00:00:06 +0800
 tags:
   - SpringBoot
@@ -7,7 +7,7 @@ tags:
   - Backend
   - Frontend
 categories:
-  - Fullstack
+  - FullStack
 description: 
   A simulate exam system in web and use WeChat to login.
 image:
