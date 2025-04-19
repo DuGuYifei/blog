@@ -33,10 +33,10 @@ categories:
  - Fullstack
 description: 
    It is a money management app that can be used offline and online with syncronization, and can be logged in on multiple devices with syncronization. 
-   Frontend is Flutter + SQLite.
-   <br />
-   Backend is SpringCloud + Dubbo + Nacos + Higress + Hadoop ecosystem + Nifi + Spark + Doris + Kafka + Zookeeper + Redis + MySQL + Docker. 
-   The backend supports a large number of users, and the docker is used to build and connect to the big data platform, as well as create its own data warehouse.
+   Frontend is <b>Flutter + SQLite</b>.<br>
+   Backend is <b>SpringBoot + Dubbo + Nacos + Higress + Hadoop ecosystem + Nifi + Spark + Doris + Kafka + Zookeeper + Redis + MySQL + Docker</b>. <br>
+   The backend supports a large number of users, and the docker is used to build and connect to the big data platform, as well as create its own data warehouse. <br>
+   Due to the budge limit, I but two small servers to deploy the services separately.
 image:
  path: /attachments/Fullstack-BigData-App-Pokemoney/login_page.png
  lqip: data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAAwAPxFwsFAsJiSisAgBgCIJZwDG9BwbgjPTJJciAAD+7WF2z8MjknSrkzEEE6bg7/sBQsJe1JBQ7JIeBiRLM1lRp8AA
