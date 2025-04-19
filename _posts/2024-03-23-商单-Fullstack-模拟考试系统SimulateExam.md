@@ -8,6 +8,7 @@ tags:
   - Frontend
   - FullStack
   - Commercial
+  - FullGeek
 categories:
   - FullStack
 description: 
