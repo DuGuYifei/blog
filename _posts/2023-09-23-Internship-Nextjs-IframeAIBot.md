@@ -3,7 +3,8 @@ title: Internship-Nextjs-Iframe AI Bot
 date: 2023-09-23 00:00:00 +0800
 tags:
   - Nextjs
-  - javascript
+  - Javascript
+  - Frontend
 categories:
   - Frontend
 description: 

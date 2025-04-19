@@ -3,8 +3,9 @@ title: Personal_Webpage
 date: 2022-09-21 07:36:28 +0800
 tags:
  - Website
+ - Frontend
 categories:
- - Front
+ - Frontend
 description: 
  The personal webpage in my github io (https://duguyifei.github.io).
 image:

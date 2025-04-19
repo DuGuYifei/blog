@@ -5,6 +5,8 @@ tags:
   - SpringBoot
   - Solr
   - Vue
+  - Backend
+  - Frontend
 categories:
   - Fullstack
 description:

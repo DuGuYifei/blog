@@ -9,6 +9,8 @@ tags:
  - Mysql
  - Python
  - Erupt
+ - Backend
+ - Frontend
 categories:
  - FullStack
 description: 

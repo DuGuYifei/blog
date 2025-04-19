@@ -3,8 +3,9 @@ title: Vue-MusicPlayer
 date: 2022-09-15 04:02:58 +0800
 tags:
  - Vue
+ - Frontend
 categories:
- - Front
+ - Frontend
 description:
  This is a simple vue music player for listen the music from Netease Cloud Music. The music source which get music from Netease is deployed in vercel.
 image:

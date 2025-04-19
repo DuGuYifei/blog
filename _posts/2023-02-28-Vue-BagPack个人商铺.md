@@ -4,8 +4,9 @@ date: 2023-02-28 00:46:14 +0800
 tags:
  - Vue
  - IndexedDB
+ - Frontend
 categories:
- - Front
+ - Frontend
 description: 
  An app based on indexedDB which is used for merchant to record orders, customers with their pre-paid money and calculate benefit and balance.
 image:

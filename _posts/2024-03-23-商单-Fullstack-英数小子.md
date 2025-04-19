@@ -2,11 +2,13 @@
 title: Commercial Project-Fullstack-英数小子
 date: 2024-03-23 00:00:02 +0800
 tags:
- - Vue
- - Swift
- - SpringBoot
+    - Vue
+    - Swift
+    - SpringBoot
+    - Backend
+    - Frontend
 categories:
- - FullStack
+    - FullStack
 description:
     ios + backend controller + backend service - Tutoring company software. Record students, teachers, courses, book a class time, salary, different roles and permissions.
     After the project was delivered, Party A found that it did not provide the expected financial help to the company, so they applied for a half refund and the negotiation was successful.

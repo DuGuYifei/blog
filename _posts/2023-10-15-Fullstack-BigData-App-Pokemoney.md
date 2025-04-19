@@ -3,8 +3,10 @@ title: Fullstack-BigData-App-Pokemoney
 date: 2023-10-15 07:36:28 +0800
 tags:
  - Java
- - Big Data
+ - BigData
  - Flutter
+ - apk
+ - sqlite
  - SpringBoot
  - Microservice
  - Redis
@@ -14,6 +16,9 @@ tags:
  - Dubbo
  - Nacos
  - Higress
+ - Eureka
+ - SpringCloud
+ - SpringCloudGateway
  - Kafka
  - Hadoop
  - HBase
@@ -22,6 +27,8 @@ tags:
  - Nifi
  - Doris
  - Docker
+ - Backend
+ - Frontend
 categories:
  - Fullstack
 description: 

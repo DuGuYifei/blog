@@ -5,6 +5,8 @@ tags:
   - Python
   - QtC++
   - Go
+  - Backend
+  - Frontend
 categories:
   - Fullstack
 description: 
