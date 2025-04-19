@@ -33,11 +33,9 @@ tags:
 categories:
  - FullStack
 description: 
-   It is a money management app that can be used offline and online with syncronization, and can be logged in on multiple devices with syncronization. 
-   Frontend is <b>Flutter + SQLite</b>.<br>
-   Backend is <b>SpringBoot + Dubbo + Nacos + Higress + Hadoop ecosystem + Nifi + Spark + Doris + Kafka + Zookeeper + Redis + MySQL + Docker</b>. <br>
-   The backend supports a large number of users, and the docker is used to build and connect to the big data platform, as well as create its own data warehouse. <br>
-   Due to the budge limit, I but two small servers to deploy the services separately.
+   ​Pokemoney is a cross-platform personal finance app supporting offline and online modes with multi-device synchronization. Built with Flutter and SQLite on the frontend, and a robust backend stack, it enables scalable, distributed data processing.<br>
+   The system is built on a modern lakehouse architecture with a microservice-based real-time data pipeline, combining Kafka, Spark, HDFS, Hive, and NiFi for scalable data ingestion, processing, and warehousing. It also integrates a polyglot backend with Redis, MySQL, and HBase, orchestrated via Dubbo, Nacos, and Docker, supporting Dubbo, Triple(gRPC like), RESTful and GraphQL APIs. <br>
+   Due to the budge limit, I bought two small servers and my own laptop to deploy the services separately.
 image:
  path: /attachments/FullStack-BigData-App-Pokemoney/login_page.png
  lqip: data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAAwAPxFwsFAsJiSisAgBgCIJZwDG9BwbgjPTJJciAAD+7WF2z8MjknSrkzEEE6bg7/sBQsJe1JBQ7JIeBiRLM1lRp8AA
