@@ -5,8 +5,8 @@ tags:
  - Java
  - BigData
  - Flutter
- - apk
- - sqlite
+ - Apk
+ - Sqlite
  - SpringBoot
  - Microservice
  - Redis
