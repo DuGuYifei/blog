@@ -37,6 +37,7 @@ Responsible for `architecture design` and `backend development`.
 6. 将美国图书分类映射到中图分类法
 7. 阅读和下载数量限制
 8. 在线阅读pdf + epub
+9. 多级部署，并根据ip限制访问
 
 ## 难点
 1. solr，实际在java中使用感觉和常规的数据库操作差不太多，注意一些特殊语法就行。
