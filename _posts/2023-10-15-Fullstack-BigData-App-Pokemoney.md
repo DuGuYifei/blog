@@ -44,8 +44,16 @@ image:
 pin: true
 ---
 
+## 代码链接
+
+[Pokemoney记账软件](https://github.com/DuGuYifei/Pokemoney)
+
 ## 项目介绍
 Pokemoney = poke + money = pocket + money = 宝可梦 :)
+
+An accounting software that supports both offline and online modes, as well as multi-device login. Each device can switch between accounts, create multiple funding sources, different ledgers, and categorized directories.
+
+The backend supports a large number of users, can be deployed via Docker, connects to a big data platform, and allows the creation of a personal data warehouse.
 
 可离线+联网并且多设备登录的记账软件，一个设备可切换账户，创建多个资金源和不同账本以及不同目录。
 
@@ -83,10 +91,10 @@ Pokemoney = poke + money = pocket + money = 宝可梦 :)
        1.  gRPC
 
 ### 难点
-1. 有限时间内迅速上手并使用每个技术
-2. docker部署自己的大数据平台
-3. 项目可离线加联网并且多设备登录的同步方式
-4. 其他常规：分布式锁，异步，kafka消息队列
+1. 有限时间内迅速上手并使用每个技术 / Quickly learn and utilize each technology within a limited timeframe
+2. docker部署自己的大数据平台 / Deploy your own big data platform using Docker
+3. 项目可离线加联网并且多设备登录的同步方式 / Implement synchronization for offline and online modes with multi-device login support
+4. 其他常规：分布式锁，异步，kafka消息队列 / Other common components: distributed locking, asynchronous processing, Kafka message queue
 
 ### 手机端 flutter
 
@@ -112,7 +120,3 @@ Pokemoney = poke + money = pocket + money = 宝可梦 :)
    ![alt text](/attachments/Fullstack-BigData-App-Pokemoney/Frame_3.png)
 2. v2
    ![alt text](/attachments/Fullstack-BigData-App-Pokemoney/Frame_4.png) 
-
-## 代码链接
-
-[Pokemoney记账软件](https://github.com/DuGuYifei/Pokemoney)
