@@ -29,6 +29,8 @@ Game Laboratory theme: Chain Reaction
 
 {% include embed/bilibili.html id='BV1dP9gYbEEn' %}
 
+{% include embed/bilibili.html id='BV1nTLMzyEh3' %}
+
 ## Winter Semester 2024/2025
 
 Games Laboratory  
