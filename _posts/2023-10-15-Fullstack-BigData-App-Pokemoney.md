@@ -64,16 +64,17 @@ The backend supports a large number of users, can be deployed via Docker, connec
 1. APP：Flutter + sqlite
 2. 后端：
    1. (deprecated) SpringCloud + Eureka + SpringCloudGateway
-   2. Dubbo
-   3. Nacos
-   4. Higress
-   5. Redis cluster
-   6. MySQL cluster + Shardingsphere
+   2. Dynamic Thread Pool (线程池) 
+   3. Dubbo
+   4. Nacos
+   5. Higress
+   6. Redis cluster
+   7. MySQL cluster + Shardingsphere
       1. Sharding
       2. Read/Write Splitting
-   7. Zookeeper (分布式锁)
-   8. Leaf (美团分布式ID基于Snowflake)
-   9. 大数据平台使用到:
+   8. Zookeeper (分布式锁)
+   9. Leaf (美团分布式ID基于Snowflake)
+   10. 大数据平台使用到:
       1.  Kafka
       2.  Hadoop
       3.  HBase
@@ -81,13 +82,13 @@ The backend supports a large number of users, can be deployed via Docker, connec
       5.  Spark
       6.  Nifi
       7.  Doris
-   10. 部署：Docker
-   11. 语言：java
-   12. Protocal:
+   11. 部署：Docker
+   12. 语言：java
+   13. Protocal:
        1.  RESTful
        2.  GraphQL
        3.  Triple (Dubbo)
-       1.  gRPC
+       4.  gRPC
 
 ### 难点
 1. 有限时间内迅速上手并使用每个技术 / Quickly learn and utilize each technology within a limited timeframe
