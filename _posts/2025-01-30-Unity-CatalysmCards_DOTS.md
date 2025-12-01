@@ -31,6 +31,15 @@ Game Laboratory theme: Chain Reaction
 
 {% include embed/bilibili.html id='BV1nTLMzyEh3' %}
 
+我负责的部分：
+* 项目任务分配和周期管理
+* 技能系统，元素残留系统，Trigger系统，成就系统，Unity Physics的碰撞检测，动画，特效和shader，伤害显示，数值调整，修改和合并组员成果，
+
+队友：
+- 队友一：负责怪物系统、Wave系统、卡牌绘制、主菜单和SFX材料
+- 队友二：负责地图、Boss系统和主角系统
+- 队友三：负责Indicator和UI系统
+
 ## Winter Semester 2024/2025
 
 Games Laboratory  
