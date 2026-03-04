@@ -2,8 +2,8 @@
 title: Wallpaper Engine
 date: 2022-09-15 04:02:58 +0800
 tags:
- - C++
- - C#
+ - CPP
+ - CSharp
  - Browser
 categories:
  - Desktop

@@ -31,7 +31,7 @@ Responsible for `architecture design` and `backend development`.
 
 1. 存在 管理员 + 组织管理员 + 读者
 2. session管理
-3. springboot + mysql + solr
+3. SpringBoot + MySQL + Solr
 4. 其中solr是搜索引擎来对图书进行检索
 5. 前端（PC + 移动） + 后台 + 后端
 6. 将美国图书分类映射到中图分类法

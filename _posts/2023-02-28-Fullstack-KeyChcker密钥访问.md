@@ -6,7 +6,7 @@ tags:
  - QtC++
  - SpringBoot
  - Java
- - Mysql
+ - MySQL
  - Python
  - Erupt
  - Backend
@@ -19,7 +19,7 @@ description:
  <br />
  Use SHA-256 encrytion, http request, Multi-processes communication(Shared Memory, Message Pipe), Multithread, WinAPI.
  <br />
- QtC++, Springboot, Vue.js, Python, Mysql.
+ QtC++, Springboot, Vue.js, Python, MySQL.
 image:
  path: /attachments/全栈项目KeyChcker密钥访问/2023-02-27-21-04-32.png
  lqip: data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAABwAwCdASoUAAwAPxFwsFAsJiSisAgBgCIJZwDKACHe1CMLDAAA/u07nrxGS9vsumR44OvY4IYGwAAA
@@ -34,7 +34,7 @@ image:
 
 Prepare a "coat" for other programs which user can use a time-limited key to log in. Their machines are bound.
 
-The wrapper framework use `mysql` and contains back-end (`Springboot`), back-end supervise interface (`vue`) and user client (`Qt c++`).
+The wrapper framework use `MySQL` and contains back-end (`Springboot`), back-end supervise interface (`vue`) and user client (`Qt c++`).
 
 Also display a wrappee example by `pyhon` to use the shared memory or message pipe.
 
