@@ -1,14 +1,20 @@
 ---
-title: Internship-Python-AIHeadhunter
+title: Internship-FullStack-AIHeadhunter
 date: 2023-09-23 00:00:00 +0800
 tags:
   - Python
+  - Go
+  - Vue
   - Selenium
   - Automation
+  - Backend
+  - Frontend
+  - FullStack
+  - AI
 categories:
-  - Automation
+  - FullStack
 description: 
-    Combine Selenium automation with AI to help the company's headhunter department build a complete automated workflow.
+    Combine Selenium automation (Desktop), Go (Server), Vue (Frontend), C++ (Reverse Engineering WeChat) with AI to help the company's headhunter department build a complete automated workflow.
 image:
  path: /attachments/Internship-Python-AIHeadhunter/image.png
  lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAAEwAACwAAQUxQSBgAAAABD0CQbePPvO3XiIg4EAgk7U++QUT/Iz5WUDggXAAAANADAJ0BKhQADAA/EXKxUKwmpKKwCAGAIglsAJ0R/+A8fl33Xb08MAD33Eau/fC8utK2wbFsBFEzVKbkcYQFH+G0+0gL9PsU040/84B63jO6W8pyFJoLizqQ6UYA
@@ -19,6 +25,7 @@ pin: true
 ## Introduction
 
 * LiePin 猎聘 + MaiMai 脉脉
+* Customer or headhunter create tasks
 * AI generate search condition by job description, customer information, etc.
 * Mapping resume data by selenium
 * Auto Greeting
