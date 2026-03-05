@@ -17,6 +17,7 @@ description:
   Fort Yard Roulette Tactics is a Pixel-Art Turn-based Strategy PvP game, in which each player tries to destroy their opponent’s base with their units. The environment (board) in Fort Yard Roulette Tactics is procedurally generated, making every turn of the game a new and different experience.
 image:
  path: /attachments/2026-01-26-Unity-EscapeFromPavlovWithAIInGames/vlcsnap-2026-01-26-21h38m13s473.png
+ lqip: data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADQAwCdASoUAAwAPxFysFAsJqSisAgBgCIJbACdMoADTqfn5nsB0AAA/u6dI1vTOaeN7+PMrZnNf8H+FqwRYnG1joxIOQbCn4rwfr6ZbuSukmqRyXJOhLWz2vZ6/gFA9gAAAA==
  alt: Notes-docsify
 ---
 

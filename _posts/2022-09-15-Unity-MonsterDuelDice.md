@@ -10,7 +10,7 @@ description:
  A game I designed in primary school inspired by Dungeon Dice Monsters which can be played by 2 players. <br />
  Player use three dice to obtain different commands and use these commands to control monsters on the panel. The panel will be projected onto the large battlefield between two players.
 image:
- path: /attachments/Monster-Duel-Dice/2023-03-10-17-53-36.png
+ path: /attachments/2022-09-15-Unity-MonsterDuelDice/2023-03-10-17-53-36.png
  lqip: data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAAAwBACdASoUAAwAPxFysFAsJqSisAgBgCIJZwC7MoAC75qTb4TzzN7Ug8AA/eMM/0NOLU3WoQ81UQaxAfH/KmIWj5AceBt4wlo1Wko/Xgwshw6d16TgSTedK1ldEwKLkelq39Rbv2Nd4a77K7I4k8GYAAA=
  alt: Monster Duel Dice
 ---
@@ -18,17 +18,17 @@ image:
 
 ## Monster Duel Dice
 
-![alt text](/attachments/Monster-Duel-Dice/2022-09-15-04-23-33.png)
+![alt text](/attachments/2022-09-15-Unity-MonsterDuelDice/2022-09-15-04-23-33.png)
 
-![alt text](/attachments/Monster-Duel-Dice/2023-03-10-17-53-36.png)
+![alt text](/attachments/2022-09-15-Unity-MonsterDuelDice/2023-03-10-17-53-36.png)
 
-![alt text](/attachments/Monster-Duel-Dice/2023-03-10-17-57-26.png)
+![alt text](/attachments/2022-09-15-Unity-MonsterDuelDice/2023-03-10-17-57-26.png)
 
-![alt text](/attachments/Monster-Duel-Dice/2023-03-10-17-54-57.png)
+![alt text](/attachments/2022-09-15-Unity-MonsterDuelDice/2023-03-10-17-54-57.png)
 
-![alt text](/attachments/Monster-Duel-Dice/2023-03-10-17-55-41.png)
+![alt text](/attachments/2022-09-15-Unity-MonsterDuelDice/2023-03-10-17-55-41.png)
 
-![alt text](/attachments/Monster-Duel-Dice/2023-03-10-17-56-36.png)
+![alt text](/attachments/2022-09-15-Unity-MonsterDuelDice/2023-03-10-17-56-36.png)
 
 A game I designed in primary school inspired by Dungeon Dice Monsters which can be played by 2 players.
 

@@ -9,7 +9,7 @@ categories:
 description: 
  The personal webpage in my github io (https://duguyifei.github.io).
 image:
- path: /attachments/Personal-Webpage/2022-09-21-07-40-08.png
+ path: /attachments/2022-09-21-PersonalWebpage/2022-09-21-07-40-08.png
  lqip: data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAwCdASoUAAwAPxFysFAsJqSisAgBgCIJYwC7ACFDLhycrza7AAAA/sy82NbIuy1cgszTRC1ehIP8qeeorEhzV2r0cju1BG46xNj7ukopVMUyOdjVJM88AAA=
  alt: Personal Webpage
 ---
@@ -22,9 +22,9 @@ image:
 
 ## deprecated
 
-![alt text](/attachments/Personal-Webpage/2022-09-21-07-40-08.png)
-![alt text](/attachments/Personal-Webpage/image.png)
-![alt text](/attachments/Personal-Webpage/image1.png)
+![alt text](/attachments/2022-09-21-PersonalWebpage/2022-09-21-07-40-08.png)
+![alt text](/attachments/2022-09-21-PersonalWebpage/image.png)
+![alt text](/attachments/2022-09-21-PersonalWebpage/image1.png)
 
 [https://duguyifei.github.io](https://duguyifei.github.io)
 
