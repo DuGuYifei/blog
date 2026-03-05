@@ -27,7 +27,7 @@ categories:
 description: 
     AI Recruitment System is a GenAI web application designed for recruitment scenarios, simulating the complete process of an IT company recruitment website.
 image:
- path: /attachments/2025-07-08-FullStack-AIRecruitmentSystem/image2.png
+ path: ../attachments/2025-07-08-FullStack-AIRecruitmentSystem/image.png
  lqip: data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACQAwCdASoUAAwAPxFwsFAsJiSisAgBgCIJaQAAUwNk6aoNrjxYAPqHhug7JVHdjQUBO/mAHhZaO/MlLXDKQ6+AAAA=
  alt: AI Recruitment System
 pin: true
@@ -182,16 +182,16 @@ pin: true
 如果你的项目集锦网页支持图片，建议只放 2–3 张，信息密度最高：
 
 1. **Top-Level Architecture**（架构图）  
-   - ![arch](../attachments/2025-07-08-FullStack-AIRecruitmentSystem/image-1.png)
+   - ![arch](/attachments/2025-07-08-FullStack-AIRecruitmentSystem/image-1.png)
 2. **Use Case Diagram**（用例图）  
-   - ![use case](../attachments/2025-07-08-FullStack-AIRecruitmentSystem/image-2.png)
+   - ![use case](/attachments/2025-07-08-FullStack-AIRecruitmentSystem/image-2.png)
 3. **HR Dashboard 截图**：
-   - ![HR Dashboard](../attachments/2025-07-08-FullStack-AIRecruitmentSystem/image-4.png)
-   - ![HR Dashboard 2](../attachments/2025-07-08-FullStack-AIRecruitmentSystem/image-5.png)
-   - ![HR Dashboard 3](../attachments/2025-07-08-FullStack-AIRecruitmentSystem/image-6.png)
-   - ![HR Dashboard 4](../attachments/2025-07-08-FullStack-AIRecruitmentSystem/image-7.png)
+   - ![HR Dashboard](/attachments/2025-07-08-FullStack-AIRecruitmentSystem/image-4.png)
+   - ![HR Dashboard 2](/attachments/2025-07-08-FullStack-AIRecruitmentSystem/image-5.png)
+   - ![HR Dashboard 3](/attachments/2025-07-08-FullStack-AIRecruitmentSystem/image-6.png)
+   - ![HR Dashboard 4](/attachments/2025-07-08-FullStack-AIRecruitmentSystem/image-7.png)
 5. **AI Chat Interview 截图**：
-   - ![AI Chat Interview](../attachments/2025-07-08-FullStack-AIRecruitmentSystem/image-3.png)
+   - ![AI Chat Interview](/attachments/2025-07-08-FullStack-AIRecruitmentSystem/image-3.png)
 
 > 需要我帮你：把仓库里的图片改成“GitHub 绝对链接”，以便在外部网页直接显示——你告诉我你的集锦网页平台（例如 GitHub Pages / Notion / 个人博客 / 掘金等），我会给你最兼容的链接写法。
 

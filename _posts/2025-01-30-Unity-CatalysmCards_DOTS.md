@@ -11,13 +11,13 @@ description:
  A game developed in Unity using DOTS. <br />
  The theme of the game laboratory is Chain Reaction. <br />
 image:
- path: /attachments/2025-01-30-Unity-CatalysmCards_DOTS/image2.png
+ path: ../attachments/2025-01-30-Unity-CatalysmCards_DOTS/image.png
  lqip: data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAwCdASoUAAwAPxFysFAsJqSisAgBgCIJZACdMoAB1+M5iwato0AAtwik/q9Teyaiok58qhz6YU1oUCH3gXA5uiW08QZ9rerIAA==
  alt: Unity-CatalysmCards_DOTS
 pin: true
 ---
 
-![alt text](../attachments/2025-01-30-Unity-CatalysmCards_DOTS/image1.png)
+![alt text](/attachments/2025-01-30-Unity-CatalysmCards_DOTS/image1.png)
 
 Play: [https://1drv.ms/u/c/b0b0825e23e53df9/EUGf6I8-GktHuT21pqaMgiAB3N4Pmtrfa5z9Q331IiAffA?e=2MG9a0](https://1drv.ms/u/c/b0b0825e23e53df9/EUGf6I8-GktHuT21pqaMgiAB3N4Pmtrfa5z9Q331IiAffA?e=2MG9a0)
 
@@ -55,29 +55,29 @@ Games Laboratory
 
 ## 1. Game preview
 
-![alt text](../attachments/2025-01-30-Unity-CatalysmCards_DOTS/image2.png)  
+![alt text](/attachments/2025-01-30-Unity-CatalysmCards_DOTS/image2.png)  
 Figure 1.1. Background story  
-![alt text](../attachments/2025-01-30-Unity-CatalysmCards_DOTS/image3.png)  
+![alt text](/attachments/2025-01-30-Unity-CatalysmCards_DOTS/image3.png)  
 Figure 1.2. Skill achievement  
-![alt text](../attachments/2025-01-30-Unity-CatalysmCards_DOTS/image4.png)  
+![alt text](/attachments/2025-01-30-Unity-CatalysmCards_DOTS/image4.png)  
 Figure 1.3. Main menu  
-![alt text](../attachments/2025-01-30-Unity-CatalysmCards_DOTS/image5.png)  
+![alt text](/attachments/2025-01-30-Unity-CatalysmCards_DOTS/image5.png)  
 Figure 1.4. Deck design and monster tips between waves  
-![alt text](../attachments/2025-01-30-Unity-CatalysmCards_DOTS/image6.png)  
+![alt text](/attachments/2025-01-30-Unity-CatalysmCards_DOTS/image6.png)  
 Figure 1.5. Combat   
-![alt text](../attachments/2025-01-30-Unity-CatalysmCards_DOTS/image7.png)  
+![alt text](/attachments/2025-01-30-Unity-CatalysmCards_DOTS/image7.png)  
 Figure 1.6. Triggered skills  
 Figure 1.7. Boss fight
 
 ## 1. New things for last milestone
 
-## ![alt text](../attachments/2025-01-30-Unity-CatalysmCards_DOTS/image8.png)
+## ![alt text](/attachments/2025-01-30-Unity-CatalysmCards_DOTS/image8.png)
 
 Figure 2.1 Kanban for last milestone
 
 ## 2. Chainreaction Theme
 
-![alt text](../attachments/2025-01-30-Unity-CatalysmCards_DOTS/image9.png)  
+![alt text](/attachments/2025-01-30-Unity-CatalysmCards_DOTS/image9.png)  
 Figure 3.1. Game design relate to theme
 
 ## 3. Technical Reflection

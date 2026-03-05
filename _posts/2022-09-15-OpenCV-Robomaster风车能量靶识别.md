@@ -9,7 +9,7 @@ categories:
 description:
   Simulate RoboMaster Robotics Competition to detect the target.
 image:
- path: /attachments/2022-09-15-OpenCV-Robomaster风车能量靶识别/2022-09-15-04-26-13.png
+ path: ../attachments/2022-09-15-OpenCV-Robomaster风车能量靶识别/2022-09-15-04-26-13.png
  lqip: data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAwCdASoUAAwAPxFysFAsJqSisAgBgCIJZwAUTcEmi3Iz8iGBnAAA/s363l/UuNFC1WNEAdixByUD9YOKu6MUm4uUJb/YmcXf5bg
  alt: Robomaster风车能量靶识别
 ---

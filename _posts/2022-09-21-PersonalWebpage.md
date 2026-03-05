@@ -9,22 +9,22 @@ categories:
 description: 
  The personal webpage in my github io (https://duguyifei.github.io).
 image:
- path: /attachments/2022-09-21-PersonalWebpage/2022-09-21-07-40-08.png
+ path: ../attachments/2022-09-21-PersonalWebpage/image2.png
  lqip: data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAwCdASoUAAwAPxFysFAsJqSisAgBgCIJYwC7ACFDLhycrza7AAAA/sy82NbIuy1cgszTRC1ehIP8qeeorEhzV2r0cju1BG46xNj7ukopVMUyOdjVJM88AAA=
  alt: Personal Webpage
 ---
 
 ## Introduction
 
-![alt text](../attachments/2022-09-21-PersonalWebpage/image2.png)
+![alt text](/attachments/2022-09-21-PersonalWebpage/image2.png)
 
 [https://about.liuyifei.tech](https://about.liuyifei.tech)
 
 ## deprecated
 
-![alt text](../attachments/2022-09-21-PersonalWebpage/2022-09-21-07-40-08.png)
-![alt text](../attachments/2022-09-21-PersonalWebpage/image.png)
-![alt text](../attachments/2022-09-21-PersonalWebpage/image1.png)
+![alt text](/attachments/2022-09-21-PersonalWebpage/2022-09-21-07-40-08.png)
+![alt text](/attachments/2022-09-21-PersonalWebpage/image.png)
+![alt text](/attachments/2022-09-21-PersonalWebpage/image1.png)
 
 [https://duguyifei.github.io](https://duguyifei.github.io)
 

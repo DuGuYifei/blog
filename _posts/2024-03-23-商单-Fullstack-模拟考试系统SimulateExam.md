@@ -14,7 +14,7 @@ categories:
 description: 
   A simulate exam system in web and use WeChat to login.
 image:
- path: /attachments/2024-03-23-商单-FullStack-模拟考试系统SimulateExam/image2.png
+ path: ../attachments/2024-03-23-商单-FullStack-模拟考试系统SimulateExam/image.png
  lqip: data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAABQAwCdASoUAAwAPxFysFAsJqSisAgBgCIJZwAAW+x9f78gAAD+6nyBNWG/WZ5N/hYYNwnRrOS8AAAA
  alt: 商单-全栈-模拟考试系统
 pin: true

@@ -16,7 +16,7 @@ categories:
 description: 
   Fort Yard Roulette Tactics is a Pixel-Art Turn-based Strategy PvP game, in which each player tries to destroy their opponent’s base with their units. The environment (board) in Fort Yard Roulette Tactics is procedurally generated, making every turn of the game a new and different experience.
 image:
- path: /attachments/2026-01-26-Unity-EscapeFromPavlovWithAIInGames/vlcsnap-2026-01-26-21h38m13s473.png
+ path: ../attachments/2026-01-26-Unity-EscapeFromPavlovWithAIInGames/vlcsnap-2026-01-26-21h38m13s473.png
  lqip: data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADQAwCdASoUAAwAPxFysFAsJqSisAgBgCIJbACdMoADTqfn5nsB0AAA/u6dI1vTOaeN7+PMrZnNf8H+FqwRYnG1joxIOQbCn4rwfr6ZbuSukmqRyXJOhLWz2vZ6/gFA9gAAAA==
  alt: Notes-docsify
 ---
@@ -32,7 +32,7 @@ image:
 
 A 2D stealth game where a student attempts to escape from an internet addiction rehabilitation school. The game serves as a technical demonstration of modern AI techniques applied to game development, including Finite State Machines (FSM), Blackboard Systems, Procedural Content Generation (PCG), Large Language Model (LLM) integration, and real-time Text-to-Speech (TTS).
 
-![gameplay0](../attachments/2026-01-26-Unity-EscapeFromPavlovWithAIInGames/vlcsnap-2026-01-26-21h38m13s473.png)
+![gameplay0](/attachments/2026-01-26-Unity-EscapeFromPavlovWithAIInGames/vlcsnap-2026-01-26-21h38m13s473.png)
 
 ---
 
@@ -63,11 +63,11 @@ A 2D stealth game where a student attempts to escape from an internet addiction 
 - **Dynamic AI Conversations**: Guards converse with each other using LLM-generated dialogue
 - **Real-time Voice Acting**: All NPC dialogue is voiced using AI text-to-speech
 
-![stand-with-camera-and-npc-sight](../attachments/2026-01-26-Unity-EscapeFromPavlovWithAIInGames/vlcsnap-2026-01-26-21h40m54s138.png)
+![stand-with-camera-and-npc-sight](/attachments/2026-01-26-Unity-EscapeFromPavlovWithAIInGames/vlcsnap-2026-01-26-21h40m54s138.png)
 
-![tranquilizer](../attachments/2026-01-26-Unity-EscapeFromPavlovWithAIInGames/vlcsnap-2026-01-26-21h39m16s501.png)
+![tranquilizer](/attachments/2026-01-26-Unity-EscapeFromPavlovWithAIInGames/vlcsnap-2026-01-26-21h39m16s501.png)
 
-![exit](../attachments/2026-01-26-Unity-EscapeFromPavlovWithAIInGames/vlcsnap-2026-01-26-21h42m08s562.png)
+![exit](/attachments/2026-01-26-Unity-EscapeFromPavlovWithAIInGames/vlcsnap-2026-01-26-21h42m08s562.png)
 
 ---
 
@@ -148,7 +148,7 @@ private bool CanSeePlayer()
 }
 ```
 
-![chasing](../attachments/2026-01-26-Unity-EscapeFromPavlovWithAIInGames/vlcsnap-2026-01-26-21h38m33s849.png)
+![chasing](/attachments/2026-01-26-Unity-EscapeFromPavlovWithAIInGames/vlcsnap-2026-01-26-21h38m33s849.png)
 
 ---
 
@@ -275,7 +275,7 @@ The system pre-computes a threat heatmap considering:
 - **Distance Falloff**: `1 / (1 + 0.09 * distance)`
 - **Angular Falloff**: Reduced threat at cone edges
 
-![map](../attachments/2026-01-26-Unity-EscapeFromPavlovWithAIInGames/image.png)
+![map](/attachments/2026-01-26-Unity-EscapeFromPavlovWithAIInGames/image.png)
 
 ---
 
@@ -476,9 +476,9 @@ public string[] chasingPhrases = {
 };
 ```
 
-![chat](../attachments/2026-01-26-Unity-EscapeFromPavlovWithAIInGames/image-1.png)
+![chat](/attachments/2026-01-26-Unity-EscapeFromPavlovWithAIInGames/image-1.png)
 
-![chat-chasing](../attachments/2026-01-26-Unity-EscapeFromPavlovWithAIInGames/image-3.png)
+![chat-chasing](/attachments/2026-01-26-Unity-EscapeFromPavlovWithAIInGames/image-3.png)
 
 ---
 
@@ -569,7 +569,7 @@ With Point filtering, each revealed pixel creates a clean boundary rather than b
 | **Scalable Display** | Automatic sizing based on map dimensions              |
 | **Maximized View**   | Toggle between corner minimap and fullscreen map view |
 
-![minimap](../attachments/2026-01-26-Unity-EscapeFromPavlovWithAIInGames/image-2.png)
+![minimap](/attachments/2026-01-26-Unity-EscapeFromPavlovWithAIInGames/image-2.png)
 
 ---
 

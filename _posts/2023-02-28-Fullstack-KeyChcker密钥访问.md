@@ -21,7 +21,7 @@ description:
  <br />
  QtC++, Springboot, Vue.js, Python, MySQL.
 image:
- path: /attachments/2023-02-28-Fullstack-KeyChcker密钥访问/2023-02-27-21-04-32.png
+ path: ../attachments/2023-02-28-Fullstack-KeyChcker密钥访问/2023-02-27-21-04-32.png
  lqip: data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAABwAwCdASoUAAwAPxFwsFAsJiSisAgBgCIJZwDKACHe1CMLDAAA/u07nrxGS9vsumR44OvY4IYGwAAA
  alt: KeyChecker
 ---

@@ -37,7 +37,7 @@ description:
    The system is built on a modern lakehouse architecture with a microservice-based real-time data pipeline, combining Kafka, Spark, HDFS, Hive, and NiFi for scalable data ingestion, processing, and warehousing. It also integrates a polyglot backend with Redis, MySQL, and HBase, orchestrated via Dubbo, Nacos, and Docker, supporting Dubbo, Triple(gRPC like), RESTful and GraphQL APIs. <br>
    Due to the budge limit, I bought two small servers and my own laptop to deploy the services separately.
 image:
- path: /attachments/2023-10-15-Fullstack-BigData-App-Pokemoney/login_page.png
+ path: ../attachments/2023-10-15-Fullstack-BigData-App-Pokemoney/login_page.png
  lqip: data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAAwAPxFwsFAsJiSisAgBgCIJZwDG9BwbgjPTJJciAAD+7WF2z8MjknSrkzEEE6bg7/sBQsJe1JBQ7JIeBiRLM1lRp8AA
  alt: Pokemoney
 pin: true

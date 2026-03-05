@@ -13,14 +13,14 @@ categories:
 description: 
   A 2D pixel-style, real-time, multiplayer, asymmetrical competitive game. Game is made by Unity, server is self-written by C++ with Kcp protocol.
 image:
- path: /attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image2.png
+ path: ../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image.png
  lqip: data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAABQAwCdASoUAAwAPxFwsFAsJiSisAgBgCIJYwC7ABjXP2yhAAD+7IWt0HCUDfAjnIPEPA+keadSPPW2TcfU1Nyc2UHK0EcEO5jmBG8XgkoVAAAA
  alt: Notes-docsify
 pin: true
 ---
-![](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image34.png)
+![](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image34.png)
 
-![alt text](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image1.png)
+![alt text](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image1.png)
 
 Play: [Download Game and server and server toggle helper](https://1drv.ms/f/c/b0b0825e23e53df9/EqJYmfhTV-pJp_jWkuNdRhsBcHDd9MYtrX31vIsY41K9fQ?e=ksJlZG)
 
@@ -160,23 +160,23 @@ The reaper can be tricked by souls with their one-time abilities and led into a 
 #### Visuals {#visuals}
 
 Visually, the game is set in a sketchy cartoon style.  
-![](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image2.png)  
-![](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image3.png)
+![](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image2.png)  
+![](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image3.png)
 
 ##### References {#references}
 
 Reaper limited sight reference:  
-![](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image4.png)  
+![](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image4.png)  
 The Dog ability reference:  
-![](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image5.png)  
+![](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image5.png)  
 The Detective ability reference:  
-![](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image6.png)  
+![](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image6.png)  
 Altar mini-game reference:  
-![](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image7.png)  
+![](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image7.png)  
 Hell-gate mini-gate reference:  
-![](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image8.png)  
+![](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image8.png)  
 Altar reference:  
- ![](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image9.png)![](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image10.png)
+ ![](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image9.png)![](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image10.png)
 
 ### 2\. Backup Idea {#2.-backup-idea}
 
@@ -185,7 +185,7 @@ Altar reference:
 
 ### 3\. Technological Bull's-eye {#3.-technological-bull's-eye}
 
-![](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image11.png)  
+![](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image11.png)  
 Achieving a consistent real-time asymmetric multiplayer is a central pillar of the game. All other features will be built up from the multiplayer setup.
 
 Next in priority is a map generator that makes coherent levels that will not feel random or too hard to navigate for both sides.
@@ -225,9 +225,9 @@ At the same time, we need to consider how to make all clients have the same map.
 
 ### 5\. Schedule with Timeline {#5.-schedule-with-timeline}
 
-![](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image12.png)
+![](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image12.png)
 
-![](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image13.png)
+![](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image13.png)
 
 ## Milestone 2: Interim Demo {#milestone-2:-interim-demo}
 
@@ -245,7 +245,7 @@ Each prototype is developed and tested separately before it can be brought toget
 
 #### 2.1. Server Architecture {#2.1.-server-architecture}
 
-![](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image14.png)  
+![](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image14.png)  
 For big picture link: [Server Architecture Image](https://raw.githubusercontent.com/DuGuYifei/HeavenOrHell/7f79f4db16f5a5e5e74b39add11828fbaf0691ea/img/server.svg)
 
 1. **Networking**  
@@ -297,14 +297,14 @@ message RoomMessage {
 
 * followed by a MazeMapMessage \- RLE map information in string
 
-![](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image15.png)
+![](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image15.png)
 
 #### 2.3. Map Generation {#2.3.-map-generation}
 
 1. **RLE Compression:**  
    The map data is stored using Run-Length Encoding (RLE) for efficient compression and transmission.
 
-![](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image16.png)
+![](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image16.png)
 
 2. **Random Generation:**  
    Each map is procedurally generated to ensure unique layouts for every game session.  
@@ -323,12 +323,12 @@ message RoomMessage {
 
 Before starting the work on the prototype, we first had to select our character and environment assets. Our criteria included both aesthetic considerations and fitting together with the other assets. With these criteria in mind. We selected a dungeon tile map and a character pack from Unity Asset Store. 
 
-![](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image17.png)
+![](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image17.png)
 
 In our next step we created the map in the Game Engine from the data sent from the server. We used Unity’s tilemaps and RuleTiles in this part of the game:  
-![](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image18.png)  
+![](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image18.png)  
 Then we developed the movement controllers for the player. We also created a 2d lighting system that both limits players visible area (Fog of War functionality) and gives the spooky feeling that suits our game theme  
-![](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image19.png)
+![](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image19.png)
 
 After testing the game with the mentioned developed sections, we found out about the importance of the positions of the gates in the map. Initially, the gates were placed at the edges of the map. But that would make the players avoid the center parts of the map to increase their chances of finding the gate. We then decided to spawn the ghosts in spawn points nearer to the center and also have the gates inside the map and not on the edges.
 
@@ -344,7 +344,7 @@ In the mini-game,
 - when the player presses the correct button, it is deleted, so the next button to press is visible (*green crosses and arrows* on the screenshot);  
 - if the player presses the wrong button, the sequence is randomly generated again, and the player has to complete it again from the very beginning (*red cross and arrow* on the screenshot).
 
-![](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image20.png)
+![](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image20.png)
 
 #### 3.2. Runner mini-game {#3.2.-runner-mini-game}
 
@@ -357,7 +357,7 @@ In the game,
 - a player can move the Souls side-ways and jump (*blue arrows* on the screenshot) to avoid obstacles (*red lines* on the screenshot);  
 - if the Soul touches any obstacle, it is slowed down for a brief moment that makes the distance between the Wall and the Souls shorter (*orange line* on the screenshot).
 
-![](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image21.png)
+![](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image21.png)
 
 Next step will be making more obstacle variation by creating more different blocks that the runner level is built with, adding assets (e.g. Soul's and fire sprites, modelling the Hell's staircase) and integrating it into the whole game.
 
@@ -521,13 +521,13 @@ We implemented the logic for all of the souls and the reaper.
 
 * Psychologist: The psychologist can determine if a gate is towards heaven or hell. The changing color shows if it is heaven or hell  
     
-  ![](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image22.png)![](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image23.png)  
-  ![](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image24.png)  
+  ![](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image22.png)![](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image23.png)  
+  ![](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image24.png)  
 * Detective: Arrows on the screen shows the positions of the gates  
-  ![](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image25.png)  
+  ![](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image25.png)  
 * Dog: The colored footprint on the ground shows the previous positions of the characters.  
     
-  ![](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image26.png)  
+  ![](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image26.png)  
 * Reaper: Can attack the souls
 
 ### 5\. UI and start of the game {#5.-ui-and-start-of-the-game}
@@ -540,9 +540,9 @@ We've implemented a UI that lets players create lobbies and connect to them usin
 * every player has set their status as ready.
 
 When all conditions are fulfilled, the game starts automatically after a short countdown that leaves a room for players to change their mind.  
-![](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image27.png)  
-![](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image28.png)  
-![](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image29.png)
+![](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image27.png)  
+![](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image28.png)  
+![](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image29.png)
 
 ### 6\. End-game logic {#6.-end-game-logic}
 
@@ -556,7 +556,7 @@ When all conditions are fulfilled, the game starts automatically after a short c
   * 3 souls escape, souls win.  
   * otherwise reaper wins
 
-![](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image30.png)
+![](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image30.png)
 
 ### 7\. Higher goals to reach {#7.-higher-goals-to-reach}
 
@@ -803,15 +803,15 @@ Links to the Project Management: [LayeredDevelopmentDescription](https://docs.go
 
 #### 4.1 Task List {#4.1-task-list}
 
-![](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image31.png)
+![](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image31.png)
 
 #### 4.2 Timeline {#4.2-timeline}
 
-![](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image32.png)
+![](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image32.png)
 
 #### 4.3 Kanban {#4.3-kanban}
 
-.![](../attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image33.png)
+.![](/attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image33.png)
 
 ### 5\. Testing & Optimization {#5.-testing-&-optimization}
 

@@ -12,7 +12,7 @@ categories:
 description: 
   Fort Yard Roulette Tactics is a Pixel-Art Turn-based Strategy PvP game, in which each player tries to destroy their opponent’s base with their units. The environment (board) in Fort Yard Roulette Tactics is procedurally generated, making every turn of the game a new and different experience.
 image:
- path: /attachments/2025-11-08-Unity-FortYardRouletteTacticsWithPCGAndGameServer/image-4.png
+ path: ../attachments/2025-11-08-Unity-FortYardRouletteTacticsWithPCGAndGameServer/image-4.png
  lqip: data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADQAwCdASoUAAwAPxFysFCsJqSisAgBgCIJbACdMoAC++DaZueS5AAA/cJkTLNbeOWJWcHOfdTdy3CghfCOxdZAq5evD+2qVqGLkFy1F2tqbuv3gPO/4gWUsMOJXT3cAAA=
  alt: Notes-docsify
 ---
@@ -57,7 +57,7 @@ There are four classes available in the game:
 
 ## Input Flow
 
-![arch](../attachments/2025-11-08-Unity-FortYardRouletteTacticsWithPCGAndGameServer/image.png)
+![arch](/attachments/2025-11-08-Unity-FortYardRouletteTacticsWithPCGAndGameServer/image.png)
 
 ## Procedural Generation Concept
 
@@ -92,7 +92,7 @@ Additional assets, that were not developed by us, are:
 
 ## Gameplay Screenshots
 
-![White Turn](../attachments/2025-11-08-Unity-FortYardRouletteTacticsWithPCGAndGameServer/image-1.png)
-![Summon](../attachments/2025-11-08-Unity-FortYardRouletteTacticsWithPCGAndGameServer/image-2.png)
-![Black Turn](../attachments/2025-11-08-Unity-FortYardRouletteTacticsWithPCGAndGameServer/image-3.png)
-![Target](../attachments/2025-11-08-Unity-FortYardRouletteTacticsWithPCGAndGameServer/image-4.png)
+![White Turn](/attachments/2025-11-08-Unity-FortYardRouletteTacticsWithPCGAndGameServer/image-1.png)
+![Summon](/attachments/2025-11-08-Unity-FortYardRouletteTacticsWithPCGAndGameServer/image-2.png)
+![Black Turn](/attachments/2025-11-08-Unity-FortYardRouletteTacticsWithPCGAndGameServer/image-3.png)
+![Target](/attachments/2025-11-08-Unity-FortYardRouletteTacticsWithPCGAndGameServer/image-4.png)
