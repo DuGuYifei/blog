@@ -25,7 +25,7 @@ tags:
 categories:
  - FullStack
 description: 
-    AI 
+    AI Recruitment System is a GenAI web application designed for recruitment scenarios, simulating the complete process of an IT company recruitment website.
 image:
  path: /attachments/2025-07-08-FullStack-AIRecruitmentSystem/image.png
  lqip: data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACQAwCdASoUAAwAPxFwsFAsJiSisAgBgCIJaQAAUwNk6aoNrjxYAPqHhug7JVHdjQUBO/mAHhZaO/MlLXDKQ6+AAAA=
@@ -35,7 +35,7 @@ pin: true
 
 ## 1. 项目简介（What / Why）
 
-**AI-HR** 是一个面向招聘场景的 GenAI 应用，模拟 IT 公司招聘网站的完整流程：候选人投递简历 → AI 初筛 → AI 追问面试 → 自动评分 → HR 在后台查看候选人评分排行榜与详细信息，从而提升筛选效率并提供更一致的评估依据。该项目是学期项目，旨在锻炼 AI 开发今日的 DevOps 能力，涵盖从系统设计、接口开发、AI 集成到 CI/CD 和 AWS 服务器 `Docker` 部署 及 `Kubernetes` 部署的全栈技能。
+**AI-HR** 是一个面向招聘场景的 GenAI web 应用，模拟 IT 公司招聘网站的完整流程：候选人投递简历 → AI 初筛 → AI 追问面试 → 自动评分 → HR 在后台查看候选人评分排行榜与详细信息，从而提升筛选效率并提供更一致的评估依据。该项目是学期项目，旨在锻炼 AI 开发今日的 DevOps 能力，涵盖从系统设计、接口开发、AI 集成到 CI/CD 和 AWS 服务器 `Docker` 部署 及 `Kubernetes` 部署的全栈技能。
 
 ### 核心用户
 - **HR 人员**：发布职位、查看候选人列表与评分、辅助决策
