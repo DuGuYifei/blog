@@ -16,15 +16,15 @@ image:
 
 ## Introduction
 
-![alt text](../attachments/2022-09-21-PersonalWebpage/image.png)
+![alt text](../attachments/2022-09-21-PersonalWebpage/image2.png)
 
 [https://about.liuyifei.tech](https://about.liuyifei.tech)
 
 ## deprecated
 
-![alt text](/attachments/2022-09-21-PersonalWebpage/2022-09-21-07-40-08.png)
-![alt text](/attachments/2022-09-21-PersonalWebpage/image.png)
-![alt text](/attachments/2022-09-21-PersonalWebpage/image1.png)
+![alt text](../attachments/2022-09-21-PersonalWebpage/2022-09-21-07-40-08.png)
+![alt text](../attachments/2022-09-21-PersonalWebpage/image.png)
+![alt text](../attachments/2022-09-21-PersonalWebpage/image1.png)
 
 [https://duguyifei.github.io](https://duguyifei.github.io)
 

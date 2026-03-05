@@ -27,7 +27,7 @@ categories:
 description: 
     AI Recruitment System is a GenAI web application designed for recruitment scenarios, simulating the complete process of an IT company recruitment website.
 image:
- path: /attachments/2025-07-08-FullStack-AIRecruitmentSystem/image.png
+ path: /attachments/2025-07-08-FullStack-AIRecruitmentSystem/image2.png
  lqip: data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACQAwCdASoUAAwAPxFwsFAsJiSisAgBgCIJaQAAUwNk6aoNrjxYAPqHhug7JVHdjQUBO/mAHhZaO/MlLXDKQ6+AAAA=
  alt: AI Recruitment System
 pin: true

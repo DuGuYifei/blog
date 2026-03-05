@@ -14,7 +14,7 @@ categories:
 description: 
   This project involves developing a server-side application using Go language, which performs real-time and scheduled daily screenshots of specific sections of a financial market software. These screenshots are timestamped and later concatenated into a single image. Special handling is applied to weekends and holidays, including scenarios where they overlap. On the client side, the application utilizes Qt C++ and requires a password for users to access and receive the images.
 image:
- path: /attachments/2024-09-23-商单-FullStack-MarketSnapshot行情监控截图/image.png
+ path: /attachments/2024-09-23-商单-FullStack-MarketSnapshot行情监控截图/image2.png
  lqip: data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACQAwCdASoUAAwAPxFwsFAsJiSisAgBgCIJZwAAW+ukB/RTlG4AAP7jQhw1msU1jVqzflfuM4YBVhWxLBW5O3FEbrAAAA==
  alt: FullStack-Market Snapshot行情监控截图
 ---

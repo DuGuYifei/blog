@@ -7,7 +7,7 @@ categories:
 - Desktop
 description: Get Live Caption and screenshot when ppt changes. Translate it and save origin sentences, pictures to file. Can be simply used in GPT.
 image:
- path: /attachments/2025-05-10-LectureHelper/image.png
+ path: /attachments/2025-05-10-LectureHelper/image2.png
  lqip: data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADwAwCdASoUAAwAPxFysFAsJqSisAgBgCIJYgDCuUAA2/SCmeycf7wAAP68hLTVWQC9PthckzHbu4/H9Che6i2UQFyW7X2bL1vFkSbvliKH9Xc78n0BpLkC4BvI9VV5gi/aL+1wAAA=
  alt: Notes-docsify
 ---

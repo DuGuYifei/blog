@@ -13,7 +13,7 @@ categories:
 description: 
   A 2D pixel-style, real-time, multiplayer, asymmetrical competitive game. Game is made by Unity, server is self-written by C++ with Kcp protocol.
 image:
- path: /attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image.png
+ path: /attachments/2025-07-10-Unity-HeavenOrHellWithGameServer/image2.png
  lqip: data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAABQAwCdASoUAAwAPxFwsFAsJiSisAgBgCIJYwC7ABjXP2yhAAD+7IWt0HCUDfAjnIPEPA+keadSPPW2TcfU1Nyc2UHK0EcEO5jmBG8XgkoVAAAA
  alt: Notes-docsify
 pin: true
