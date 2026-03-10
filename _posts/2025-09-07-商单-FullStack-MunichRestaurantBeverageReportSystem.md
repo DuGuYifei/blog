@@ -37,6 +37,11 @@ Each month
 - an AI pipeline extracts procurement details from purchase invoices; integrates sold-beverage data from the sales system (including by-the-glass sales and the same beverage purchased in different container sizes); 
 - and produces a consolidated monthly report.
 
+
+![checker](/attachments/2025-09-07-商单-FullStack-MunichRestaurantBeverageReportSystem/image-2.png)
+
+![pipeline](/attachments/2025-09-07-商单-FullStack-MunichRestaurantBeverageReportSystem/image-1.png)
+
 This project combines:
 
 - A web frontend for operational workflows
@@ -180,17 +185,11 @@ flowchart TB
 - **Go services** for domain APIs, transaction workflows, and role-aware operations
 - **Middleware architecture** for authentication and authorization
 
-![manager](/attachments/2025-09-07-商单-FullStack-MunichRestaurantBeverageReportSystem/image.png)
-
-![checker](/attachments/2025-09-07-商单-FullStack-MunichRestaurantBeverageReportSystem/image-2.png)
-
 ### Intelligent Processing Layer (`service-file`)
 
 - **Python service-file module** for ingestion, parsing, transformation, and integration
 - **AI-assisted processing** to extract/normalize report-relevant information
 - Validation and transformation pipeline bridging external inputs and internal records
-
-![pipeline](/attachments/2025-09-07-商单-FullStack-MunichRestaurantBeverageReportSystem/image-1.png)
 
 ### Data Layer
 
