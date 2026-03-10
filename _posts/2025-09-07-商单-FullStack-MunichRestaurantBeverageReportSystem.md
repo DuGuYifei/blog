@@ -18,11 +18,10 @@ tags:
 categories:
   - FullStack
 image:
-  path: ../attachments/2025-09-07-商单-FullStack-MunichRestaurantBeverageReportSystem/image.png
+ path: ../attachments/2025-09-07-商单-FullStack-MunichRestaurantBeverageReportSystem/image.png
  lqip: data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACwAwCdASoUAAwAPxF0tFEsJqUisAgBgCIJbAC7ACHf5jKOyzWcQAD5eVbyroI58cIcM7iW8ccVn/m44SI3oSuIbe7iqV4nTND3uvUGADvarO2SRKfzxBIaDSKwAA==
 description: 
   A full-stack commercial restaurant beverage reporting system for monthly stock checks, invoice ingestion, sales integration, and client-ready report generation.
-
 pin: true
 ---
 
