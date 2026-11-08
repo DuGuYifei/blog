@@ -30,7 +30,7 @@ image:
  path: ../attachments/2025-07-08-FullStack-AIRecruitmentSystem/image.png
  lqip: data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACQAwCdASoUAAwAPxFwsFAsJiSisAgBgCIJaQAAUwNk6aoNrjxYAPqHhug7JVHdjQUBO/mAHhZaO/MlLXDKQ6+AAAA=
  alt: AI Recruitment System
-pin: true
+pin: false
 ---
 
 ## 1. 项目简介（What / Why）

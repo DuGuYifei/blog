@@ -1,5 +1,5 @@
 ---
-title: Commercial Project-FullStack-MunichRestaurantBeverageReportSystem
+title: Commercial Project-FDE-FullStack-MunichRestaurantBeverageReportSystem
 date: 2025-09-07 00:00:06 +0800
 tags:
   - Go
